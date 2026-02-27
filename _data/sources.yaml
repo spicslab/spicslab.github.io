@@ -1,21 +1,21 @@
 
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+#- id: doi:10.1371/journal.pcbi.1007128
+  #type: paper
+  #description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  #date: 2020-12-4
+  #image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  #buttons:
+ #   - type: manubot
+#      link: https://greenelab.github.io/meta-review/
+#    - type: source
+#      text: Manuscript Source
+#      link: https://github.com/greenelab/meta-review
+#    - type: website
+#      link: http://manubot.org/
+#  tags:
+#    - open science
+#    - collaboration
+#  repo: greenelab/meta-review
 
 # manually provide all citation details
 - title: "LOHEN: Layer-wise Optimizations for Neural Network Inferences over Encrypted Data with High Performance or Accuracy"
@@ -30,6 +30,20 @@
   publisher: USENIX Security
   date: 2025-08-01
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
+  tags:
+    - top-tier
+    - security
+
+# manually provide all citation details
+- title: "SLOTHE: Lazy Approximation of Non-Arithmetic Neural Network Functions over Encrypted Data"
+  authors:
+    - "**Kevin Nam**"
+    - Youyeon Joo
+    - Seungjin Ha
+    - Yunheung Paek
+  publisher: USENIX Security
+  date: 2025-08-01
+  link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-slothe
   tags:
     - top-tier
     - security
