@@ -14,14 +14,21 @@ Members and close collaborators of the group.
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
 
-## Members
+
+## PhD Students
 
 {% include section.html %}
 
-{% include list.html data="students" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="students" component="portrait" filter="role != 'pi'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+
+## MS Students
+
+{% include section.html %}
+
+{% include list.html data="members" component="portrait" filter="role == 'ms'" %}
+
+
 
 {% include section.html background="images/background.jpg" dark=true %}
 
