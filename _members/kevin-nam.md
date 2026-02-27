@@ -1,6 +1,6 @@
 ---
 name: Kevin Nam
-image: images/kvnam1.jpg
+image: images/kvnam.jpg
 role: pi
 description: Principal Investigator
 affiliation: Kyung Hee University
@@ -12,4 +12,4 @@ links:
   orcid: 0000-0002-4621-2434
 ---
 
-Kevin Nam is the principal investigator of SPICS Lab. He eared his Ph.D. degree in Electrical and Computer Engineering at Seoul National University in 2026.
+Kevin Nam is the principal investigator of SPICS Lab. He earned his Ph.D. degree in Electrical and Computer Engineering at Seoul National University in 2026.

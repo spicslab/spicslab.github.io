@@ -11,7 +11,7 @@ For publications before 2026, refer to kvnam.org
 
 {% include section.html %}
 
-## Highlighted
+## Upcoming
 
 {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
 
