@@ -1,7 +1,8 @@
 ---
 name: John Doe
 image: images/photo.jpg
-role: Ph.D. Student
+description: PhD student
+role: phd
 links:
   github: john-doe
 ---
