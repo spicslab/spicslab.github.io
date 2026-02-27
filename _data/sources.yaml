@@ -18,7 +18,7 @@
   repo: greenelab/meta-review
 
 # manually provide all citation details
-- title: LOHEN: Layer-wise Optimizations for Neural Network Inferences over Encrypted Data with High Performance or Accuracy
+- title: "LOHEN: Layer-wise Optimizations for Neural Network Inferences over Encrypted Data with High Performance or Accuracy"
   authors:
     - "**Kevin Nam**"
     - Youyeon Joo
