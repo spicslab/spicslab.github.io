@@ -29,6 +29,7 @@
     - Yunheung Paek
   publisher: USENIX Security
   date: 2025-08-01
+  image: images/papers/lohen.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
   tags:
     - top-tier
@@ -44,6 +45,7 @@
     - Yunheung Paek
   publisher: USENIX Security
   date: 2025-08-01
+  image: images/papers/slothe.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-slothe
   tags:
     - top-tier
@@ -61,6 +63,7 @@
     - Yunheung Paek
   publisher: The 32nd IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC`25), 2025
   date: 2025-12-01
+  image: images/papers/hipc.png
   #link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-slothe
   tags:
     - Accelerator
@@ -75,6 +78,7 @@
     - Yunheung Paek
   publisher: The 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS`26), 2026
   date: 2026-04-01
+  image: images/papers/coming_soon.png
   #link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
   tags:
     - top-tier
@@ -89,6 +93,7 @@
     - Yunheung Paek
   publisher: The 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS`25), 2025
   date: 2025-04-01
+  image: images/papers/theim.png
   link: https://dl.acm.org/doi/10.1145/3676641.3716246
   tags:
     - top-tier
@@ -105,6 +110,7 @@
     - Yunheung Paek
   publisher: The International Conference on Computational Science and Its Applications, 2023
   date: 2023-04-01
+  image: images/papers/ntru.png
   link: https://scholarworks.bwise.kr/gachon/bitstream/2020.sw.gachon/92307/1/_ICCSA2023__NTRU.pdf
   tags:
     - hardware
@@ -118,6 +124,7 @@
     - Yunheung Paek
   publisher: IEEE/ACM International Conference on Computer-Aided Design (ICCAD`22), 2022
   date: 2022-10-01
+  image: images/papers/xhec.png
   link: doi.org/10.1145/3508352.3549413
   tags:
     - top-tier
@@ -139,6 +146,7 @@
     - Yunheung Paek
   publisher: IEEE Access
   date: 2024-10-01
+  image: images/papers/falcon.png
   link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10496572
   tags:
     - hardware
@@ -153,6 +161,7 @@
     - Yunheung Paek
   publisher: IEEE Access
   date: 2021-10-01
+  image: images/papers/meetgo.png
   link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9388667
   tags:
     - security
