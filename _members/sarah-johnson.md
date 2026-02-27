@@ -2,7 +2,7 @@
 name: Sarah Johnson
 image: images/photo.jpg
 description: MS student
-role: ms
+role: programmer
 links:
   email: sarah.johnson@gmail.com
   twitter: sarahjohnson
