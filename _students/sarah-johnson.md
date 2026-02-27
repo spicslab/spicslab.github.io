@@ -1,7 +1,7 @@
 ---
 name: Sarah Johnson
 image: images/photo.jpg
-description: Lead Programmer
+description: MS student
 role: programmer
 links:
   email: sarah.johnson@gmail.com
