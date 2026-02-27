@@ -1,6 +1,6 @@
 ---
 name: Kevin Nam
-image: images/kvnam.jpg
+image: images/kvnam1.jpg
 role: pi
 description: Principal Investigator
 affiliation: Kyung Hee University
