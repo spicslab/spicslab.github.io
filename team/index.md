@@ -9,12 +9,19 @@ nav:
 
 Members and close collaborators of the group.
 
-## Highlights
+## Principal Investigator
 
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 {% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+
+## Members
+
+{% include section.html %}
+
+{% include list.html data="students" component="portrait" filter="role == 'pi'" %}
+{% include list.html data="students" component="portrait" filter="role != 'pi'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
