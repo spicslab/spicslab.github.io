@@ -1,9 +1,9 @@
 ---
 ---
 
-# spicslab's Website
+# Welcome to SPICS Lab's Website
 
-An engaging 1-3 sentence description of your lab.
+We build Secure and Private Intelligence Computing Systems.
 
 {% include section.html %}
 
