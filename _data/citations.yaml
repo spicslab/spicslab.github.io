@@ -274,5 +274,6 @@
   publisher: IEEE Access
   date: '2021-01-01'
   link: https://doi.org/gtw2sq
+  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
   plugin: sources.py
   file: sources.yaml
