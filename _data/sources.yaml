@@ -18,10 +18,15 @@
   repo: greenelab/meta-review
 
 # manually provide all citation details
-- title: LOHEN
+- title: LOHEN: Layer-wise Optimizations for Neural Network Inferences over Encrypted Data with High Performance or Accuracy
   authors:
     - "**Kevin Nam**"
-    - Lightning McQueen
+    - Youyeon Joo
+    - Dongju Lee
+    - Seungjin Ha
+    - Hyunyoung Oh
+    - Hyungon Moon
+    - Yunheung Paek
   publisher: USENIX Security
-  date: 2021-01-01
+  date: 2025-08-01
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
