@@ -263,17 +263,12 @@
   image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1109/ACCESS.2021.3069223
-  title: 'MeetGo: A Trusted Execution Environment for Remote Applications on FPGA'
+- title: LOHEN
   authors:
-  - Hyunyoung Oh
-  - Kevin Nam
-  - Seongil Jeon
-  - Yeongpil Cho
-  - Yunheung Paek
-  publisher: IEEE Access
+  - '**Kevin Nam**'
+  - Lightning McQueen
+  publisher: USENIX Security
   date: '2021-01-01'
-  link: https://doi.org/gtw2sq
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
   plugin: sources.py
   file: sources.yaml
