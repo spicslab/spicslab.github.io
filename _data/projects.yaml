@@ -2,7 +2,7 @@
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
-  link: ../_posts/2019-01-07-example-post-1.md
+  link: _posts/2019-01-07-example-post-1.md
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   repo: greenelab/lab-website-template
   tags:
