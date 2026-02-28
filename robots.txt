@@ -1,1 +1,1 @@
-Sitemap: https://spicslab.github.io/sitemap.xml
+Sitemap: http://spicslab.kr/sitemap.xml
