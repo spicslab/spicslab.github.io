@@ -3,7 +3,7 @@
 
 # Welcome to SPICS Lab's Website
 
-We build Secure and Private Intelligence Computing Systems.
+한글 테스트
 
 {% include section.html %}
 
