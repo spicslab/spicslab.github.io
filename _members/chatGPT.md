@@ -1,10 +1,10 @@
 ---
-name: John Doe
-image: images/photo.jpg
+name: ChatGPT
+image: images/chatgpt.png
 description: PhD student
 role: phd
 links:
-  github: john-doe
+  home-page: https://chatgpt.com/auth/login?sso
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
