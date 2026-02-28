@@ -19,8 +19,6 @@ You can also refer to google scholar etc.
 * 6 papers in BK21 CS 우수학술대회
 * 5 papers in 정보과학회 CS 우수학술대회
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
 {% include section.html %}
 
 ## Representatives
