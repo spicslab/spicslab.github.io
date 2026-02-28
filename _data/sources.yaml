@@ -85,7 +85,8 @@
     - systems
     - Homomorphic Encryption
 
-- title: "Affinity-based Optimizations for TFHE on Processing-in-DRAM"
+- id:  doi:10.1145/3676641.3716246
+  title: "Affinity-based Optimizations for TFHE on Processing-in-DRAM"
   authors:
     - "**Kevin Nam**"
     - Heonhui Jung
@@ -100,7 +101,8 @@
     - systems
     - Homomorphic Encryption
 
-- title: "Area-Efficient Accelerator for the Full NTRU-KEM Algorithm"
+- id: doi:10.1007/978-3-031-37111-0_14
+  title: "Area-Efficient Accelerator for the Full NTRU-KEM Algorithm"
   authors:
     - Yongseok Lee
     - "**Kevin Nam**"
@@ -116,7 +118,8 @@
     - hardware
     - Post-Quantum Cryptography
 
-- title: "Accelerating N-bit Operations over TFHE on Commodity CPU-FPGA"
+- id: doi:10.1145/3508352.3549413
+  title: "Accelerating N-bit Operations over TFHE on Commodity CPU-FPGA"
   authors:
     - "**Kevin Nam**"
     - Hyunyoung Oh
@@ -131,7 +134,8 @@
     - hardware
     - Homomorphic Encryption
 
-- title: "An Efficient Hardware/Software Co-design for FALCON on Low-End Embedded Systems"
+- id: doi:10.1109/ACCESS.2024.3387489
+  title: "An Efficient Hardware/Software Co-design for FALCON on Low-End Embedded Systems"
   authors:
     - Yongseok Lee
     - Jonghee Youn
@@ -152,7 +156,8 @@
     - hardware
     - Post-Quantum Cryptography
 
-- title: "MeetGo: A trusted execution environment for remote applications on FPGA"
+- id: doi:10.1109/ACCESS.2021.3069223
+  title: "MeetGo: A trusted execution environment for remote applications on FPGA"
   authors:
     - Hyungyoung Oh
     - Kevin Nam
