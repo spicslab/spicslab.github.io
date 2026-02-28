@@ -7,11 +7,13 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
-For publications before 2026, refer to kvnam.org
+You can also refer to google scholar etc.
 
 {% include section.html %}
 
-## Upcoming
+## highlights
+
+* 
 
 {% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
 

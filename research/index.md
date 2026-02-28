@@ -1,7 +1,7 @@
 ---
-title: Blog
+title: research
 nav:
-  order: 4
+  order: 2
   tooltip: Musings and miscellany
 ---
 
