@@ -18,12 +18,12 @@ If you are interested, feel free to contact me (contact information are <a href=
 
 {% capture text %}
 
-TBA
+We conduct various but yet well-weaved topics on the security and privacy aspects of AI systems. We also pursue research on the other direction -- using AI for security.
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="See our research topics"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -36,6 +36,29 @@ TBA
   image="images/photo.jpg"
   link="research"
   title="Our Research"
+  text=text
+%}
+
+{% capture text %}
+
+Let us introduce you the talents of our team members.
+
+{%
+  include button.html
+  link="team"
+  text="Meet our team"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/photo.jpg"
+  link="team"
+  title="Our Team"
   text=text
 %}
 
@@ -61,28 +84,5 @@ TBA
   title="Our Projects"
   flip=true
   style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-TBA
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
   text=text
 %}
