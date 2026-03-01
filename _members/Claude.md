@@ -1,6 +1,6 @@
 ---
 name: Claude
-image: images/claude.png
+image: images/people/claude.png
 description: PhD student
 role: phd
 links:

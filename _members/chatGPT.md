@@ -1,6 +1,6 @@
 ---
 name: ChatGPT
-image: images/chatgpt.png
+image: images/people/chatgpt.png
 description: PhD student
 role: phd
 links:
