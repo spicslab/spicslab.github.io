@@ -8,7 +8,7 @@ tags:
 ---
 
 
-![High-Level Architecture of PP-AI System](spicslab.kr/images/photo.jpg)
+![High-Level Architecture of PP-AI System](/spicslab.github.io/images/photo.jpg)
 *Figure 1: Our approach combines Hardware (TEEs) and Software (PETs) to create a multi-layered defense.*
 
 ### Background
@@ -26,10 +26,10 @@ tags:
 ---
 
 #### Key Sub-Topics & Keywords
-To give you an idea of our day-to-day research, we focus on:
+To give you an idea of potential topics you may be interested in (but not bounded to):
 1.  **FHE-based CNN/Transformers/LLM**
 2.  **Privacy-Preserving RAG:** Secure Retrieval-Augmented Generation for private LLMs.
 3.  **Confidential Computing for on-device AI:**
 4.  **Efficient Federated Learning**
-5.  
+   
 > **Student Note:** If you are interested in studying about data privacy issues in different AI applications as well as how to overcome the limitations of PETs, this field is for you.
