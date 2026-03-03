@@ -22,7 +22,7 @@ tags:
 ---
 
 #### Key Sub-Topics & Keywords
-To give you an idea of our day-to-day research, we focus on:
+To give you an idea of potential topics you may be interested in (but not bounded to):
 1.  **FHE Transpilers/Compilers/Schedulers**
 2.  **Computation & Network Scheduling for MPC**
 3.  **Performance/Area/Power Efficient PQC Accelerator Design**

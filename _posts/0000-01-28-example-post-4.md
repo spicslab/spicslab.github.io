@@ -1,14 +1,14 @@
 ---
 title: A Unified Framework for PETs
 image: images/research/unified_pets.png
-author: john-doe
-tags: biology, medicine
+tags:
+  - PETs
+  - System
+  - Optimization
 ---
 
 ![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/unified_pets.png)
-*Figure 1: Unified Pet Platform*
 
-### Background
 &nbsp;&nbsp;A major barrier to the adoption of privacy-preserving computing is usability. Currently, implementing systems that utilize FHE, TEEs, or ZKPs requires deep domain expertise in cryptography and hardware security. Software developers who simply want to build a secure application are forced to manually manage cryptographic keys, handle ciphertext memory limits, and rewrite their standard code into highly constrained formats.
 
 &nbsp;&nbsp;ur ultimate vision is a unified platform that abstracts away this complexity. We aim to build intelligent compilers, automated frameworks, and hybrid architectures that allow developers to write "normal" unencrypted code, which the system automatically translates into secure, privacy-preserving executions. By integrating various PETs seamlessly, we can choose the right tool for the right job—balancing security, privacy, and speed autonomously.

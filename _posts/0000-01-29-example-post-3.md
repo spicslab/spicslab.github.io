@@ -1,8 +1,10 @@
 ---
 title: AI for Security
 image: images/photo.jpg
-author: john-doe
-tags: biology, medicine
+tags:
+  - AI
+  - Vulnerability
+  - Analysis
 ---
 
 &nbsp;&nbsp;As software and network architectures become increasingly complex, traditional security mechanisms—like static signature-based malware detection or manual vulnerability patching—are no longer sufficient. Threat actors are continuously evolving their tactics, utilizing automated tools to discover zero-day vulnerabilities and launch sophisticated, distributed attacks across diverse systems and network layers.
