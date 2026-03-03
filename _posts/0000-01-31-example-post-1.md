@@ -1,6 +1,6 @@
 ---
 title: Privacy-Preserving AI
-image: images/photo.jpg
+image: images/research/ppai.png
 tags:
   - PETs
   - AI
@@ -8,8 +8,8 @@ tags:
 ---
 
 
-![High-Level Architecture of PP-AI System](/spicslab.github.io/images/photo.jpg)
-*Figure 1: Our approach combines Hardware (TEEs) and Software (PETs) to create a multi-layered defense.*
+![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/ppai.png)
+*Figure 1: Overview of PPAI on diverse applications*
 
 ### Background
 &nbsp;&nbsp;AI became integrated into every aspect of our lives -- ChatGPT, Web Engines, Robots, Automated Cars, and almost EVERYTHING relies on AI, at least partly. Having said that, a fundamental question arises "Is it safe?" AI services are applications that requires ***mutual privacy*** -- the client wants to avoid his data from being leaked, while the service provider considers the AI model as Intellectual Property.
