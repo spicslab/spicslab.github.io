@@ -8,7 +8,7 @@ tags:
 ---
 
 
-![High-Level Architecture of PP-AI System](../images/photo.jpg)
+![High-Level Architecture of PP-AI System](photo.jpg)
 *Figure 1: Our approach combines Hardware (TEEs) and Software (PETs) to create a multi-layered defense.*
 
 ### Background
