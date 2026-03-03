@@ -7,6 +7,8 @@ tags:
   - Accelerator
 ---
 
+![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/crypto.png)
+
 &nbsp;&nbsp;While classic cryptography hae reigned for decades, their limitations have recently emerged on the surface. Fundamentally, data were decrypted while being processed, which may lead to privacy issues. Moreover, the advent of Quantum computing increased the urge for Post-Quantum Cryptography (PQC). Novel cryptographic schemes and protocols were devised to fulfill the new duties, however, they introduce massive computational overhead. A single operation in ciphertext can be orders of magnitude slower than in plaintext, and the memory footprint expands significantly. This "performance wall" is the primary bottleneck preventing the widespread, real-world deployment of cryptographic privacy solutions.
 
 &nbsp;&nbsp;To make secure computation practical, we must move beyond pure mathematics and focus on engineering. This requires a deep, cross-stack approach—from algorithmic refinements to low-level hardware-software co-design. By optimizing how these algorithms interact with underlying architectures, we can drastically reduce latency and bridge the gap between theoretical cryptography and practical deployment.

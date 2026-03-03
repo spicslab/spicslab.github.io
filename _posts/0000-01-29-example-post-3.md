@@ -7,6 +7,8 @@ tags:
   - Analysis
 ---
 
+![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/ai_security.png)
+
 &nbsp;&nbsp;As software and network architectures become increasingly complex, traditional security mechanisms—like static signature-based malware detection or manual vulnerability patching—are no longer sufficient. Threat actors are continuously evolving their tactics, utilizing automated tools to discover zero-day vulnerabilities and launch sophisticated, distributed attacks across diverse systems and network layers.
 
 &nbsp;&nbsp;To counter these dynamic threats, defense mechanisms must also become intelligent. By leveraging Machine Learning and AI, we can transition from reactive defense to proactive threat hunting. AI models can analyze massive streams of network traffic, system logs, and code behaviors to detect subtle anomalies that human analysts or rigid rulesets might miss. However, these AI defenders must also be robust against adversarial attacks designed to deceive them.
