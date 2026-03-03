@@ -8,23 +8,23 @@ tags:
 ---
 
 ### Background
-&nbsp;&nbsp;AI became integrated into every aspect of our lives -- ChatGPT, Web Engines, Robots, Automated Cars, and almost EVERYTHING relies on AI, at least partly. Having said that, a fundamental question arises "Is it safe?" AI services are applications that requires ***mutual privacy*** -- the client wants to avoid his data from being leaked, while the service provider considers the AI model as Intellectual Property.
+&nbsp;&nbsp;While classic cryptography hae reigned for decades, their limitations have recently emerged on the surface. Fundamentally, data were decrypted while being processed, which may lead to privacy issues. Moreover, the advent of Quantum computing increased the urge for Post-Quantum Cryptography (PQC). Novel cryptographic schemes and protocols were devised to fulfill the new duties, however, they introduce massive computational overhead. A single operation in ciphertext can be orders of magnitude slower than in plaintext, and the memory footprint expands significantly. This "performance wall" is the primary bottleneck preventing the widespread, real-world deployment of cryptographic privacy solutions.
 
-&nbsp;&nbsp;To address such concern, researchers have began to devise and use Privacy Enhancing Techniques (PETs). In brief, there are two categories of PETs, each with clear pros and cons. The first one incorporates cryptography, such as Homomorphic Encryption (HE), Multi-Party Computation (MPC), Zero-Knowledge Proofs (ZKP), and more. Based on cryptographic building blocks, they are fundamentally secure, however, the benefit comes at a cost of massive additional performance overhead, as well as several limitations such as being unable to express non-arithmetic operations exactly. The second category consists of hardware and system security measurements, such as sandboxing, tagging, and isolation. Trusted Execution Environments, for example, offer straight-forward security against malicious parties in the same system, however, their functionality highly depends on the HW platform, along with some threat model assumptions.
+&nbsp;&nbsp;To make secure computation practical, we must move beyond pure mathematics and focus on engineering. This requires a deep, cross-stack approach—from algorithmic refinements to low-level hardware-software co-design. By optimizing how these algorithms interact with underlying architectures, we can drastically reduce latency and bridge the gap between theoretical cryptography and practical deployment.
 
 ### Core Research Themes
-&nbsp;&nbsp;Our lab focuses on devising ***Privacy-Preserving AI (PP-AI)*** solutions that are both ***Secure*** and ***Efficient***. We tackle the privacy-utility-efficiency trade-off through three main lenses:
+&nbsp;&nbsp;Our lab focuses on making the "impossible" practical by accelerating PETs through three main lenses:
 
-* **Machine Learning as a Service (MLaaS):** Protecting user queries and model weights during cloud-based inference using **Fully Homomorphic Encryption (FHE)**.
-* **On-Device & Hybrid AI:** Designing lightweight security protocols for AI running on edge devices (smartphones, IoT) using **Trusted Execution Environments (TEEs)**.
-* **Secure Training & Collaborative Learning:** Enabling multiple parties to train a shared model without sharing their local datasets.
+* **Hardware Acceleration:** Designing highly optimized implementations of cryptographic primitives for GPUs, FPGAs, and other retrofitted platforms such as Processing-in-Memory.
+* **System-Level Integration:** Introduce efficient compilers (transpilers), schedulers, and other SW-level optimizations that enhances the performance by reducing the bottlenecks of the computation.
+* **Algorithmic Adaptation to a given environment:** Different environments have different amount of memory, bandwidth, Flops, etc. We seek how we can 'morph' a given cryptosystem to make the computation more suited for a given environment while keeping its functionality.
 
 ---
 
 #### Key Sub-Topics & Keywords
 To give you an idea of our day-to-day research, we focus on:
-1.  **FHE-CNN/RNN:** Accelerating homomorphic inference for deep learning.
-2.  **Privacy-Preserving RAG:** Secure Retrieval-Augmented Generation for private LLMs.
-3.  **Confidential Computing:** Leveraging ARM TrustZone and Intel SGX for secure AI workloads.
+1.  **FHE Transpilers/Compilers/Schedulers**
+2.  **Computation & Network Scheduling for MPC**
+3.  **Performance/Area/Power Efficient PQC Accelerator Design**
 
-> **Student Note:** If you are interested in how math (Cryptography) meets systems (Compilers/Hardware) to solve AI privacy, this is the pillar for you.
+> **Student Note:** Security usually comes at a cost of performance getting sluggish. This naturally means actually, optimization techniques are essential for security and privacy research.
