@@ -1,15 +1,11 @@
 ---
-title: Privacy-Preserving AI
+title: Cryptographic Engineering & Optimization
 image: images/photo.jpg
 tags:
   - PETs
   - AI
   - Systems
 ---
-
-
-![High-Level Architecture of PP-AI System](images/photo.jpg)
-*Figure 1: Our approach combines Hardware (TEEs) and Software (PETs) to create a multi-layered defense.*
 
 ### Background
 &nbsp;&nbsp;AI became integrated into every aspect of our lives -- ChatGPT, Web Engines, Robots, Automated Cars, and almost EVERYTHING relies on AI, at least partly. Having said that, a fundamental question arises "Is it safe?" AI services are applications that requires ***mutual privacy*** -- the client wants to avoid his data from being leaked, while the service provider considers the AI model as Intellectual Property.
@@ -19,17 +15,16 @@ tags:
 ### Core Research Themes
 &nbsp;&nbsp;Our lab focuses on devising ***Privacy-Preserving AI (PP-AI)*** solutions that are both ***Secure*** and ***Efficient***. We tackle the privacy-utility-efficiency trade-off through three main lenses:
 
-* **Machine Learning as a Service (MLaaS):** Protecting user queries and model weights during cloud-based inference using PETs.
-* **On-Device & Hybrid AI:** Designing lightweight security protocols for AI running on edge devices (smartphones, IoT) using PETs.
+* **Machine Learning as a Service (MLaaS):** Protecting user queries and model weights during cloud-based inference using **Fully Homomorphic Encryption (FHE)**.
+* **On-Device & Hybrid AI:** Designing lightweight security protocols for AI running on edge devices (smartphones, IoT) using **Trusted Execution Environments (TEEs)**.
 * **Secure Training & Collaborative Learning:** Enabling multiple parties to train a shared model without sharing their local datasets.
 
 ---
 
 #### Key Sub-Topics & Keywords
 To give you an idea of our day-to-day research, we focus on:
-1.  **FHE-based CNN/Transformers/LLM**
+1.  **FHE-CNN/RNN:** Accelerating homomorphic inference for deep learning.
 2.  **Privacy-Preserving RAG:** Secure Retrieval-Augmented Generation for private LLMs.
-3.  **Confidential Computing for on-device AI:**
-4.  **Efficient Federated Learning**
-5.  
-> **Student Note:** If you are interested in studying about data privacy issues in different AI applications as well as how to overcome the limitations of PETs, this field is for you.
+3.  **Confidential Computing:** Leveraging ARM TrustZone and Intel SGX for secure AI workloads.
+
+> **Student Note:** If you are interested in how math (Cryptography) meets systems (Compilers/Hardware) to solve AI privacy, this is the pillar for you.
