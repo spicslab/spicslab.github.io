@@ -43,39 +43,47 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Privacy-Preserving AI | SPICS Lab</title>
+<title>A Unified Framework for PETs | SPICS Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Privacy-Preserving AI">
+<meta name="title" content="A Unified Framework for PETs">
 <meta name="description" content="Secure and Private Intelligence Computing Systems">
 
-<meta property="og:title" content="Privacy-Preserving AI">
+<meta property="og:title" content="A Unified Framework for PETs">
 <meta property="og:site_title" content="SPICS Lab">
 <meta property="og:description" content="Secure and Private Intelligence Computing Systems">
 <meta property="og:url" content="http://spicslab.kr">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Privacy-Preserving AI">
+<meta property="twitter:title" content="A Unified Framework for PETs">
 <meta property="twitter:description" content="Secure and Private Intelligence Computing Systems">
 <meta property="twitter:url" content="http://spicslab.kr">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
 
-  <meta property="og:type" content="website">
+  <meta name="author" content="john-doe">
+  <meta property="og:type" content="article">
+  <meta property="og:updated_time" content="2026-03-03T04:49:49+00:00">
+  <meta property="article:published_time" content="0000-01-28T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-03-03T04:49:49+00:00">
+  <meta name="revised" content="2026-03-03T04:49:49+00:00">
 
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     
-      "@type": "WebSite",
+      "@type": "BlogPosting",
+      "author": { "@type": "Person", "name": "A Unified Framework for PETs" },
+      "datePublished": "0000-01-28T00:00:00+00:00",
+      "dateModified": "2026-03-03T04:49:49+00:00",
     
-    "name": "Privacy-Preserving AI",
+    "name": "A Unified Framework for PETs",
     "description": "Secure and Private Intelligence Computing Systems",
-    "headline": "Privacy-Preserving AI",
+    "headline": "A Unified Framework for PETs",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -411,7 +419,7 @@
 -->
 
 
-<h1 class="center">Privacy-Preserving AI</h1>
+<h1 class="center">A Unified Framework for PETs</h1>
 
 <!--
 <div class="post-info">
@@ -432,16 +440,12 @@
 
   <div class="tags">
     
-      <a href="/blog?search=%22tag:%20pets%22" class="tag" data-tooltip='Show items with the tag "pets"'>
-        pets
+      <a href="/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
+        biology
       </a>
     
-      <a href="/blog?search=%22tag:%20ai%22" class="tag" data-tooltip='Show items with the tag "ai"'>
-        ai
-      </a>
-    
-      <a href="/blog?search=%22tag:%20systems%22" class="tag" data-tooltip='Show items with the tag "systems"'>
-        systems
+      <a href="/blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
+        medicine
       </a>
     
   </div>
@@ -459,24 +463,17 @@
 -->
 
 
-<p><img src="/spicslab.github.io/images/photo.jpg" alt="High-Level Architecture of PP-AI System">
-<em>Figure 1: Our approach combines Hardware (TEEs) and Software (PETs) to create a multi-layered defense.</em></p>
+<p>  A major barrier to the adoption of privacy-preserving computing is usability. Currently, implementing systems that utilize FHE, TEEs, or ZKPs requires deep domain expertise in cryptography and hardware security. Software developers who simply want to build a secure application are forced to manually manage cryptographic keys, handle ciphertext memory limits, and rewrite their standard code into highly constrained formats.</p>
 
-<h3 id="background">Background</h3>
-<p>  AI became integrated into every aspect of our lives – ChatGPT, Web Engines, Robots, Automated Cars, and almost EVERYTHING relies on AI, at least partly. Having said that, a fundamental question arises “Is it safe?” AI services are applications that requires <strong><em>mutual privacy</em></strong> – the client wants to avoid his data from being leaked, while the service provider considers the AI model as Intellectual Property.</p>
-
-<p>  To address such concern, researchers have began to devise and use Privacy Enhancing Techniques (PETs). In brief, there are two categories of PETs, each with clear pros and cons. The first one incorporates cryptography, such as Homomorphic Encryption (HE), Multi-Party Computation (MPC), Zero-Knowledge Proofs (ZKP), and more. Based on cryptographic building blocks, they are fundamentally secure, however, the benefit comes at a cost of massive additional performance overhead, as well as several limitations such as being unable to express non-arithmetic operations exactly. The second category consists of hardware and system security measurements, such as sandboxing, tagging, and isolation. Trusted Execution Environments, for example, offer straight-forward security against malicious parties in the same system, however, their functionality highly depends on the HW platform, along with some threat model assumptions.</p>
+<p>  ur ultimate vision is a unified platform that abstracts away this complexity. We aim to build intelligent compilers, automated frameworks, and hybrid architectures that allow developers to write “normal” unencrypted code, which the system automatically translates into secure, privacy-preserving executions. By integrating various PETs seamlessly, we can choose the right tool for the right job—balancing security, privacy, and speed autonomously.</p>
 
 <h3 id="core-research-themes">Core Research Themes</h3>
-<p>  Our lab focuses on devising <strong><em>Privacy-Preserving AI (PP-AI)</em></strong> solutions that are both <strong><em>Secure</em></strong> and <strong><em>Efficient</em></strong>. We tackle the privacy-utility-efficiency trade-off through three main lenses:</p>
+<p>  We utilize AI as a proactive shield, focusing on three main lenses:</p>
 
 <ul>
-  <li>
-<strong>Machine Learning as a Service (MLaaS):</strong> Protecting user queries and model weights during cloud-based inference using PETs.</li>
-  <li>
-<strong>On-Device &amp; Hybrid AI:</strong> Designing lightweight security protocols for AI running on edge devices (smartphones, IoT) using PETs.</li>
-  <li>
-<strong>Secure Training &amp; Collaborative Learning:</strong> Enabling multiple parties to train a shared model without sharing their local datasets.</li>
+  <li>“Privacy-Enhancing Compilers:” Developing automated tools that translate standard plaintext code into optimized cryptographic circuits or TEE-compatible binaries.</li>
+  <li>“Unified PET Platforms:” Creating middleware that dynamically orchestrates different privacy techniques (combining FHE and TEEs) based on the specific security and performance requirements of the task.</li>
+  <li>“Developer-Friendly Security:” Designing APIs and frameworks that hide mathematical complexity while mathematically guaranteeing data protection.</li>
 </ul>
 
 <hr>
@@ -484,15 +481,15 @@
 <h4 id="key-sub-topics--keywords">Key Sub-Topics &amp; Keywords</h4>
 <p>To give you an idea of potential topics you may be interested in (but not bounded to):</p>
 <ol>
-  <li><strong>FHE-based CNN/Transformers/LLM</strong></li>
   <li>
-<strong>Privacy-Preserving RAG:</strong> Secure Retrieval-Augmented Generation for private LLMs.</li>
-  <li><strong>Confidential Computing for on-device AI:</strong></li>
-  <li><strong>Efficient Federated Learning</strong></li>
+<strong>FHE Compilers and Auto-Vectorization</strong>**</li>
+  <li><strong>Hybrid TEE-FHE Architectures</strong></li>
+  <li><strong>Secure Code Generation for AI Models</strong></li>
+  <li><strong>End-to-End Encrypted System Design</strong></li>
 </ol>
 
 <blockquote>
-  <p><strong>Student Note:</strong> If you are interested in studying about data privacy issues in different AI applications as well as how to overcome the limitations of PETs, this field is for you.</p>
+  <p><strong>Student Note:</strong> If you are a big-picture thinker who wants to build the fundamental tools, compilers, and platforms that will allow software engineers worldwide to easily write secure code, this field is for you.</p>
 </blockquote>
   </section>
 
@@ -515,8 +512,8 @@
   <span>
     
       Next post <i class="icon fa-solid fa-angle-right"></i><br>
-      <a href="/0000/01/02/example-post-2.html">
-        Cryptographic Engineering &amp; Optimization
+      <a href="/0000/01/29/example-post-3.html">
+        AI for Security
       </a>
     
   </span>
