@@ -5,8 +5,8 @@ author: john-doe
 tags: biology, medicine
 ---
 
-![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/unified_pets.png){: width="70%" height="70%"}
-*Figure 1: Unified Pet Platform
+![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/unified_pets.png)
+*Figure 1: Unified Pet Platform*
 
 ### Background
 &nbsp;&nbsp;A major barrier to the adoption of privacy-preserving computing is usability. Currently, implementing systems that utilize FHE, TEEs, or ZKPs requires deep domain expertise in cryptography and hardware security. Software developers who simply want to build a secure application are forced to manually manage cryptographic keys, handle ciphertext memory limits, and rewrite their standard code into highly constrained formats.
