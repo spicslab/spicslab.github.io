@@ -15,9 +15,9 @@ To make PETs more accessible and widely used, we’ve developed a range of HW/SW
 
 {% include section.html %}
 
-## Featured
+## Open-Sourced
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+{% include list.html component="card" data="projects" filter="group == 'open-sourced'" %}
 
 {% include section.html %}
 
