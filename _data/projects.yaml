@@ -1,9 +1,20 @@
-- title: TBA
-  subtitle: TBA
-  group: featured
-  image: images/photo.jpg
-  link: _posts/2019-01-07-example-post-1.md
-  description: TBA
-  repo: greenelab/lab-website-template
+- title: SLOTHE
+  subtitle: An Automatic Approximation for Non-Arithmetic Functions over Encrypted Data
+  group: Open-Sourced
+  image: images/papers/SLOTHE.png
+  link: https://github.com/SNUSOR-PECT/SLOTHE
+  description: SLOTHE is an automatic workflow in generating efficient approximations for non-arithmetic functions over encrypted data. It offers programmability, where users can set their own constraints in the maximum approximation error and performance thresholds.
+  repo: https://github.com/SNUSOR-PECT/SLOTHE
   tags:
-    - resource
+    - PETs, compiler
+
+
+- title: LOHEN
+  subtitle: An Automatic Compiler that Optimizes the Performance and Accuracy of Neural Networks over FHE
+  group: Open-Sourced
+  image: images/papers/lohen.png
+  link: https://github.com/SNUSOR-PECT/LOHEN_Public
+  description: LOHEN offers a layer-wise optimization in generating FHE progarms for neural networks. Taking a baseline FHE program as input, it analyzes the complicated cryptographic parameter options and suggests better options for performance and accuracy.
+  repo: https://github.com/SNUSOR-PECT/LOHEN_Public
+  tags:
+    - PETs, compiler
