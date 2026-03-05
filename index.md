@@ -3,7 +3,7 @@
 
 # Welcome to SPICS Lab's Website
 
-Hi! We (actually I, since I just joined the school) pursue research to realize Secure and Private Intelligence Computing Systems. Our research topics are broad but netted -- from fundementals such as cryptography, <strong style="color:#e74d3c">privacy-enhancing techniques (PETs)<\strong>, and HW/SW security measurements, to high-level applications such as Privacy-Preserving AI Services, Cryptographic Accelerators, AI for Security and security for intelligence systems (e.g., automated vehicles, robots, physical AI).
+Hi! We (actually I, since I just joined the school) pursue research to realize Secure and Private Intelligence Computing Systems. Our research topics are broad but netted -- from fundementals such as cryptography, <strong style="color:#e74d3c">privacy-enhancing techniques (PETs)</strong>, and HW/SW security measurements, to high-level applications such as Privacy-Preserving AI Services, Cryptographic Accelerators, AI for Security and security for intelligence systems (e.g., automated vehicles, robots, physical AI).
 
 <strong>SPICS Lab is looking for self-motivated and passionate students who are interested in Security and Privacy related topics.</strong>
 If you are interested, feel free to contact me -- more information about expectations and our contact information are <a href="https://spicslab.github.io/contact/">here</a>). I look forward to meeting you.

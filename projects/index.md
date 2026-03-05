@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-We have been working on devising "realistic" Privacy Enhancing Techniques, 
+To make PETs more accessible and widely used, we’ve developed a range of HW/SW solutions. Our primary goal is to bridge the gap in FHE—which is known for its steep learning curve—by building automation libraries that anyone can use, even without cryptographic expertise. We are also proud to share some of our work with the community via open source.
 
 {% include tags.html tags="publication, resource, website" %}
 

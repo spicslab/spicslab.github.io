@@ -28,4 +28,4 @@ To give you an idea of potential topics you may be interested in (but not bounde
 2.  **Adding another Agent that Monitors MCPs**
 3.  **Jailbreaking AI Agents**
 
->**Student Note:** If you are fascinated by the "cat-and-mouse" game of cybersecurity and want to use modern AI to outsmart attackers and secure complex networks, this field is for you.
+**Student Note:** If you are fascinated by the "cat-and-mouse" game of cybersecurity and want to use modern AI to outsmart attackers and secure complex networks, this field is for you.
