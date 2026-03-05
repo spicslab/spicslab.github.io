@@ -16,7 +16,6 @@
   file: sources.yaml
   image: images/papers/theim.png
   tags:
-  - top-tier
   - systems
   - Homomorphic Encryption
 - id: doi:10.1109/ACCESS.2024.3387489
@@ -93,7 +92,6 @@
   file: sources.yaml
   image: images/papers/xhec.png
   tags:
-  - top-tier
   - hardware
   - Homomorphic Encryption
 - id: doi:10.1109/ACCESS.2021.3069223
@@ -130,7 +128,6 @@
   image: images/papers/lohen.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
   tags:
-  - top-tier
   - security
   - Homomorphic Encryption
   plugin: sources.py
@@ -147,7 +144,6 @@
   image: images/papers/slothe.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-slothe
   tags:
-  - top-tier
   - security
   - Homomorphic Encryption
   plugin: sources.py
@@ -181,7 +177,6 @@
   date: '2026-04-01'
   image: images/papers/coming_soon.png
   tags:
-  - top-tier
   - systems
   - Homomorphic Encryption
   plugin: sources.py
