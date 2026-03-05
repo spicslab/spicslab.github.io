@@ -32,7 +32,6 @@
   image: images/papers/lohen.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
   tags:
-    - top-tier
     - security
     - Homomorphic Encryption
 
@@ -48,7 +47,6 @@
   image: images/papers/slothe.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-slothe
   tags:
-    - top-tier
     - security
     - Homomorphic Encryption
 
@@ -81,7 +79,6 @@
   image: images/papers/coming_soon.png
   #link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
   tags:
-    - top-tier
     - systems
     - Homomorphic Encryption
 
@@ -97,7 +94,6 @@
   image: images/papers/theim.png
   link: https://dl.acm.org/doi/10.1145/3676641.3716246
   tags:
-    - top-tier
     - systems
     - Homomorphic Encryption
 
@@ -130,7 +126,6 @@
   image: images/papers/xhec.png
   link: doi.org/10.1145/3508352.3549413
   tags:
-    - top-tier
     - hardware
     - Homomorphic Encryption
 
