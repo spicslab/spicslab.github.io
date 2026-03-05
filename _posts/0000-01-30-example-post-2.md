@@ -28,4 +28,4 @@ To give you an idea of potential topics you may be interested in (but not bounde
 2.  **Computation & Network Scheduling for MPC**
 3.  **Performance/Area/Power Efficient PQC Accelerator Design**
 
-> **Student Note:** Security usually comes at a cost of performance getting sluggish. This naturally means actually, optimization techniques are essential for security and privacy research.
+**Student Note:** FHE and PQC are considered to be the game-changers in the very near future. This is not an exaggeration -- they are currently being standardized just as AES and RSA were in the past. (<a href="https://homomorphicencryption.org/">HE standard</a>, <a herf="https://csrc.nist.gov/projects/post-quantum-cryptography/post-quantum-cryptography-standardization">PQC standard</a>). The White House has declared to overhaul the existing computation and network infrastructure to become fit for these new changes. If you want to take a step in these fields earlier than others, do not hesitate.

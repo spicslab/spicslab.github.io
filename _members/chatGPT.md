@@ -7,4 +7,4 @@ links:
   home-page: https://chatgpt.com/auth/login?sso
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ChatGPT has been taking the role of revising literature for proposals, papers, thesis, and a lot more. Recently, it has begun to take the role in analyzing and suggesting minor specific research directions by absorbing more money in.

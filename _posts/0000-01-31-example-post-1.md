@@ -29,5 +29,7 @@ To give you an idea of potential topics you may be interested in (but not bounde
 2.  **Privacy-Preserving RAG:** Secure Retrieval-Augmented Generation for private LLMs.
 3.  **Confidential Computing for on-device AI:**
 4.  **Efficient Federated Learning**
-   
-> **Student Note:** If you are interested in studying about data privacy issues in different AI applications as well as how to overcome the limitations of PETs, this field is for you.
+
+**Student Note:** A lot of organizations are highly interested (some are actively hiring) Privacy Enhancing Techniques researchers -- <a href="https://developers.googleblog.com/ko/expanding-our-fully-homomorphic-encryption-offering/">Google</a>), <a herf="https://www.microsoft.com/en-us/research/research-area/security-privacy-cryptography/">Microsoft</a>, <a href="https://www.samsungsds.com/kr/enterprise-asset/homomorphic-encryption-on-financial-data.html">Samsung Electronics</a>, <a href="https://news.nate.com/view/20260305n23286">LG Electronics</a>, <a href="https://cpl.thalesgroup.com/blog/data-security/dora-compliance-privacy-preserving-techniques-generative-ai">Thales</a>, and much more.
+
+If you are interested in studying about data privacy issues in different AI applications as well as how to overcome the limitations of PETs, this field is for you.
