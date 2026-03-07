@@ -1,6 +1,6 @@
 ---
 title: Cryptographic Engineering & Optimization
-image: images/photo.jpg
+image: images/research/crypto.png
 tags:
   - Cryptography
   - System

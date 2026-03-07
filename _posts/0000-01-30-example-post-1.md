@@ -1,5 +1,5 @@
 ---
-title: Privacy-Preserving AI
+title: Privacy-Preserving AI as a Service (PPAI)
 image: images/research/ppai.png
 tags:
   - PETs
@@ -12,7 +12,7 @@ tags:
 
 &nbsp;&nbsp;AI became integrated into every aspect of our lives -- ChatGPT, Web Engines, Robots, Automated Cars, and almost EVERYTHING relies on AI, at least partly. Having said that, a fundamental question arises "Is it safe?" AI services are applications that requires ***mutual privacy*** -- the client wants to avoid his data from being leaked, while the service provider considers the AI model as Intellectual Property.
 
-&nbsp;&nbsp;To address such concern, researchers have began to devise and use Privacy Enhancing Techniques (PETs). In brief, there are two categories of PETs, each with clear pros and cons. The first one incorporates cryptography, such as Homomorphic Encryption (HE), Multi-Party Computation (MPC), Zero-Knowledge Proofs (ZKP), and more. Based on cryptographic building blocks, they are fundamentally secure, however, the benefit comes at a cost of massive additional performance overhead, as well as several limitations such as being unable to express non-arithmetic operations exactly. The second category consists of hardware and system security measurements, such as sandboxing, tagging, and isolation. Trusted Execution Environments, for example, offer straight-forward security against malicious parties in the same system, however, their functionality highly depends on the HW platform, along with some threat model assumptions.
+&nbsp;&nbsp;To address such concern, researchers have began to devise and use Privacy Enhancing Techniques (PETs) -- thus you can consider this topic to be the application layer of <a href="https://spicslab.kr/0000/01/28/example-post-4.html">the other topic we work on</a>. In brief, there are two categories of PETs, each with clear pros and cons. The first one incorporates cryptography, such as Homomorphic Encryption (HE), Multi-Party Computation (MPC), Zero-Knowledge Proofs (ZKP), and more. Based on cryptographic building blocks, they are fundamentally secure, however, the benefit comes at a cost of massive additional performance overhead, as well as several limitations such as being unable to express non-arithmetic operations exactly. The second category consists of hardware and system security measurements, such as sandboxing, tagging, and isolation. Trusted Execution Environments, for example, offer straight-forward security against malicious parties in the same system, however, their functionality highly depends on the HW platform, along with some threat model assumptions.
 
 ### Core Research Themes
 &nbsp;&nbsp;Our lab focuses on devising ***Privacy-Preserving AI (PP-AI)*** solutions that are both ***Secure*** and ***Efficient***. We tackle the privacy-utility-efficiency trade-off through three main lenses:
@@ -26,8 +26,8 @@ tags:
 #### Key Sub-Topics & Keywords
 To give you an idea of potential topics you may be interested in (but not bounded to):
 1.  **FHE-based CNN/Transformers/LLM**
-2.  **Privacy-Preserving RAG:** Secure Retrieval-Augmented Generation for private LLMs.
-3.  **Confidential Computing for on-device AI:**
+2.  **Privacy-Preserving RAG**
+3.  **Confidential Computing for on-device AI**
 4.  **Efficient Federated Learning**
 
 **Student Note:** A lot of organizations are highly interested (some are actively hiring) Privacy Enhancing Techniques researchers -- <a href="https://developers.googleblog.com/ko/expanding-our-fully-homomorphic-encryption-offering/">Google</a>, <a href="https://www.microsoft.com/en-us/research/research-area/security-privacy-cryptography/">Microsoft</a>, <a href="https://www.samsungsds.com/kr/enterprise-asset/homomorphic-encryption-on-financial-data.html">Samsung Electronics</a>, <a href="https://news.nate.com/view/20260305n23286">LG Electronics</a>, <a href="https://cpl.thalesgroup.com/blog/data-security/dora-compliance-privacy-preserving-techniques-generative-ai">Thales</a>, and much more.
