@@ -9,14 +9,11 @@ tags:
 
 ![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/unified_pets.png)
 
-&nbsp;&nbsp;A major barrier to the adoption of privacy-preserving computing is usability. Currently, implementing systems that utilize PETs requires deep domain expertise in cryptography and hardware security. Software developers who simply want to build a secure application are forced to manually manage cryptographic keys, handle ciphertext memory limits, and rewrite their standard code into highly constrained formats.
+&nbsp;&nbsp;A major barrier to the adoption of privacy-preserving computing is usability. Currently, implementing systems that utilize PETs requires deep domain expertise in cryptography and hardware security. If you are not yet familiar with PETs but are interested in, I suggest you read <a href="https://developers.googleblog.com/ko/expanding-our-fully-homomorphic-encryption-offering/">this page</a> first. Software developers who simply want to build a secure application are forced to manually manage cryptographic keys, handle ciphertext memory limits, and rewrite their standard code into highly constrained formats.
 
 &nbsp;&nbsp;Our ultimate vision is a unified platform that abstracts away this complexity. We aim to build intelligent compilers, automated frameworks, and hybrid architectures that allow developers to write "normal" unencrypted code, which the system automatically translates into secure, privacy-preserving executions. By integrating various PETs seamlessly, we can choose the right tool for the right job—balancing security, privacy, and speed autonomously.
 
-&nbsp;&nbsp;The 
-
-### Core Research Themes
-&nbsp;&nbsp;Some example of specific tracks are:
+&nbsp;&nbsp;As other systems are, PET computing systems also consist of several layers, the front-end that transpiles a general code into a PET applied code, 
 
 * "Privacy-Enhancing Compilers:" Developing automated tools that translate standard plaintext code into optimized cryptographic circuits or TEE-compatible binaries.
 * "Unified PET Platforms:" Creating middleware that dynamically orchestrates different privacy techniques (combining FHE and TEEs) based on the specific security and performance requirements of the task.
