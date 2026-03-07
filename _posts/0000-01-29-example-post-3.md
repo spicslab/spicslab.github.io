@@ -1,13 +1,11 @@
 ---
 title: Confidential Computing w. HW/SW Security Measurements
-image: images/photo.jpg
+image: images/research/confidential_computing.png
 tags:
-  - AI
-  - Vulnerability
-  - Analysis
+  - System
 ---
 
-![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/ai_security.png)
+![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/confidential_computing.png)
 
 &nbsp;&nbsp;Cryptographic PETs are considered to be game-changers in terms of security and privacy, but they are yet sufferring from crucial downsides to be adopted right now. In the meanwhile, reearchers in HW/SW fields have also been working on a similar topic called ***Confidential Computing***. Confidential computing is clearly distinct with PETs in that their goal is to devise HW/SW techniques to provide security when running a code, by isolating the memory map and offerring integrity in a multi tenency status.
 
