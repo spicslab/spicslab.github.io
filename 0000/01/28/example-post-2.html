@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Cryptographic Engineering &amp; Optimization | SPICS Lab</title>
+<title>Next-Generation Cryptography | SPICS Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Cryptographic Engineering &amp; Optimization">
+<meta name="title" content="Next-Generation Cryptography">
 <meta name="description" content="Secure and Private Intelligence Computing Systems">
 
-<meta property="og:title" content="Cryptographic Engineering &amp; Optimization">
+<meta property="og:title" content="Next-Generation Cryptography">
 <meta property="og:site_title" content="SPICS Lab">
 <meta property="og:description" content="Secure and Private Intelligence Computing Systems">
 <meta property="og:url" content="http://spicslab.kr">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Cryptographic Engineering &amp; Optimization">
+<meta property="twitter:title" content="Next-Generation Cryptography">
 <meta property="twitter:description" content="Secure and Private Intelligence Computing Systems">
 <meta property="twitter:url" content="http://spicslab.kr">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "Cryptographic Engineering &amp; Optimization",
+    "name": "Next-Generation Cryptography",
     "description": "Secure and Private Intelligence Computing Systems",
-    "headline": "Cryptographic Engineering &amp; Optimization",
+    "headline": "Next-Generation Cryptography",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -411,7 +411,7 @@
 -->
 
 
-<h1 class="center">Cryptographic Engineering &amp; Optimization</h1>
+<h1 class="center">Next-Generation Cryptography</h1>
 
 <!--
 <div class="post-info">
@@ -440,10 +440,6 @@
         system
       </a>
     
-      <a href="/blog?search=%22tag:%20accelerator%22" class="tag" data-tooltip='Show items with the tag "accelerator"'>
-        accelerator
-      </a>
-    
   </div>
   </section>
 
@@ -461,20 +457,19 @@
 
 <p><img src="/spicslab.github.io/images/research/crypto.png" alt="High-Level Architecture of PP-AI System"></p>
 
-<p>  While classic cryptography hae reigned for decades, their limitations have recently emerged on the surface. Fundamentally, data were decrypted while being processed, which may lead to privacy issues. Moreover, the advent of Quantum computing increased the urge for Post-Quantum Cryptography (PQC). Novel cryptographic schemes and protocols were devised to fulfill the new duties, however, they introduce massive computational overhead. A single operation in ciphertext can be orders of magnitude slower than in plaintext, and the memory footprint expands significantly. This “performance wall” is the primary bottleneck preventing the widespread, real-world deployment of cryptographic privacy solutions.</p>
+<p>  While classic cryptography have reigned for decades, their limitations have recently emerged on the surface. Fundamentally, data were decrypted while being processed, which may lead to privacy issues. Moreover, the advent of Quantum computing increased the urge for Post-Quantum Cryptography (PQC). Novel cryptographic schemes and protocols were devised to fulfill the new duties, however, they introduce massive computational overhead. A single operation in ciphertext can be orders of magnitude slower than in plaintext, and the memory footprint expands significantly. This “performance wall” is the primary bottleneck preventing the widespread, real-world deployment of cryptographic privacy solutions.</p>
 
-<p>  To make secure computation practical, we must move beyond pure mathematics and focus on engineering. This requires a deep, cross-stack approach—from algorithmic refinements to low-level hardware-software co-design. By optimizing how these algorithms interact with underlying architectures, we can drastically reduce latency and bridge the gap between theoretical cryptography and practical deployment.</p>
+<p>  Not only PQC, but most of the next-generation cryptosystems suffer from the same problem – Homomorphic Encryption, Multi-Party Computing Protocols, and Zero-Knowledge Proofs all involve complicated cryptographic computation with colossal overhead.</p>
 
-<h3 id="core-research-themes">Core Research Themes</h3>
-<p>  Our lab focuses on making the “impossible” practical by accelerating PETs through three main lenses:</p>
+<p>  To make such cryptosystems practical, we must move beyond pure mathematics and focus on engineering. This requires a deep, cross-stack approach—from algorithmic refinements to low-level hardware-software co-design. By optimizing how these algorithms interact with underlying architectures, we can drastically reduce latency and bridge the gap between theoretical cryptography and practical deployment. Our lab focuses on making the “impossible” practical by accelerating cryptosystems through three main lenses:</p>
 
 <ul>
+  <li>
+<strong>Algorithmic Optimization:</strong> Modifying, or devising a new cryptosystem that offers better performance or higher security for general / domain-specific usage.</li>
   <li>
 <strong>Hardware Acceleration:</strong> Designing highly optimized implementations of cryptographic primitives for GPUs, FPGAs, and other retrofitted platforms such as Processing-in-Memory.</li>
   <li>
 <strong>System-Level Integration:</strong> Introduce efficient compilers (transpilers), schedulers, and other SW-level optimizations that enhances the performance by reducing the bottlenecks of the computation.</li>
-  <li>
-<strong>Algorithmic Adaptation to a given environment:</strong> Different environments have different amount of memory, bandwidth, Flops, etc. We seek how we can ‘morph’ a given cryptosystem to make the computation more suited for a given environment while keeping its functionality.</li>
 </ul>
 
 <hr>
@@ -510,7 +505,7 @@
     
       Next post <i class="icon fa-solid fa-angle-right"></i><br>
       <a href="/0000/01/29/example-post-3.html">
-        AI for Security
+        Confidential Computing w. HW/SW Security Measurements
       </a>
     
   </span>
