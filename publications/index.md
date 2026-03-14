@@ -22,8 +22,6 @@ You can also refer to google scholar etc.
 {% include section.html %}
 
 ## International
-<details>
-  <summary>Show More</summary>
 
 {% include search-box.html %}
 
@@ -31,9 +29,4 @@ You can also refer to google scholar etc.
 
 {% include list.html data="citations" component="citation" style="rich" %}
 
-</details>
-
 ## Domestic
-<details>
-  <summary>Show More</summary>
-</details>
