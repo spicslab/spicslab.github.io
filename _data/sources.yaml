@@ -67,6 +67,7 @@
     - Accelerator
     - Homomorphic Encryption
 
+- id:  doi:10.1145/3779212.3790170
 - title: "HEPIC: Private Inference over Homomorphic Encryption with Client Intervention"
   authors:
     - "**Kevin Nam**"
