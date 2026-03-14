@@ -78,7 +78,7 @@
   publisher: The 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS`26), 2026
   date: 2026-04-01
   image: images/papers/hepic.png
-  #link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
+  link: https://dl.acm.org/doi/10.1145/3779212.3790170
   tags:
     - systems
     - Homomorphic Encryption
