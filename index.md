@@ -12,8 +12,22 @@ If you are interested, feel free to contact me -- more information about expecta
 
 <strong>보안, 혹은 프라이버시에 대한 연구에 관심이 있고, 이들과 관련된 문제들을 해결하는 솔루션을 개발하기 위해 도전할 열정 있는 학생들을 찾고 있습니다.</strong> 연구실에 참여할 시 기대하실 수 있는 부분들에 대하여 <a href="https://spicslab.github.io/contact/">여기</a>를 찾아봐주세요. 감사합니다.
 
+
+
 {% include section.html %}
 
+## Highlight News
+
+<li><strong>[Mar. 2026]</strong> Joined Program Committee for ASIACCS 2027.</li>
+<li><strong>[Mar. 2026]</strong> SPICS Lab Website is being renovated (under heavy re construction).</li>
+<li><strong>[Mar. 2026]</strong> Joined Kyung Hee University as an Assistant Professor.</li>
+
+<details>
+  <summary>Show More</summary>
+
+</details>
+
+<!--
 ## Highlights
 
 {% capture text %}
@@ -86,3 +100,4 @@ TBA
   style="bare"
   text=text
 %}
+-->
