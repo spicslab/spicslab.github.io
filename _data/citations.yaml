@@ -1,7 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-<<<<<<< HEAD
-=======
 - id: doi:10.1145/3779212.3790170
   title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
   authors:
@@ -17,7 +15,6 @@
   orcid: 0000-0002-4621-2434
   plugin: sources.py
   file: sources.yaml
->>>>>>> 8c1133161626580c297736013e3e4ffdf41f0b6d
 - id: doi:10.1145/3676641.3716246
   title: Affinity-based Optimizations for TFHE on Processing-in-DRAM
   authors:
@@ -183,7 +180,6 @@
   - Homomorphic Encryption
   plugin: sources.py
   file: sources.yaml
-- id:  doi:10.1145/3779212.3790170
 - title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
   authors:
   - '**Kevin Nam**'
