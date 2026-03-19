@@ -1,12 +1,12 @@
 ---
 title: Safe/Secure AI Systems
-image: images/research/ai_security.png
+image: images/research/ai_safety.png
 tags:
   - AI
   - Analysis
 ---
 
-![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/ai_security.png)
+![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/ai_safety.png)
 
 &nbsp;&nbsp;While recent advances in AI have transformed language models from passive assistants into systems that can plan, retrieve information, call tools, and act on behalf of users, their limitations have also emerged on the surface. Fundamentally, modern AI systems no longer merely generate text; they increasingly interact with external data sources, APIs, files, memory, and even other agents. This expanded capability creates a much broader attack surface than conventional software, spanning prompts, retrieved context, tool interfaces, model behavior, and agent-to-agent communication.
 
