@@ -7,13 +7,23 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-**A note from the PI:** If you are interested and want to get to know more about Data Privacy, Privacy-Enhancing Techniques including next generation cryptography and system security measurements, feel free to send me an email.
-You may also want to talk about different topics -- what to do to get a good job, agonies about graduation, which field to dig in, etc. I know that it may be awkward to initiate the interaction, but please do contact me -- I don't bite, I will do as much as I can to help you out. After all, you only get to know stuff by asking and learning.
+**For those who are interested in the research of SPICSLab:** First, please read carefully about <a href="https://spicslab.github.io/research/"> the basis of our research topics</a>. The current on-going projects are highly related with them. With some pre-practice period, once with some beginer expertise, you may be able to participate in those hands-on projects, which are usually followed by research manuscript submission (some confidential projects may not).
 
-데이터 프라이버시, 차세대 암호기술 및 시스템 보안 기술들을 포함한 프라이버시 보호 기술들에 대해 궁금하신 점이 있다면 아래 메일로 연락주시기 바랍니다. 또한 연구실 외에도 진로 등 다양한 고민이 많으실 수 있습니다. 첫 연락은 어렵게 느껴지실 수 있으나, 걱정말고 연락주시면, 제가 할 수 있는 선에서 최대한 조언해드릴 수 있도록 노력하겠습니다.
+If interested, send me an email.
+
+I also would like to emphasize 4 things :
+* *** You do not need to know everything beforehand *** : have some practice period with me, get to know several topics, then with some expertise, you can jump into the projects. The most important thing is motivation, attitude, and basic instincts in research. I will help you with the expertise.
 
 
-###For Those Interested in 
+* *** Being a good hands-on programmer is one thing -- being a good researcher is another ***: You should identify what you truly want between the two. Finding a good research topic and writing papers is a highly different path with working on a programming project.
+
+* *** AI is not a panacea, we need to treat it carefully***: Relying on AI is a very bad habit. It is full of faults and problems which may induce sensitive issues in various aspects of your life. This is actually very good news for us, as AI safety/security topics are trending for the same reason.
+
+* *** Applied Cryptography is not about Math, you don't need to like MATH -- but you should be good programmers ***: This is a very common but wrong stereotype. Applied cryptography is different with crypto-theories. It's about using them to make applications secure and private. The cryptographic APIs are codes, just as other open-sourced libraries. Most of all, I was awful at math, and yet, my representative papers in top-tier conferences are about the next-generation cryptography.
+
+---
+
+**For those who has worries but do not know what to even ask:** You may also want to talk about different topics -- what to do to get a good job, agonies about graduation, which field to dig in, etc. I know that it may be awkward to initiate the interaction, but please do contact me -- I don't bite, I will do as much as I can to help you out. After all, you only get to know stuff by asking and learning.
 
 {%
   include button.html
