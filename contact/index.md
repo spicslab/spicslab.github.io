@@ -19,7 +19,7 @@ I also would like to emphasize 4 things :
 
 * *** AI is not a panacea, we need to treat it carefully***: Relying on AI is a very bad habit. It is full of faults and problems which may induce sensitive issues in various aspects of your life. This is actually very good news for us, as AI safety/security topics are trending for the same reason.
 
-* *** Applied Cryptography is not about Math, you don't need to like MATH -- but you should be good programmers ***: This is a very common but wrong stereotype. Applied cryptography is different with crypto-theories. It's about using them to make applications secure and private. The cryptographic APIs are codes, just as other open-sourced libraries. Most of all, I was awful at math, and yet, my representative papers in top-tier conferences are about the next-generation cryptography.
+* *** Applied Cryptography is not about Math, you don't need to like MATH -- but you should be good programmers ***: This is a very common but wrong stereotype. Applied cryptography is different with crypto-theories. It's about using them to make applications secure and private. The cryptographic APIs are codes, just as other open-sourced libraries. I myself was awful at math, and yet, my representative papers in top-tier conferences are about the next-generation cryptography.
 
 ---
 
