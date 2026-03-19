@@ -28,13 +28,15 @@ Members and close collaborators of the group.
 
 {% include list.html data="members" component="portrait" filter="role == 'ms'" %}
 
-## Undergrad Students
+## Interns
 
 
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-We are collaborating with diverse people around the world, in diverse organizations.
+## External Collaborators
+
+We are collaborating with diverse people in diverse organizations.
 
 {% include section.html %}
 

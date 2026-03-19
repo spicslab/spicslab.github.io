@@ -3,6 +3,51 @@
 
 # Welcome to SPICS Lab
 
+<div id="site-notice" class="notice">
+  <button class="notice-close" onclick="closeNotice()">×</button>
+  <strong>Notice</strong><br>
+  We are building up two Task Force Groups along with several university and company research labs. One on AI Safety, another on PPAI. If interested and feel to be a good candidate, please send an email to the PI.
+</div>
+
+<style>
+.notice-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.notice {
+  position: relative;
+  width: min(1000px, 90vw);
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 20px 16px 16px 16px;
+  text-align: center;
+}
+
+.notice-close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  font-size: 24px;
+  cursor: pointer;
+}
+</style>
+
+<script>
+function closeNotice() {
+  document.getElementById("site-notice").style.display = "none";
+}
+</script>
+
 <strong style="color:#e74d3c">The website is under severe re-contruction.</strong>
 
 Hi! We pursue research to realize Secure and Private Intelligence Computing Systems. Our research topics are broad but netted -- <strong style="color:#e74d3c">Privacy-Enhancing Techniques (PETs), Confidential Computing, AI Safety, and usage of AI for Security Topics</strong>.
