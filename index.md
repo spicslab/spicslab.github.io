@@ -5,8 +5,8 @@
 
 <div id="site-notice" class="notice">
   <button class="notice-close" onclick="closeNotice()">×</button>
-  <strong>Notice</strong><br>
-  We are building up two Task Force Groups along with several university and company research labs. One on AI Safety, another on PPAI. If interested and feel to be a good candidate, please send an email to the PI.
+  <strong style="color:#7245BA">Notice</strong><br>
+  We are joining an upcoming Joint Task Force which involves several university and company research labs. The TF will be working on a funded project about <strong style="color:#7245BA">AI Safety</strong>, and <strong style="color:#1941D4">Optimizing PETs</strong>. If interested or feel to be a good candidate for the joint-TF, please send an email to the PI.
 </div>
 
 <style>
