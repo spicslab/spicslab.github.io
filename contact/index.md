@@ -11,9 +11,15 @@ nav:
 
 If interested, send me an email, including the following :
 
-1. ***Basic information about yourself***
+0. ***Basic Information about yourself*** : Name, student number, and expected year of graduation (if you are applying as an intern), your previous job & position, and finally, **a full CV+Transcript with Rank**
+1. ***which track you are applying for*** : Intern, MS course, Ph.D course, or MS/Ph.D. Combined course, or else (specific track).
+2. ***About your research background*** : tell us about your experience in programming, security research, or anything that may help us to understand you.
+3. ***Your motivation and interested field in applying*** : As will be discussed below, you do not necessarily need to be an 'expert' in a field to apply -- motivation matters more.
+
+
 
 I also would like to emphasize 4 things :
+
 1. ***You do not need to know everything beforehand*** : have some practice period with me, get to know several topics, then with some expertise, you can jump into the projects. The most important thing is motivation, attitude, and basic instincts in research. I will help you with the expertise.
 
 
