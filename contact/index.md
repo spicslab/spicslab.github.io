@@ -16,9 +16,9 @@ If interested, send me an email, including the following :
 2. ***About your research background*** : tell us about your experience in programming, security research, or anything that may help us to understand you.
 3. ***Your motivation and interested field in applying*** : As will be discussed below, you do not necessarily need to be an 'expert' in a field to apply -- motivation matters more.
 
+---
 
-
-I also would like to emphasize 4 things :
+I also would like to emphasize 4 things you **should** consider :
 
 1. ***You do not need to know everything beforehand*** : have some practice period with me, get to know several topics, then with some expertise, you can jump into the projects. The most important thing is motivation, attitude, and basic instincts in research. I will help you with the expertise.
 
