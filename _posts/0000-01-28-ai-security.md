@@ -28,5 +28,5 @@ To give you an idea of potential topics you may be interested in (but are not li
 
 **Student Note:** AI security is a field that seems to be a bit off 'engineering' but they are highly in trend as much as we use LLM services more and more in our daily lives. We cannot guarantee its trend to be lengthy, but we cannot overlook the importance of these topics.
 
-<strong style="color:#37C435">We are planning to establish a Task Force on AI Safety, collaborating with multiple university labs and companies. If interested, please contact the PI.</strong>
+<strong style="color:#37C435">Our lab is part of a Joint Task Force that specializes in secure end-to-end AI as a Service, collaborating with multiple university labs and companies. The AI Safety track involves RAG poisoning, guardrails, authenticating interactions between AI agents, etc. If interested, please contact the PI.</strong>
 
