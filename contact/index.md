@@ -9,17 +9,19 @@ nav:
 
 **For those who are interested in the research of SPICSLab:** First, please read carefully about <a href="https://spicslab.github.io/research/"> the basis of our research topics</a>. The current on-going projects are highly related with them. With some pre-practice period, once with some beginer expertise, you may be able to participate in those hands-on projects, which are usually followed by research manuscript submission (some confidential projects may not).
 
-If interested, send me an email.
+If interested, send me an email, including the following :
+
+1. ***Basic information about yourself***
 
 I also would like to emphasize 4 things :
-1. *** You do not need to know everything beforehand *** : have some practice period with me, get to know several topics, then with some expertise, you can jump into the projects. The most important thing is motivation, attitude, and basic instincts in research. I will help you with the expertise.
+1. ***You do not need to know everything beforehand*** : have some practice period with me, get to know several topics, then with some expertise, you can jump into the projects. The most important thing is motivation, attitude, and basic instincts in research. I will help you with the expertise.
 
 
-2. *** Being a good hands-on programmer is one thing -- being a good researcher is another ***: You should identify what you truly want between the two. Finding a good research topic and writing papers is a highly different path with working on a programming project.
+2. ***Being a good hands-on programmer is one thing -- being a good researcher is another***: You should identify what you truly want between the two. Finding a good research topic and writing papers is a highly different path with working on a programming project.
 
-3. *** AI is not a panacea, we need to treat it carefully***: Relying on AI is a very bad habit. It is full of faults and problems which may induce sensitive issues in various aspects of your life. This is actually very good news for us, as AI safety/security topics are trending for the same reason.
+3. ***AI is not a panacea, we need to treat it carefully***: Relying on AI is a very bad habit. It is full of faults and problems which may induce sensitive issues in various aspects of your life. This is actually very good news for us, as AI safety/security topics are trending for the same reason.
 
-4. *** Applied Cryptography is not about Math, you don't need to like MATH -- but you should be good programmers ***: This is a very common but wrong stereotype. Applied cryptography is different with crypto-theories. It's about using them to make applications secure and private. The cryptographic APIs are codes, just as other open-sourced libraries. I myself was awful at math, and yet, my representative papers in top-tier conferences are about the next-generation cryptography.
+4. ***Applied Cryptography is not about Math, you don't need to like MATH -- but you should be good programmers***: This is a very common but wrong stereotype. Applied cryptography is different with crypto-theories. It's about using them to make applications secure and private. The cryptographic APIs are codes, just as other open-sourced libraries. I myself was awful at math, and yet, my representative papers in top-tier conferences are about the next-generation cryptography.
 
 ---
 
