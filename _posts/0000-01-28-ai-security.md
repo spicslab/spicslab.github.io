@@ -1,5 +1,5 @@
 ---
-title: Safe/Secure AI Systems
+title: AI Security/Safety
 image: images/research/ai_safety.png
 tags:
   - AI
