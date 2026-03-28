@@ -9,7 +9,7 @@ nav:
 
 **For those who are interested in the research of SPICSLab:** First, please read carefully about <a href="https://spicslab.github.io/research/"> the basis of our research topics</a>. The current on-going projects are highly related with them. With some pre-practice period, once with some beginer expertise, you may be able to participate in those hands-on projects, which are usually followed by research manuscript submission (some confidential projects may not).
 
-Accordingly, please get in touch ***<strong style="color:#e74d3c">at least 3 months ahead</strong>*** of the application period. Should your ambition be high, so is the hurdle to research. Pre-practice and internship are considered mendatory. Please understand that last minute mails during the application period may not be replied.
+Accordingly, please get in touch ***<strong style="color:#e74d3c">at least 3 months ahead</strong>*** of the application period. Should your ambition be high, so is the hurdle to research. Pre-practice and internship are considered mandatory. Please understand that last minute mails during the application period may not be replied.
 
 If interested, send me an email, including the following :
 
