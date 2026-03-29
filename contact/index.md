@@ -9,7 +9,7 @@ nav:
 
 **For those who are interested in the research of SPICSLab:** First, please read carefully about <a href="https://spicslab.github.io/research/"> the basis of our research topics</a>. The current on-going projects are highly related with them. With some probation period to gain a beginer level expertise, you may be able to participate in those hands-on projects, which are usually followed by research manuscript submission (some confidential projects may not).
 
-Accordingly, I **<strong style="color:#1AC91D">highly recommend you to get in contact</strong>** ***<strong style="color:#1AC91D">at least 3 months ahead</strong>*** of the application period. Unless you are already over qualified, probation period (internship) is highly recommended (I consider it mandatory).
+Accordingly, I **<strong style="color:#1AC91D">highly recommend you to get in contact</strong>** ***<strong style="color:#CF1111">at least 3 months ahead</strong>*** of the application period. Unless you are already over qualified, probation period (internship) is highly recommended (I consider it mandatory).
 
 If interested and you have acknowledged the above, send me an email, including the following :
 
