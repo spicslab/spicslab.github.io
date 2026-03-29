@@ -189,9 +189,9 @@
   - Yunheung Paek
   publisher: The 31st ACM International Conference on Architectural Support for Programming
     Languages and Operating Systems (ASPLOS`26), 2026
-  date: '2026-04-01'
+  date: '2026-03-22'
   image: images/papers/hepic.png
-  link: https://dl.acm.org/doi/10.1145/3779212.3790170
+  link: https://doi.org/hbsghf
   tags:
   - systems
   - Homomorphic Encryption
