@@ -165,3 +165,23 @@
   - Homomorphic Encryption
   plugin: sources.py
   file: sources.yaml
+<<<<<<< HEAD
+=======
+- title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
+  authors:
+  - '**Kevin Nam**'
+  - Youyeon Joo
+  - Seungjin Ha
+  - Hyungon Moon
+  - Yunheung Paek
+  publisher: The 31st ACM International Conference on Architectural Support for Programming
+    Languages and Operating Systems (ASPLOS`26), 2026
+  date: '2026-03-22'
+  image: images/papers/hepic.png
+  link: https://doi.org/hbsghf
+  tags:
+  - systems
+  - Homomorphic Encryption
+  plugin: sources.py
+  file: sources.yaml
+>>>>>>> 88c688a39d3366ec59cd2b0de9b8a13662b2bec1
