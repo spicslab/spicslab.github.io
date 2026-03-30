@@ -7,7 +7,11 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Members and close collaborators of the group.
+**NOTE** : Undergrad students who wish to participate in internship programs are also welcome. The programs will be tailored for each individuals according to their current status. For example :
+- Non-experienced students but are willing to get familiar with what research are
+- Familiar with research but are new to security and privacy topics
+- Familiar with security/privacy research and want to participate in on-going grad. student level projects
+- and so on. But please consult the PI first.
 
 ## Principal Investigator
 
@@ -28,15 +32,11 @@ Members and close collaborators of the group.
 
 {% include list.html data="members" component="portrait" filter="role == 'ms'" %}
 
-## Interns
-
-
-
 {% include section.html background="images/background.jpg" dark=true %}
 
-## External Collaborators
+## Honorable Mentions
 
-We are collaborating with diverse people in diverse organizations.
+Those who we are collaborating, 
 
 {% include section.html %}
 
