@@ -1,5 +1,5 @@
 ---
-title: Optimizations for Privacy Enhancing Techniques
+title: Privacy-Preserving Programming/Coding
 image: images/research/unified_pets.png
 tags:
   - PETs
