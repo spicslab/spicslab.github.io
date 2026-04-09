@@ -1,5 +1,5 @@
 ---
-title: Confidential Computing w. HW/SW Security Measurements
+title: Confidential Computing
 image: images/research/confidential_computing.png
 tags:
   - System
