@@ -1,28 +1,33 @@
 ---
-title: Privacy-Preserving AI Systems (PPAI)
-image: images/research/ppai.png
+title: Secure AI Agent Harness
+image: images/research/ai_harness.png
 tags:
-  - PETs
-  - AI
-  - Systems
+  - AI Agents
+  - Systems Security
+  - Privacy
+  - RAG Security
+  - Agent Runtime
 ---
 
-![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/ppai.png)
+![High-Level Architecture of Secure AI Agent Harness](/spicslab.github.io/images/research/ai_harness.png)
 
-&nbsp;&nbsp;AI is now embedded in many parts of modern computing: conversational assistants, search engines, robots, autonomous vehicles, mobile applications, enterprise analytics, and many other intelligent services. As AI becomes more powerful and more widely deployed, a fundamental question becomes increasingly important: **Can we use AI without exposing sensitive data or proprietary models?**
+&nbsp;&nbsp;AI agents are rapidly moving beyond simple question answering. They can now retrieve documents, call tools, access databases, write code, communicate with other agents, and make decisions across complex workflows. As these agents become more capable, they are also becoming part of the computing system itself. This raises an important question: **How can we safely control AI agents that can observe, decide, act, and communicate?**
 
-&nbsp;&nbsp;Many AI services require ***mutual privacy***. Users want to keep their prompts, queries, documents, sensor data, and personal information private. At the same time, service providers often need to protect their models, system prompts, retrieval databases, and inference pipelines as valuable intellectual property. This tension appears not only in cloud-based AI services, but also in on-device AI, edge AI, hybrid AI pipelines, private RAG systems, and collaborative learning scenarios.
+&nbsp;&nbsp;Our lab studies ***Secure AI Agent Harnesses***: system-level security layers that manage and constrain AI-agent behavior. A useful analogy is to think of an AI agent as a new kind of CPU. The agent reasons and decides what to do next, while databases, documents, tools, APIs, memory, and other agents act like memory and I/O devices. In this analogy, the harness plays the role of an operating system: it mediates access, enforces permissions, isolates risky behavior, monitors execution, and records security-relevant events.
 
-&nbsp;&nbsp;To address these challenges, researchers use Privacy-Enhancing Technologies (PETs), which form one of the core foundations of our lab's research. PETs can be broadly divided into two complementary categories. The first category relies on cryptographic techniques such as Homomorphic Encryption (HE), Multi-Party Computation (MPC), Zero-Knowledge Proofs (ZKP), and related protocols. These techniques provide strong privacy guarantees under well-defined security assumptions, but they often introduce significant performance overhead and may require careful system design to support complex AI workloads such as CNNs, Transformers, LLMs, and RAG pipelines. The second category relies on hardware and system security mechanisms such as Trusted Execution Environments (TEEs), sandboxing, isolation, memory protection, and access control. These techniques can support more general computation with lower overhead, but their security depends on the hardware platform, implementation details, and threat model assumptions.
+&nbsp;&nbsp;Without such a harness, AI agents may become unsafe system components. They may access sensitive data unnecessarily, follow malicious instructions hidden in retrieved documents, call dangerous tools, leak private context, consume excessive resources, or communicate insecurely with other agents. Therefore, securing AI-agent systems requires more than making the underlying model “safer.” We need a practical security architecture that controls the entire agent workflow.
 
 ### Core Research Themes
 
-&nbsp;&nbsp;Our lab studies ***Privacy-Preserving AI (PP-AI) Systems*** that are both ***secure*** and ***practical***. Rather than treating privacy as a purely cryptographic problem, we view PP-AI as a full-system problem that spans algorithms, compilers, runtimes, hardware platforms, and real AI deployment scenarios. We tackle the privacy-utility-efficiency trade-off through the following research directions:
+&nbsp;&nbsp;Our lab explores ***Secure AI Agent Harnesses*** through three closely connected security tracks:
 
-* **Private AI as a Service:** Protecting user queries, documents, prompts, and model outputs in cloud-based AI services using PETs such as HE, MPC, ZKP, and TEEs.
-* **On-Device, Edge, and Hybrid AI:** Designing privacy-preserving mechanisms for AI systems that run across smartphones, IoT devices, edge servers, and cloud backends.
-* **Privacy-Preserving LLM and RAG Systems:** Protecting sensitive user data, retrieved documents, embeddings, prompts, and generation pipelines in LLM-based applications.
-* **Secure Training and Collaborative Learning:** Enabling multiple parties to train, fine-tune, or evaluate shared models without directly exposing their local datasets.
+* **Data Privacy Layer:** Protecting the sensitive data that AI agents observe, retrieve, store, and generate. This includes user prompts, documents, embeddings, memory, logs, database records, and intermediate reasoning artifacts. We study techniques such as **Privacy-Enhancing Technologies (PETs), Homomorphic Encryption, Secure Multi-Party Computation, TEEs, access control, private retrieval, privacy-aware memory, and secure logging** to reduce unnecessary data exposure in AI-agent workflows.
+
+* **System Flow Security Layer:** Controlling how AI agents interact with tools, files, APIs, databases, execution environments, and external services. This layer focuses on techniques such as **Trusted Execution Environments, sandboxing, process isolation, containerization, capability-based access control, tool-use policies, workflow verification, audit logging, and human-in-the-loop approval**. The goal is to ensure that AI agents can only perform authorized actions under controlled conditions.
+
+* **AI-Native Security Layer:** Defending against attacks that are specific to AI-agent systems. Examples include **prompt injection, jailbreak attempts, RAG poisoning, malicious retrieved documents, poisoned memory, tool manipulation, unsafe agent-to-agent communication, and misleading security evidence**. This layer studies how to detect, prevent, and recover from attacks that manipulate the agent’s reasoning process or decision-making context.
+
+&nbsp;&nbsp;Together, these three tracks form an OS-like security architecture for AI agents. The harness should determine what the agent can see, which tools it can call, what data it can modify, how it communicates with other agents, when human approval is required, and how suspicious behavior should be logged, blocked, or escalated.
 
 ---
 
@@ -30,16 +35,11 @@ tags:
 
 To give you an idea of potential topics you may be interested in, our research includes, but is not limited to:
 
-1. **FHE/MPC/TEE-based private inference for CNNs, Transformers, and LLMs**
-2. **Privacy-preserving RAG and private vector search**
-3. **On-device and hybrid AI security**
-4. **Secure and efficient collaborative learning**
-5. **Programming models, compilers, and runtimes for PET-based AI systems**
+1. **OS-like runtime security and policy enforcement for AI agents**
+2. **Privacy-preserving retrieval, memory, logging, and tool use**
+3. **TEE, sandboxing, isolation, and capability control for agent workflows**
+4. **Prompt injection, jailbreaking, RAG poisoning, and malicious-context defense**
+5. **Monitoring, auditing, and human-in-the-loop control of AI-agent behavior**
+6. **Secure agent-to-agent communication and MCP-style tool interactions**
 
-**Student Note:** Many organizations are increasingly interested in Privacy-Enhancing Technologies and privacy-preserving AI, including 
-<a href="https://developers.googleblog.com/ko/expanding-our-fully-homomorphic-encryption-offering/">Google</a>, 
-<a href="https://www.microsoft.com/en-us/research/research-area/security-privacy-cryptography/">Microsoft</a>, 
-<a href="https://www.samsungsds.com/kr/enterprise-asset/homomorphic-encryption-on-financial-data.html">Samsung Electronics</a>, 
-<a href="https://news.nate.com/view/20260305n23286">LG Electronics</a>, 
-<a href="https://cpl.thalesgroup.com/blog/data-security/dora-compliance-privacy-preserving-techniques-generative-ai">Thales</a>, 
-and many others. If you are interested in studying data privacy issues in real AI applications, understanding the limitations of existing PETs, and building practical systems that make privacy-preserving AI usable, this field may be a good fit for you.
+**Student Note:** If you are interested in operating systems, systems security, AI agents, privacy, and real-world security problems, this field may be a good fit for you. You will study how AI agents interact with data, tools, memory, and other systems, and how to design a harness that keeps those interactions safe. In short, this research asks how we can build the “operating system” that future AI agents need before they can be trusted with important tasks.
