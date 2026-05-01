@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>AI Security/Safety | SPICS Lab</title>
+<title>Next-Generation Cryptosystems | SPICS Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="AI Security/Safety">
+<meta name="title" content="Next-Generation Cryptosystems">
 <meta name="description" content="Secure and Private Intelligence Computing Systems">
 
-<meta property="og:title" content="AI Security/Safety">
+<meta property="og:title" content="Next-Generation Cryptosystems">
 <meta property="og:site_title" content="SPICS Lab">
 <meta property="og:description" content="Secure and Private Intelligence Computing Systems">
 <meta property="og:url" content="http://spicslab.kr">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="AI Security/Safety">
+<meta property="twitter:title" content="Next-Generation Cryptosystems">
 <meta property="twitter:description" content="Secure and Private Intelligence Computing Systems">
 <meta property="twitter:url" content="http://spicslab.kr">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "AI Security/Safety",
+    "name": "Next-Generation Cryptosystems",
     "description": "Secure and Private Intelligence Computing Systems",
-    "headline": "AI Security/Safety",
+    "headline": "Next-Generation Cryptosystems",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -403,15 +403,15 @@
   
   
 
-  <section class="background" data-size="1" style="--image: url('/images/research/ai_safety.png')">
+  <section class="background" data-size="1" style="--image: url('/images/research/cryptosystems.png')">
     <!--
-  <background>images/research/ai_safety.png</background>
+  <background>images/research/cryptosystems.png</background>
   <dark></dark>
   <size>1</size>
 -->
 
 
-<h1 class="center">AI Security/Safety</h1>
+<h1 class="center">Next-Generation Cryptosystems</h1>
 
 <!--
 <div class="post-info">
@@ -432,12 +432,24 @@
 
   <div class="tags">
     
-      <a href="/blog?search=%22tag:%20ai%22" class="tag" data-tooltip='Show items with the tag "ai"'>
-        ai
+      <a href="/blog?search=%22tag:%20cryptography%22" class="tag" data-tooltip='Show items with the tag "cryptography"'>
+        cryptography
       </a>
     
-      <a href="/blog?search=%22tag:%20analysis%22" class="tag" data-tooltip='Show items with the tag "analysis"'>
-        analysis
+      <a href="/blog?search=%22tag:%20pets%22" class="tag" data-tooltip='Show items with the tag "pets"'>
+        pets
+      </a>
+    
+      <a href="/blog?search=%22tag:%20pqc%22" class="tag" data-tooltip='Show items with the tag "pqc"'>
+        pqc
+      </a>
+    
+      <a href="/blog?search=%22tag:%20mpc%22" class="tag" data-tooltip='Show items with the tag "mpc"'>
+        mpc
+      </a>
+    
+      <a href="/blog?search=%22tag:%20systems%22" class="tag" data-tooltip='Show items with the tag "systems"'>
+        systems
       </a>
     
   </div>
@@ -455,35 +467,55 @@
 -->
 
 
-<p><img src="/spicslab.github.io/images/research/ai_safety.png" alt="High-Level Architecture of PP-AI System"></p>
+<p><img src="/spicslab.github.io/images/research/cryptosystems.png" alt="High-Level Architecture of Next-Generation Cryptosystems"></p>
 
-<p>  While recent advances in AI have transformed language models from passive assistants into systems that can plan, retrieve information, call tools, and act on behalf of users, their limitations have also emerged on the surface. Fundamentally, modern AI systems no longer merely generate text; they increasingly interact with external data sources, APIs, files, memory, and even other agents. This expanded capability creates a much broader attack surface than conventional software, spanning prompts, retrieved context, tool interfaces, model behavior, and agent-to-agent communication.</p>
+<p>  Cryptography has traditionally been used to protect <strong>data at rest</strong> and <strong>data in transit</strong>. For example, symmetric-key encryption such as AES protects stored files and databases, while public-key cryptography such as RSA has played a central role in secure communication, authentication, and key exchange. These cryptosystems remain essential, but modern computing systems now face a broader challenge: sensitive data is not only stored or transmitted — it is continuously processed, analyzed, shared, and used by cloud services, AI models, and distributed applications.</p>
 
-<p>Not only single-chatbot deployments, but most modern AI systems suffer from the same problem – copilots, RAG pipelines, coding assistants, tool-using agents, and multi-agent systems all rely on probabilistic reasoning over potentially untrusted inputs. As a result, attacks such as jailbreaking, direct and indirect prompt injection, sensitive information disclosure, data/model poisoning, tool misuse, and excessive agency can cause the system to violate policy, leak confidential data, or perform unintended actions. Once external tools or MCP-based integrations are attached, a seemingly small prompt-level failure can escalate into a system-level security incident.</p>
+<p>  This creates the need to protect <strong>data in use</strong>. Privacy regulations and compliance requirements such as GDPR, HIPAA, and other data protection frameworks have increased the importance of minimizing unnecessary data exposure throughout the entire computing lifecycle. At the same time, AI-driven services often require access to sensitive user queries, medical records, financial data, enterprise documents, or personal context. If useful computation always requires plaintext access, then privacy and utility remain in conflict. Next-generation cryptosystems aim to resolve this tension by enabling computation, collaboration, verification, and learning while reducing exposure of sensitive information.</p>
 
-<p>To make AI systems trustworthy in practice, we must move beyond ad-hoc prompting and one-off filtering, and instead focus on engineering. This requires a deep, cross-stack approach – from prompt and policy design to runtime enforcement, access control, sandboxing, monitoring, evaluation, and secure system integration. By optimizing how models interact with tools, memory, policies, and infrastructure, we can reduce failure modes and bridge the gap between impressive demos and dependable deployment. Our lab focuses on making AI systems safe, secure, and deployable through three main lenses:</p>
+<p>  Another major shift comes from quantum computing. Large-scale quantum computers may eventually break widely deployed public-key cryptosystems based on integer factorization or discrete logarithms. This motivates the study of <strong>Post-Quantum Cryptography (PQC)</strong>, which aims to provide cryptographic mechanisms that remain secure even against quantum-capable adversaries. In other words, next-generation cryptography is needed not only for privacy-preserving computation today, but also for long-term security in the post-quantum era.</p>
+
+<p>  Our lab studies <strong><em>Next-Generation Cryptosystems</em></strong> that can serve as practical foundations for secure and private computing. We are interested not only in cryptographic primitives, but also in how they can be designed, optimized, implemented, and integrated into real systems. This includes Fully Homomorphic Encryption (FHE), Multi-Party Computation (MPC), Post-Quantum Cryptography (PQC), Zero-Knowledge Proofs (ZKP), and emerging privacy frameworks such as PAC privacy.</p>
+
+<p>  Fully Homomorphic Encryption allows computation directly over encrypted data, making it a powerful tool for protecting data in use. MPC enables multiple parties to compute jointly without revealing their private inputs. ZKP allows one party to prove that a statement or computation is correct without revealing the underlying secret information. PAC privacy explores privacy guarantees from a learning-theoretic perspective: instead of asking only whether individual records are hidden, it considers what an adversary can reliably infer from released data or model behavior. This perspective is increasingly relevant for AI systems, where privacy leakage may occur through predictions, embeddings, prompts, or learned representations rather than through direct data disclosure.</p>
+
+<h3 id="core-research-themes">Core Research Themes</h3>
+
+<p>  Our lab explores <strong><em>Next-Generation Cryptosystems</em></strong> through the following research directions:</p>
+
+<ul>
+  <li>
+<strong>Fully Homomorphic Encryption Systems:</strong> Designing and optimizing FHE-based systems that support practical privacy-preserving computation, including AI inference, secure data analytics, and encrypted database operations.</li>
+  <li>
+<strong>Secure Multi-Party Computation Protocols:</strong> Studying efficient MPC protocols for collaborative computation, private data sharing, federated analytics, and distributed AI workloads.</li>
+  <li>
+<strong>Post-Quantum Cryptography:</strong> Investigating cryptographic mechanisms that remain secure against quantum-capable adversaries and can be deployed in practical computing systems.</li>
+  <li>
+<strong>Zero-Knowledge and Verifiable Computation:</strong> Exploring mechanisms that allow systems to prove correctness, compliance, or authorization without revealing sensitive internal data.</li>
+  <li>
+<strong>PAC Privacy and Emerging Privacy Models:</strong> Studying privacy guarantees that capture what can be learned, inferred, or predicted from data-driven and AI-driven systems.</li>
+  <li>
+<strong>Efficient Cryptographic Implementations:</strong> Optimizing cryptographic workloads across software, hardware, accelerators, and heterogeneous computing platforms.</li>
+</ul>
 
 <hr>
 
-<p>####Key Sub-Topics &amp; Keywords</p>
+<h4 id="key-sub-topics--keywords">Key Sub-Topics &amp; Keywords</h4>
 
-<p>To give you an idea of potential topics you may be interested in (but are not limited to):</p>
+<p>To give you an idea of potential topics you may be interested in, our research includes, but is not limited to:</p>
 
 <ol>
-  <li>
-    <p>Jailbreaking / Prompt Injection / Guardrail Robustness</p>
-  </li>
-  <li>
-    <p>RAG Poisoning / Vector &amp; Memory Security</p>
-  </li>
-  <li>
-    <p>Multi-Agent Integrity / MCP Security</p>
-  </li>
+  <li><strong>Fully Homomorphic Encryption for AI and secure computation</strong></li>
+  <li><strong>MPC protocols for collaborative and distributed computing</strong></li>
+  <li><strong>Post-quantum cryptographic systems and deployment</strong></li>
+  <li><strong>Zero-knowledge proofs and verifiable computation</strong></li>
+  <li><strong>PAC privacy and learning-theoretic privacy guarantees</strong></li>
+  <li><strong>Hardware-aware and system-level optimization of cryptographic workloads</strong></li>
+  <li><strong>Cryptographic compilers, runtimes, and programming models</strong></li>
+  <li><strong>Integration of FHE, MPC, ZKP, PQC, and TEE-based systems</strong></li>
 </ol>
 
-<p><strong>Student Note:</strong> AI security is a field that seems to be a bit off ‘engineering’ but they are highly in trend as much as we use LLM services more and more in our daily lives. We cannot guarantee its trend to be lengthy, but we cannot overlook the importance of these topics.</p>
-
-<p><strong style="color:#37C435">Our lab is part of a Joint Task Force that specializes in secure end-to-end AI as a Service, collaborating with multiple university labs and companies. The AI Safety track involves RAG poisoning, guardrails, authenticating interactions between AI agents, etc. If interested, please contact the PI.</strong></p>
+<p><strong>Student Note:</strong> If you are interested in systems, security, and performance optimization, this field may be a good fit for you. You will study how modern cryptographic techniques can protect sensitive data not only when it is stored or transmitted, but also when it is being used. You will also learn why practical cryptography is not only about mathematics and proving security, but also about making secure systems efficient, deployable, and usable in real-world AI, cloud, and distributed computing environments.</p>
   </section>
 
   
@@ -501,17 +533,12 @@
 <div class="post-nav">
   <span>
     
-      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
-      <a href="/0000/01/27/ai-for-security.html">
-        AI for Security
-      </a>
-    
   </span>
   <span>
     
       Next post <i class="icon fa-solid fa-angle-right"></i><br>
       <a href="/0000/01/29/example-post-3.html">
-        Confidential Computing
+        Next-Generation Cryptosystems
       </a>
     
   </span>
