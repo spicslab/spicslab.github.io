@@ -1,6 +1,6 @@
 ---
 title: Next-Generation Cryptosystems
-image: images/research/cryptosystems.png
+image: images/research/icon_crypto.png
 tags:
   - Cryptography
   - PETs

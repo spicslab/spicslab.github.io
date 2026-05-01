@@ -1,6 +1,6 @@
 ---
 title: Secure AI Agent Harness
-image: images/research/ai_harness.png
+image: images/research/icon_harness.png
 tags:
   - AI Agents
   - Systems Security

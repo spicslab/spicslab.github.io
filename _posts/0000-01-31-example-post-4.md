@@ -1,6 +1,6 @@
 ---
 title: Privacy-Preserving AI Systems (PPAI)
-image: images/research/ppai.png
+image: images/research/icon_ppai.png
 tags:
   - PETs
   - AI

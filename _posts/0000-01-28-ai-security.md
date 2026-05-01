@@ -1,6 +1,6 @@
 ---
 title: AI for Security
-image: images/research/ai_security.png
+image: images/research/icon_aisecurity.png
 tags:
   - AI
   - Security Analysis
