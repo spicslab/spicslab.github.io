@@ -1,39 +1,45 @@
 ---
-title: Privacy-Preserving Programming/Coding
-image: images/research/unified_pets.png
+title: Privacy-Preserving AI Systems (PPAI)
+image: images/research/ppai.png
 tags:
   - PETs
-  - System
-  - Optimization
+  - AI
+  - Systems
 ---
 
-![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/unified_pets.png)
+![High-Level Architecture of PP-AI System](/spicslab.github.io/images/research/ppai.png)
 
-&nbsp;&nbsp;A major barrier to the adoption of privacy-preserving computing is usability. Currently, implementing systems that utilize PETs requires deep domain expertise in ***cryptography*** OR ***HW/SW security***. Representative PETs are :
+&nbsp;&nbsp;AI is now embedded in many parts of modern computing: conversational assistants, search engines, robots, autonomous vehicles, mobile applications, enterprise analytics, and many other intelligent services. As AI becomes more powerful and more widely deployed, a fundamental question becomes increasingly important: **Can we use AI without exposing sensitive data or proprietary models?**
 
-**Cryptographic**
-* Fully Homomorphic Encryption
-* Multi-Party Computation
-* Zero-Knowledge Proofs
-* and other lightweight cryptographic hacks
+&nbsp;&nbsp;Many AI services require ***mutual privacy***. Users want to keep their prompts, queries, documents, sensor data, and personal information private. At the same time, service providers often need to protect their models, system prompts, retrieval databases, and inference pipelines as valuable intellectual property. This tension appears not only in cloud-based AI services, but also in on-device AI, edge AI, hybrid AI pipelines, private RAG systems, and collaborative learning scenarios.
 
-**HW/SW Level**
-* Process Isolation
-* Trusted Execution Environments (highly related with side-channel attacks)
-* System Privileges
+&nbsp;&nbsp;To address these challenges, researchers use Privacy-Enhancing Technologies (PETs), which form one of the core foundations of our lab's research. PETs can be broadly divided into two complementary categories. The first category relies on cryptographic techniques such as Homomorphic Encryption (HE), Multi-Party Computation (MPC), Zero-Knowledge Proofs (ZKP), and related protocols. These techniques provide strong privacy guarantees under well-defined security assumptions, but they often introduce significant performance overhead and may require careful system design to support complex AI workloads such as CNNs, Transformers, LLMs, and RAG pipelines. The second category relies on hardware and system security mechanisms such as Trusted Execution Environments (TEEs), sandboxing, isolation, memory protection, and access control. These techniques can support more general computation with lower overhead, but their security depends on the hardware platform, implementation details, and threat model assumptions.
 
-There are also other domain specific PETs such as ***Differential Privacy*** and ***Federated Learning***.
+### Core Research Themes
 
-&nbsp;&nbsp;As you can see, there are a lot of different PETs available, but they are far from being adopted for common use. Our ultimate vision is a unified platform that abstracts away this complexity. We aim to build intelligent tools that allow developers to write "normal" unencrypted code, which the system automatically translates into secure, privacy-preserving executions. By integrating various PETs seamlessly, we can choose the right tool for the right job—balancing security, privacy, and speed autonomously.
+&nbsp;&nbsp;Our lab studies ***Privacy-Preserving AI (PP-AI) Systems*** that are both ***secure*** and ***practical***. Rather than treating privacy as a purely cryptographic problem, we view PP-AI as a full-system problem that spans algorithms, compilers, runtimes, hardware platforms, and real AI deployment scenarios. We tackle the privacy-utility-efficiency trade-off through the following research directions:
+
+* **Private AI as a Service:** Protecting user queries, documents, prompts, and model outputs in cloud-based AI services using PETs such as HE, MPC, ZKP, and TEEs.
+* **On-Device, Edge, and Hybrid AI:** Designing privacy-preserving mechanisms for AI systems that run across smartphones, IoT devices, edge servers, and cloud backends.
+* **Privacy-Preserving LLM and RAG Systems:** Protecting sensitive user data, retrieved documents, embeddings, prompts, and generation pipelines in LLM-based applications.
+* **Secure Training and Collaborative Learning:** Enabling multiple parties to train, fine-tune, or evaluate shared models without directly exposing their local datasets.
 
 ---
 
 #### Key Sub-Topics & Keywords
-To give you an idea of potential topics you may be interested in (but not bounded to):
-1.  **Integrating multiple PETs (e.g., FHE+MPC+TEE)**
-2.  **Mitigating Side-Channel Attacks on TEEs**
-3.  **Real-Time Privacy Monitoring Techniques**
-4.  **Attacks and Defenses in Federated Learning Applications**
 
-**Student Note:** A lot of organizations are highly interested (some are actively hiring) Privacy Enhancing Techniques researchers -- <a href="https://developers.googleblog.com/ko/expanding-our-fully-homomorphic-encryption-offering/">Google</a>, <a href="https://www.microsoft.com/en-us/research/research-area/security-privacy-cryptography/">Microsoft</a>, <a href="https://www.samsungsds.com/kr/enterprise-asset/homomorphic-encryption-on-financial-data.html">Samsung Electronics</a>, <a href="https://news.nate.com/view/20260305n23286">LG Electronics</a>, <a href="https://cpl.thalesgroup.com/blog/data-security/dora-compliance-privacy-preserving-techniques-generative-ai">Thales</a>, and much more.
-If you are interested in studying about data privacy issues in different AI applications as well as how to overcome the limitations of PETs, this field is for you.
+To give you an idea of potential topics you may be interested in, our research includes, but is not limited to:
+
+1. **FHE/MPC/TEE-based private inference for CNNs, Transformers, and LLMs**
+2. **Privacy-preserving RAG and private vector search**
+3. **On-device and hybrid AI security**
+4. **Secure and efficient collaborative learning**
+5. **Programming models, compilers, and runtimes for PET-based AI systems**
+
+**Student Note:** Many organizations are increasingly interested in Privacy-Enhancing Technologies and privacy-preserving AI, including 
+<a href="https://developers.googleblog.com/ko/expanding-our-fully-homomorphic-encryption-offering/">Google</a>, 
+<a href="https://www.microsoft.com/en-us/research/research-area/security-privacy-cryptography/">Microsoft</a>, 
+<a href="https://www.samsungsds.com/kr/enterprise-asset/homomorphic-encryption-on-financial-data.html">Samsung Electronics</a>, 
+<a href="https://news.nate.com/view/20260305n23286">LG Electronics</a>, 
+<a href="https://cpl.thalesgroup.com/blog/data-security/dora-compliance-privacy-preserving-techniques-generative-ai">Thales</a>, 
+and many others. If you are interested in studying data privacy issues in real AI applications, understanding the limitations of existing PETs, and building practical systems that make privacy-preserving AI usable, this field may be a good fit for you.
