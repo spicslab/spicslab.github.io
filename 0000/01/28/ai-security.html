@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Next-Generation Cryptosystems | SPICS Lab</title>
+<title>AI for Security | SPICS Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Next-Generation Cryptosystems">
+<meta name="title" content="AI for Security">
 <meta name="description" content="Secure and Private Intelligence Computing Systems">
 
-<meta property="og:title" content="Next-Generation Cryptosystems">
+<meta property="og:title" content="AI for Security">
 <meta property="og:site_title" content="SPICS Lab">
 <meta property="og:description" content="Secure and Private Intelligence Computing Systems">
 <meta property="og:url" content="http://spicslab.kr">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Next-Generation Cryptosystems">
+<meta property="twitter:title" content="AI for Security">
 <meta property="twitter:description" content="Secure and Private Intelligence Computing Systems">
 <meta property="twitter:url" content="http://spicslab.kr">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "Next-Generation Cryptosystems",
+    "name": "AI for Security",
     "description": "Secure and Private Intelligence Computing Systems",
-    "headline": "Next-Generation Cryptosystems",
+    "headline": "AI for Security",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -403,15 +403,15 @@
   
   
 
-  <section class="background" data-size="1" style="--image: url('/images/research/cryptosystems.png')">
+  <section class="background" data-size="1" style="--image: url('/images/research/ai_security.png')">
     <!--
-  <background>images/research/cryptosystems.png</background>
+  <background>images/research/ai_security.png</background>
   <dark></dark>
   <size>1</size>
 -->
 
 
-<h1 class="center">Next-Generation Cryptosystems</h1>
+<h1 class="center">AI for Security</h1>
 
 <!--
 <div class="post-info">
@@ -432,24 +432,24 @@
 
   <div class="tags">
     
-      <a href="/blog?search=%22tag:%20cryptography%22" class="tag" data-tooltip='Show items with the tag "cryptography"'>
-        cryptography
+      <a href="/blog?search=%22tag:%20ai%22" class="tag" data-tooltip='Show items with the tag "ai"'>
+        ai
       </a>
     
-      <a href="/blog?search=%22tag:%20pets%22" class="tag" data-tooltip='Show items with the tag "pets"'>
-        pets
+      <a href="/blog?search=%22tag:%20security-analysis%22" class="tag" data-tooltip='Show items with the tag "security-analysis"'>
+        security-analysis
       </a>
     
-      <a href="/blog?search=%22tag:%20pqc%22" class="tag" data-tooltip='Show items with the tag "pqc"'>
-        pqc
+      <a href="/blog?search=%22tag:%20ai-agents%22" class="tag" data-tooltip='Show items with the tag "ai-agents"'>
+        ai-agents
       </a>
     
-      <a href="/blog?search=%22tag:%20mpc%22" class="tag" data-tooltip='Show items with the tag "mpc"'>
-        mpc
+      <a href="/blog?search=%22tag:%20misbehavior-detection%22" class="tag" data-tooltip='Show items with the tag "misbehavior-detection"'>
+        misbehavior-detection
       </a>
     
-      <a href="/blog?search=%22tag:%20systems%22" class="tag" data-tooltip='Show items with the tag "systems"'>
-        systems
+      <a href="/blog?search=%22tag:%20vulnerability-analysis%22" class="tag" data-tooltip='Show items with the tag "vulnerability-analysis"'>
+        vulnerability-analysis
       </a>
     
   </div>
@@ -467,35 +467,31 @@
 -->
 
 
-<p><img src="/spicslab.github.io/images/research/cryptosystems.png" alt="High-Level Architecture of Next-Generation Cryptosystems"></p>
+<p><img src="/spicslab.github.io/images/research/ai_security.png" alt="AI-assisted Security Analysis"></p>
 
-<p>  Cryptography has traditionally been used to protect <strong>data at rest</strong> and <strong>data in transit</strong>. For example, symmetric-key encryption such as AES protects stored files and databases, while public-key cryptography such as RSA has played a central role in secure communication, authentication, and key exchange. These cryptosystems remain essential, but modern computing systems now face a broader challenge: sensitive data is not only stored or transmitted — it is continuously processed, analyzed, shared, and used by cloud services, AI models, and distributed applications.</p>
+<p>  AI is changing the way security problems are discovered, analyzed, and monitored. Modern AI systems can help security analysts reason about source code, binaries, patches, logs, vulnerability reports, execution traces, and proof-of-concept exploits. Recent frontier cybersecurity efforts, such as Anthropic’s <a href="https://www.anthropic.com/glasswing">Claude Mythos Preview and Project Glasswing</a> and its related <a href="https://red.anthropic.com/2026/mythos-preview/">technical blog post</a>, suggest that AI is becoming an active participant in vulnerability discovery and security analysis, not merely a tool for summarizing documents. Related industry discussions, such as <a href="https://www.forrester.com/blogs/project-glasswing-the-10-consequences-nobodys-writing-about-yet/">Forrester’s analysis of Project Glasswing</a>, also highlight how AI-driven vulnerability discovery may reshape future security workflows.</p>
 
-<p>  This creates the need to protect <strong>data in use</strong>. Privacy regulations and compliance requirements such as GDPR, HIPAA, and other data protection frameworks have increased the importance of minimizing unnecessary data exposure throughout the entire computing lifecycle. At the same time, AI-driven services often require access to sensitive user queries, medical records, financial data, enterprise documents, or personal context. If useful computation always requires plaintext access, then privacy and utility remain in conflict. Next-generation cryptosystems aim to resolve this tension by enabling computation, collaboration, verification, and learning while reducing exposure of sensitive information.</p>
+<p>  This shift creates two closely related research questions. First, can AI help us find security problems in conventional computing systems, such as vulnerable code, suspicious logs, abnormal network behavior, misconfigured services, or unsafe system workflows? Second, as AI becomes part of the system itself, can we detect when AI-driven systems behave incorrectly, inefficiently, or unsafely? Examples include prompt injection, jailbreak attempts, poisoned retrieval results, unsafe tool calls, abnormal token usage, unintended data access, and suspicious agent-to-agent communication.</p>
 
-<p>  Another major shift comes from quantum computing. Large-scale quantum computers may eventually break widely deployed public-key cryptosystems based on integer factorization or discrete logarithms. This motivates the study of <strong>Post-Quantum Cryptography (PQC)</strong>, which aims to provide cryptographic mechanisms that remain secure even against quantum-capable adversaries. In other words, next-generation cryptography is needed not only for privacy-preserving computation today, but also for long-term security in the post-quantum era.</p>
-
-<p>  Our lab studies <strong><em>Next-Generation Cryptosystems</em></strong> that can serve as practical foundations for secure and private computing. We are interested not only in cryptographic primitives, but also in how they can be designed, optimized, implemented, and integrated into real systems. This includes Fully Homomorphic Encryption (FHE), Multi-Party Computation (MPC), Post-Quantum Cryptography (PQC), Zero-Knowledge Proofs (ZKP), and emerging privacy frameworks such as PAC privacy.</p>
-
-<p>  Fully Homomorphic Encryption allows computation directly over encrypted data, making it a powerful tool for protecting data in use. MPC enables multiple parties to compute jointly without revealing their private inputs. ZKP allows one party to prove that a statement or computation is correct without revealing the underlying secret information. PAC privacy explores privacy guarantees from a learning-theoretic perspective: instead of asking only whether individual records are hidden, it considers what an adversary can reliably infer from released data or model behavior. This perspective is increasingly relevant for AI systems, where privacy leakage may occur through predictions, embeddings, prompts, or learned representations rather than through direct data disclosure.</p>
+<p>  Our lab studies <strong><em>AI for Security</em></strong> as a way to diagnose security problems in both conventional computing systems and AI-driven systems. Rather than focusing only on traditional machine-learning-based detection, we are interested in AI systems that can reason across heterogeneous security evidence, interact with tools, monitor AI-agent workflows, and support human analysts in high-stakes security tasks. In short, we study how AI can help find when systems go wrong — and when AI itself starts going wrong.</p>
 
 <h3 id="core-research-themes">Core Research Themes</h3>
 
-<p>  Our lab explores <strong><em>Next-Generation Cryptosystems</em></strong> through the following research directions:</p>
+<p>  Our lab explores <strong><em>AI for Security</em></strong> through the following research directions:</p>
 
 <ul>
   <li>
-<strong>Fully Homomorphic Encryption Systems:</strong> Designing and optimizing FHE-based systems that support practical privacy-preserving computation, including AI inference, secure data analytics, and encrypted database operations.</li>
+<strong>AI-Assisted Vulnerability Analysis:</strong> Using LLMs and AI agents to analyze code, patches, bug reports, vulnerability descriptions, execution traces, and proof-of-concept exploits.</li>
   <li>
-<strong>Secure Multi-Party Computation Protocols:</strong> Studying efficient MPC protocols for collaborative computation, private data sharing, federated analytics, and distributed AI workloads.</li>
+<strong>Security Diagnosis for AI-Driven Systems:</strong> Detecting abnormal behavior in AI applications, including unsafe tool use, unexpected data access, excessive token usage, and suspicious workflow patterns.</li>
   <li>
-<strong>Post-Quantum Cryptography:</strong> Investigating cryptographic mechanisms that remain secure against quantum-capable adversaries and can be deployed in practical computing systems.</li>
+<strong>Prompt Injection and Jailbreak Detection:</strong> Studying how AI systems can identify malicious prompts, poisoned contexts, misleading retrieved documents, and attempts to manipulate AI-agent behavior.</li>
   <li>
-<strong>Zero-Knowledge and Verifiable Computation:</strong> Exploring mechanisms that allow systems to prove correctness, compliance, or authorization without revealing sensitive internal data.</li>
+<strong>AI-Agent Workflow Monitoring:</strong> Analyzing logs, tool calls, memory access, retrieval results, MCP-style tool interactions, and agent-to-agent communication to detect security-relevant anomalies.</li>
   <li>
-<strong>PAC Privacy and Emerging Privacy Models:</strong> Studying privacy guarantees that capture what can be learned, inferred, or predicted from data-driven and AI-driven systems.</li>
+<strong>AI Red Teaming and Blue Teaming:</strong> Studying how AI can support both offensive security analysis and defensive response in authorized and responsible settings.</li>
   <li>
-<strong>Efficient Cryptographic Implementations:</strong> Optimizing cryptographic workloads across software, hardware, accelerators, and heterogeneous computing platforms.</li>
+<strong>Reliability of AI-Based Security Analysis:</strong> Evaluating when AI security tools succeed, when they fail, and how misleading or incomplete evidence affects their conclusions.</li>
 </ul>
 
 <hr>
@@ -505,17 +501,16 @@
 <p>To give you an idea of potential topics you may be interested in, our research includes, but is not limited to:</p>
 
 <ol>
-  <li><strong>Fully Homomorphic Encryption for AI and secure computation</strong></li>
-  <li><strong>MPC protocols for collaborative and distributed computing</strong></li>
-  <li><strong>Post-quantum cryptographic systems and deployment</strong></li>
-  <li><strong>Zero-knowledge proofs and verifiable computation</strong></li>
-  <li><strong>PAC privacy and learning-theoretic privacy guarantees</strong></li>
-  <li><strong>Hardware-aware and system-level optimization of cryptographic workloads</strong></li>
-  <li><strong>Cryptographic compilers, runtimes, and programming models</strong></li>
-  <li><strong>Integration of FHE, MPC, ZKP, PQC, and TEE-based systems</strong></li>
+  <li><strong>LLM-assisted vulnerability discovery and triage</strong></li>
+  <li><strong>AI-based detection of prompt injection and jailbreak attempts</strong></li>
+  <li><strong>Monitoring AI-agent tool use, memory access, and workflow behavior</strong></li>
+  <li><strong>Detection of abnormal token usage and suspicious AI-system behavior</strong></li>
+  <li><strong>Security analysis under poisoned or misleading knowledge</strong></li>
+  <li><strong>AI-assisted incident analysis and security report generation</strong></li>
+  <li><strong>Red-team and blue-team evaluation of AI security agents</strong></li>
 </ol>
 
-<p><strong>Student Note:</strong> If you are interested in systems, security, and performance optimization, this field may be a good fit for you. You will study how modern cryptographic techniques can protect sensitive data not only when it is stored or transmitted, but also when it is being used. You will also learn why practical cryptography is not only about mathematics and proving security, but also about making secure systems efficient, deployable, and usable in real-world AI, cloud, and distributed computing environments.</p>
+<p><strong>Student Note:</strong> If you are interested in both AI and cybersecurity, this field may be a good fit for you. You will study how modern AI can help find vulnerabilities, analyze complex security evidence, and support security analysts. At the same time, you will learn how to detect when AI-driven systems themselves behave abnormally, insecurely, or inefficiently — and why such systems must be carefully evaluated, monitored, and controlled before they can be trusted in real-world security workflows.</p>
   </section>
 
   
