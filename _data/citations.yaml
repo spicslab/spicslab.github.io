@@ -3,7 +3,7 @@
 - id: doi:10.1145/3779212.3790170
   title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
   authors:
-  - '**Kevin Nam**'
+  - Kevin Nam
   - Youyeon Joo
   - Seungjin Ha
   - Hyungon Moon
@@ -11,7 +11,6 @@
   publisher: Proceedings of the 31st ACM International Conference on Architectural
     Support for Programming Languages and Operating Systems, Volume 2
   date: '2026-03-22'
-  image: images/papers/hepic.png
   link: https://doi.org/hbsghf
   orcid: 0000-0002-4621-2434
   plugin: sources.py
