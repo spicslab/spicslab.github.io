@@ -13,11 +13,8 @@ You can also refer to google scholar etc.
 
 ## Summary
 
-* 2 papers in ASPLOS
-* 2 papers in USENIX Security
-* 1 paper in ICCAD
-* 6 papers in BK21 CS 우수학술대회
-* 5 papers in 정보과학회 CS 우수학술대회
+<span>&#8224;</span> refers to co-correspondance
+<span>&#8225;</span> refers to equal contribution
 
 {% include section.html %}
 
