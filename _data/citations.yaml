@@ -1,148 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1145/3779212.3790170
-  title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
-  authors:
-  - Kevin Nam
-  - Youyeon Joo
-  - Seungjin Ha
-  - Hyungon Moon
-  - Yunheung Paek
-  publisher: Proceedings of the 31st ACM International Conference on Architectural
-    Support for Programming Languages and Operating Systems, Volume 2
-  date: '2026-03-22'
-  link: https://doi.org/hbsghf
-  orcid: 0000-0002-4621-2434
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1109/ACCESS.2026.3701023
-  title: "PCPSI: Efficient Unbalanced Private Set Intersection Using Homomorphic Encryption\
-    \ With Plaintext\u2013Ciphertext Multiplication"
-  authors:
-  - Dongju Lee
-  - Sungyeon Lee
-  - Youyeon Joo
-  - Kevin Nam
-  - Yunheung Paek
-  publisher: IEEE Access
-  date: '2026-01-01'
-  link: https://doi.org/hb8m6m
-  orcid: 0000-0002-4621-2434
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1145/3676641.3716246
-  title: Affinity-based Optimizations for TFHE on Processing-in-DRAM
-  authors:
-  - '**Kevin Nam**'
-  - Heonhui Jung
-  - Hyunyoung Oh
-  - Yunheung Paek
-  publisher: The 30th ACM International Conference on Architectural Support for Programming
-    Languages and Operating Systems (ASPLOS`25), 2025
-  date: '2025-04-01'
-  link: https://dl.acm.org/doi/10.1145/3676641.3716246
-  orcid: 0000-0002-4621-2434
-  plugin: sources.py
-  file: sources.yaml
-  image: images/papers/theim.png
-  tags:
-  - systems
-  - Homomorphic Encryption
-- id: doi:10.1109/ACCESS.2024.3387489
-  title: An Efficient Hardware/Software Co-design for FALCON on Low-End Embedded Systems
-  authors:
-  - Yongseok Lee
-  - Jonghee Youn
-  - '**Kevin Nam**'
-  - Heonhui Jung
-  - Myunghyun Cho
-  - Jinmyung Na
-  - Jong-Yeon Park
-  - Seungsu Jeon
-  - Bogyeong Kang
-  - Hyunyoung Oh
-  - Yunheung Paek
-  publisher: IEEE Access
-  date: '2024-10-01'
-  link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10496572
-  orcid: 0000-0002-4621-2434
-  plugin: sources.py
-  file: sources.yaml
-  image: images/papers/falcon.png
-  tags:
-  - hardware
-  - Post-Quantum Cryptography
-- id: doi:10.1007/978-3-031-37111-0_14
-  title: Area-Efficient Accelerator for the Full NTRU-KEM Algorithm
-  authors:
-  - Yongseok Lee
-  - '**Kevin Nam**'
-  - Youyeon Joo
-  - Jihwan Kim
-  - Hyunyoung Oh
-  - Yunheung Paek
-  publisher: The International Conference on Computational Science and Its Applications,
-    2023
-  date: '2023-04-01'
-  link: https://scholarworks.bwise.kr/gachon/bitstream/2020.sw.gachon/92307/1/_ICCSA2023__NTRU.pdf
-  orcid: 0000-0002-4621-2434
-  plugin: sources.py
-  file: sources.yaml
-  image: images/papers/ntru.png
-  tags:
-  - hardware
-  - Post-Quantum Cryptography
-- id: doi:10.3390/computers12120259
-  title: Optimizing Hardware Resource Utilization for Accelerating the NTRU-KEM Algorithm
-  authors:
-  - Yongseok Lee
-  - Jonghee Youn
-  - Kevin Nam
-  - Hyunyoung Oh
-  - Yunheung Paek
-  publisher: Computers
-  date: '2023-12-13'
-  link: https://doi.org/hbqzcn
-  orcid: 0000-0002-4621-2434
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1145/3508352.3549413
-  title: Accelerating N-bit Operations over TFHE on Commodity CPU-FPGA
-  authors:
-  - '**Kevin Nam**'
-  - Hyunyoung Oh
-  - Hyungon Moon
-  - Yunheung Paek
-  publisher: IEEE/ACM International Conference on Computer-Aided Design (ICCAD`22),
-    2022
-  date: '2022-10-01'
-  link: doi.org/10.1145/3508352.3549413
-  orcid: 0000-0002-4621-2434
-  plugin: sources.py
-  file: sources.yaml
-  image: images/papers/xhec.png
-  tags:
-  - hardware
-  - Homomorphic Encryption
-- id: doi:10.1109/ACCESS.2021.3069223
-  title: 'MeetGo: A trusted execution environment for remote applications on FPGA'
-  authors:
-  - Hyungyoung Oh
-  - '**Kevin Nam**'
-  - Seongil Jeon
-  - Yeongpil Cho
-  - Yunheung Paek
-  publisher: IEEE Access
-  date: '2021-10-01'
-  link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9388667
-  orcid: 0000-0002-4621-2434
-  plugin: sources.py
-  file: sources.yaml
-  image: images/papers/meetgo.png
-  tags:
-  - security
-  - hardware
-  - Trusted Execution Environment
 - title: 'LOHEN: Layer-wise Optimizations for Neural Network Inferences over Encrypted
     Data with High Performance or Accuracy'
   authors:
@@ -195,6 +52,20 @@
   - Homomorphic Encryption
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.1145/3779212.3790170
+  title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
+  authors:
+  - Kevin Nam
+  - Youyeon Joo
+  - Seungjin Ha
+  - Hyungon Moon
+  - Yunheung Paek
+  publisher: Proceedings of the 31st ACM International Conference on Architectural
+    Support for Programming Languages and Operating Systems, Volume 2
+  date: '2026-03-22'
+  link: https://doi.org/hbsghf
+  plugin: sources.py
+  file: sources.yaml
 - title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
   authors:
   - '**Kevin Nam**'
@@ -210,5 +81,99 @@
   tags:
   - systems
   - Homomorphic Encryption
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3676641.3716246
+  title: Affinity-based Optimizations for TFHE on Processing-in-DRAM
+  authors:
+  - '**Kevin Nam**'
+  - Heonhui Jung
+  - Hyunyoung Oh
+  - Yunheung Paek
+  publisher: The 30th ACM International Conference on Architectural Support for Programming
+    Languages and Operating Systems (ASPLOS`25), 2025
+  date: '2025-04-01'
+  link: https://dl.acm.org/doi/10.1145/3676641.3716246
+  image: images/papers/theim.png
+  tags:
+  - systems
+  - Homomorphic Encryption
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/978-3-031-37111-0_14
+  title: Area-Efficient Accelerator for the Full NTRU-KEM Algorithm
+  authors:
+  - Yongseok Lee
+  - '**Kevin Nam**'
+  - Youyeon Joo
+  - Jihwan Kim
+  - Hyunyoung Oh
+  - Yunheung Paek
+  publisher: The International Conference on Computational Science and Its Applications,
+    2023
+  date: '2023-04-01'
+  link: https://scholarworks.bwise.kr/gachon/bitstream/2020.sw.gachon/92307/1/_ICCSA2023__NTRU.pdf
+  image: images/papers/ntru.png
+  tags:
+  - hardware
+  - Post-Quantum Cryptography
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3508352.3549413
+  title: Accelerating N-bit Operations over TFHE on Commodity CPU-FPGA
+  authors:
+  - '**Kevin Nam**'
+  - Hyunyoung Oh
+  - Hyungon Moon
+  - Yunheung Paek
+  publisher: IEEE/ACM International Conference on Computer-Aided Design (ICCAD`22),
+    2022
+  date: '2022-10-01'
+  link: doi.org/10.1145/3508352.3549413
+  image: images/papers/xhec.png
+  tags:
+  - hardware
+  - Homomorphic Encryption
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ACCESS.2024.3387489
+  title: An Efficient Hardware/Software Co-design for FALCON on Low-End Embedded Systems
+  authors:
+  - Yongseok Lee
+  - Jonghee Youn
+  - '**Kevin Nam**'
+  - Heonhui Jung
+  - Myunghyun Cho
+  - Jinmyung Na
+  - Jong-Yeon Park
+  - Seungsu Jeon
+  - Bogyeong Kang
+  - Hyunyoung Oh
+  - Yunheung Paek
+  publisher: IEEE Access
+  date: '2024-10-01'
+  link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10496572
+  image: images/papers/falcon.png
+  tags:
+  - hardware
+  - Post-Quantum Cryptography
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ACCESS.2021.3069223
+  title: 'MeetGo: A trusted execution environment for remote applications on FPGA'
+  authors:
+  - Hyungyoung Oh
+  - '**Kevin Nam**'
+  - Seongil Jeon
+  - Yeongpil Cho
+  - Yunheung Paek
+  publisher: IEEE Access
+  date: '2021-10-01'
+  link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9388667
+  image: images/papers/meetgo.png
+  tags:
+  - security
+  - hardware
+  - Trusted Execution Environment
   plugin: sources.py
   file: sources.yaml
