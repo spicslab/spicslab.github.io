@@ -10,7 +10,7 @@
   - Hyunyoung Oh
   - Hyungon Moon<span>&#8224;</span>
   - Yunheung Paek<span>&#8224;</span>
-  publisher: USENIX Security Symposium 2025 '**(Usenix Security`25)**'  <em style="color:#0000FF">KIISE
+  publisher: USENIX Security Symposium 2025 **(Usenix Security`25)**  <em style="color:#0000FF">KIISE
     S, BK21 IF 3</em>
   date: '2025-08-01'
   image: images/papers/lohen.png
@@ -27,7 +27,7 @@
   - Youyeon Joo
   - Seungjin Ha
   - Yunheung Paek<span>&#8224;</span>
-  publisher: USENIX Security Symposium 2025 '**(Usenix Security`25)**'  <em style="color:#0000FF">KIISE
+  publisher: USENIX Security Symposium 2025 **(Usenix Security`25)**  <em style="color:#0000FF">KIISE
     S, BK21 IF 3</em>
   date: '2025-08-01'
   image: images/papers/slothe.png
@@ -46,12 +46,26 @@
   - Lucas Oros
   - Yunheung Paek<span>&#8224;</span>
   publisher: The 32nd IEEE International Conference on High Performance Computing,
-    Data, and Analytics 2025 '**(HiPC `25)**' <em style="color:#0000FF">BK21 IF 1</em>
+    Data, and Analytics 2025 **(HiPC `25)** <em style="color:#0000FF">BK21 IF 1</em>
   date: '2025-12-01'
   image: images/papers/hipc.png
   tags:
   - Hardware Accelerator
   - Privacy Preserving AI
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/3779212.3790170
+  title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
+  authors:
+  - Kevin Nam
+  - Youyeon Joo
+  - Seungjin Ha
+  - Hyungon Moon
+  - Yunheung Paek
+  publisher: Proceedings of the 31st ACM International Conference on Architectural
+    Support for Programming Languages and Operating Systems, Volume 2
+  date: '2026-03-22'
+  link: https://doi.org/hbsghf
   plugin: sources.py
   file: sources.yaml
 - title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
@@ -62,7 +76,7 @@
   - Hyungon Moon<span>&#8224;</span>
   - Yunheung Paek<span>&#8224;</span>
   publisher: The 31st ACM International Conference on Architectural Support for Programming
-    Languages and Operating Systems 2026 '**(ASPLOS `26)**'  <em style="color:#0000FF">KIISE
+    Languages and Operating Systems 2026 **(ASPLOS `26)**  <em style="color:#0000FF">KIISE
     S, BK21 IF 4</em>
   date: '2026-03-22'
   image: images/papers/hepic.png
@@ -80,7 +94,7 @@
   - Hyunyoung Oh<span>&#8224;</span>
   - Yunheung Paek<span>&#8224;</span>
   publisher: The 30th ACM International Conference on Architectural Support for Programming
-    Languages and Operating Systems 2025 '**(ASPLOS `25)**'  <em style="color:#0000FF">KIISE
+    Languages and Operating Systems 2025 **(ASPLOS `25)**  <em style="color:#0000FF">KIISE
     S, BK21 IF 4</em>
   date: '2025-04-01'
   link: https://dl.acm.org/doi/10.1145/3676641.3716246
@@ -116,7 +130,7 @@
   - Hyunyoung Oh
   - Hyungon Moon<span>&#8224;</span>
   - Yunheung Paek<span>&#8224;</span>
-  publisher: IEEE/ACM International Conference on Computer-Aided Design '**(ICCAD `222)**'  <em
+  publisher: IEEE/ACM International Conference on Computer-Aided Design **(ICCAD `222)**  <em
     style="color:#0000FF">KIISE A, BK21 IF 3</em>
   date: '2022-10-01'
   link: doi.org/10.1145/3508352.3549413
