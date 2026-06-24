@@ -34,9 +34,7 @@ nav:
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-## Honorable Mentions
-
-Those who we are collaborating, 
+## Interns
 
 {% include section.html %}
 
