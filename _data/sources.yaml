@@ -27,7 +27,7 @@
     - Hyunyoung Oh
     - Hyungon Moon<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
-  publisher: USENIX Security Symposium 2025 '**(Usenix Security`25)**'  <em style="color:#0000FF">KIISE S, BK21 IF 3</em>
+  publisher: USENIX Security Symposium 2025 <strong>(Usenix Security`25)</strong>  <em style="color:#0000FF">KIISE S, BK21 IF 3</em>
   date: 2025-08-01
   image: images/papers/lohen.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
@@ -42,7 +42,7 @@
     - Youyeon Joo
     - Seungjin Ha
     - Yunheung Paek<span>&#8224;</span>
-  publisher: USENIX Security Symposium 2025 '**(Usenix Security`25)**'  <em style="color:#0000FF">KIISE S, BK21 IF 3</em>
+  publisher: USENIX Security Symposium 2025 <strong>(Usenix Security`25)</strong>  <em style="color:#0000FF">KIISE S, BK21 IF 3</em>
   date: 2025-08-01
   image: images/papers/slothe.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-slothe
@@ -59,7 +59,7 @@
     - Youyeon Joo
     - Lucas Oros
     - Yunheung Paek<span>&#8224;</span>
-  publisher: The 32nd IEEE International Conference on High Performance Computing, Data, and Analytics 2025 '**(HiPC `25)**' <em style="color:#0000FF">BK21 IF 1</em>
+  publisher: The 32nd IEEE International Conference on High Performance Computing, Data, and Analytics 2025 <strong>(HiPC`25)</strong> <em style="color:#0000FF">BK21 IF 1</em>
   date: 2025-12-01
   image: images/papers/hipc.png
   #link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-slothe
@@ -75,7 +75,7 @@
     - Seungjin Ha
     - Hyungon Moon<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
-  publisher: The 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems 2026 '**(ASPLOS `26)**'  <em style="color:#0000FF">KIISE S, BK21 IF 4</em>
+  publisher: The 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems 2026 <strong>(ASPLOS`26)</strong>  <em style="color:#0000FF">KIISE S, BK21 IF 4</em>
   date: 2026-03-22
   image: images/papers/hepic.png
   link: https://doi.org/hbsghf
@@ -90,7 +90,7 @@
     - Heonhui Jung
     - Hyunyoung Oh<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
-  publisher: The 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems 2025 '**(ASPLOS `25)**'  <em style="color:#0000FF">KIISE S, BK21 IF 4</em>
+  publisher: The 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems 2025 <strong>(ASPLOS`25)</strong>  <em style="color:#0000FF">KIISE S, BK21 IF 4</em>
   date: 2025-04-01
   image: images/papers/theim.png
   link: https://dl.acm.org/doi/10.1145/3676641.3716246
@@ -122,7 +122,7 @@
     - Hyunyoung Oh
     - Hyungon Moon<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
-  publisher: IEEE/ACM International Conference on Computer-Aided Design '**(ICCAD `222)**'  <em style="color:#0000FF">KIISE A, BK21 IF 3</em>
+  publisher: IEEE/ACM International Conference on Computer-Aided Design <strong>(ICCAD`22)</strong>  <em style="color:#0000FF">KIISE A, BK21 IF 3</em>
   date: 2022-10-01
   image: images/papers/xhec.png
   link: doi.org/10.1145/3508352.3549413
