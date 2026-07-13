@@ -32,9 +32,13 @@ nav:
 
 {% include list.html data="members" component="portrait" filter="role == 'ms'" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
-
 ## Interns
+
+{% include section.html %}
+
+{% include list.html data="members" component="portrait" filter="role == 'intern'" %}
+
+{% include section.html background="images/background.jpg" dark=true %}
 
 {% include section.html %}
 
