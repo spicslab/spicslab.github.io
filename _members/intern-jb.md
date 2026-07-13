@@ -1,9 +1,9 @@
 ---
 name: Timothee Meunier
 image: images/characters/apprentice_undergrad_intern.jpg
-role: intern
+role: in
 description: Intern
-affiliation: CentraleSupelec
+affiliation: CentraleSupelec France
 ---
 
 Soon joining MS.

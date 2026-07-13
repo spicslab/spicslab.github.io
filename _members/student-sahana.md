@@ -1,13 +1,13 @@
 ---
 name: Sahana Ashok
-image: images/characters/apprentice_undergrad_intern.jpg
-role: intern
-description: Intern
+image: images/characters/phd_student_researcher.jpg
+role: ms
+description: MS Student
 affiliation: Coming Soon
 ---
 
-Hope to see you in the lab soon.
+Soon Joining the lab. Welcome!!
 
 Research Interests:
-- On-device AI security
 - LLM Privacy
+- On-device AI security

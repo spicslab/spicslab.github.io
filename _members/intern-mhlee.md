@@ -1,9 +1,10 @@
 ---
-name: Sunghyun Park
+name: Minhyung Lee
 image: images/characters/apprentice_undergrad_intern.jpg
-role: intern
+role: in
 description: Intern
-affiliation: Hongik University
+affiliation: Kyung Hee University
 ---
 
-Soon joining our lab--welcome!!
+Participating Topic:
+- Privacy-Enhancing Techniques
