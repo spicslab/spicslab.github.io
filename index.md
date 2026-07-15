@@ -81,13 +81,13 @@ SPICS Lab은 <strong style="color:#e74d3c">AI 시대의 컴퓨팅 시스템을 �
 
 ## Highlight News
 
+<li><strong>[July. 2026]</strong> Prof Nam joins the Program Committee of Usenix Security 2027.</li>
+<li><strong>[Jun. 2026]</strong> Prof Nam joins the Program Committee of ASIACCS 2027.</li>
 <li><strong>[Mar. 2026]</strong> HEPIC is accepted to ASPLOS 2026. See you in Pittsburgh.</li>
-<li><strong>[Mar. 2026]</strong> Joined Program Committee for ASIACCS 2027.</li>
 <li><strong>[Mar. 2026]</strong> SPICS Lab Website is being renovated (under heavy re construction).</li>
-<li><strong>[Mar. 2026]</strong> Joined Kyung Hee University as an Assistant Professor.</li>
 <details>
   <summary>Show More</summary>
-
+  <li><strong>[Mar. 2026]</strong> Joined Kyung Hee University as an Assistant Professor.</li>
 </details>
 
 <!--

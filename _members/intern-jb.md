@@ -6,7 +6,7 @@ description: Intern
 affiliation: CentraleSupelec France
 ---
 
-Soon joining MS.
+Soon joining Post-Doc.
 
 Research Interests:
 - Agentic Flow Design
