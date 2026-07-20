@@ -5,8 +5,11 @@
 
 <div id="site-notice" class="notice">
   <button class="notice-close" onclick="closeNotice()">×</button>
-  <strong style="color:#7245BA">Spoiler Alert</strong><br>
-  Our lab is part of a Joint Task Force (w. several university and company research labs) that works on the realization of end-to-end Secure AI as a service. There are two main tracks, <strong style="color:#7245BA">AI Safety</strong> and <strong style="color:#1941D4">PETs for data privacy</strong>. If interested, same with other research fields -- read the contact page, and send the PI an email.
+  <strong style="color:#7245BA">2 Announcements</strong><br>
+  <strong style="color:#e74d3c">1. Open positions for corporate internship</strong> on Cloud-based AI system Security(8월-12월 예상, 개발 경험 풍부 우대, 문의는 PI 메일로)
+  ----------------------------------------------------------
+  2. Our lab is part of a Joint Task Force (w. several university and company research labs) that works on the realization of end-to-end Secure AI as a service. There are two main tracks, <strong style="color:#7245BA">AI Safety</strong> and <strong style="color:#1941D4">PETs for data privacy</strong>. If interested, same with other research fields -- read the contact page, and send the PI an email.
+  
 </div>
 
 <style>
@@ -28,7 +31,7 @@
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   padding: 20px 16px 16px 16px;
-  text-align: center;
+  text-align: left;
 }
 
 .notice-close {
