@@ -55,7 +55,8 @@
   - Privacy Preserving AI
   plugin: sources.py
   file: sources.yaml
-- title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
+- id: doi:10.1145/3779212.3790170
+  title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
   authors:
   - '**Kevin Nam**'
   - Youyeon Joo
@@ -66,8 +67,8 @@
     Languages and Operating Systems 2026 <strong>(ASPLOS`26)</strong>  <em style="color:#0000FF">KIISE
     S, BK21 IF 4</em>
   date: '2026-03-22'
-  image: images/papers/hepic.png
   link: https://doi.org/hbsghf
+  image: images/papers/hepic.png
   tags:
   - Privacy Enhancing Techniques
   - Privacy Preserving AI
