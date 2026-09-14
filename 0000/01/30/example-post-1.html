@@ -471,9 +471,9 @@
 
 <p>  AI agents are rapidly moving beyond simple question answering. They can now retrieve documents, call tools, access databases, write code, communicate with other agents, and make decisions across complex workflows. As these agents become more capable, they are also becoming part of the computing system itself. This raises an important question: <strong>How can we safely control AI agents that can observe, decide, act, and communicate?</strong></p>
 
-<p>  Our lab studies <strong><em>Secure AI Agent Harnesses</em></strong>: system-level security layers that manage and constrain AI-agent behavior. A useful analogy is to think of an AI agent as a new kind of CPU. The agent reasons and decides what to do next, while databases, documents, tools, APIs, memory, and other agents act like memory and I/O devices. In this analogy, the harness plays the role of an operating system: it mediates access, enforces permissions, isolates risky behavior, monitors execution, and records security-relevant events.</p>
+<p>  Our lab studies <strong><em>Secure AI Harness/guardrail,</em></strong>: system-level security layers that manage and constrain AI-agent behavior. A useful analogy is to think of an AI agent as a new kind of CPU. The agent reasons and decides what to do next, while databases, documents, tools, APIs, memory, and other agents act like memory and I/O devices. In this analogy, the harness plays the role of an operating system: it mediates access, enforces permissions, isolates risky behavior, monitors execution, and records security-relevant events.</p>
 
-<p>  Without such a harness, AI agents may become unsafe system components. They may access sensitive data unnecessarily, follow malicious instructions hidden in retrieved documents, call dangerous tools, leak private context, consume excessive resources, or communicate insecurely with other agents. Therefore, securing AI-agent systems requires more than making the underlying model “safer.” We need a practical security architecture that controls the entire agent workflow.</p>
+<p>  Without such security measurements, AI agents may become unsafe system components. They may access sensitive data unnecessarily, follow malicious instructions hidden in retrieved documents, call dangerous tools, leak private context, consume excessive resources, or communicate insecurely with other agents. Therefore, securing AI-agent systems requires more than making the underlying model “safer.” We need a practical security architecture that controls the entire agent workflow.</p>
 
 <h3 id="core-research-themes">Core Research Themes</h3>
 
@@ -487,7 +487,7 @@
     <p><strong>System Flow Security Layer:</strong> Controlling how AI agents interact with tools, files, APIs, databases, execution environments, and external services. This layer focuses on techniques such as <strong>Trusted Execution Environments, sandboxing, process isolation, containerization, capability-based access control, tool-use policies, workflow verification, audit logging, and human-in-the-loop approval</strong>. The goal is to ensure that AI agents can only perform authorized actions under controlled conditions.</p>
   </li>
   <li>
-    <p><strong>AI-Native Security Layer:</strong> Defending against attacks that are specific to AI-agent systems. Examples include <strong>prompt injection, jailbreak attempts, RAG poisoning, malicious retrieved documents, poisoned memory, tool manipulation, unsafe agent-to-agent communication, and misleading security evidence</strong>. This layer studies how to detect, prevent, and recover from attacks that manipulate the agent’s reasoning process or decision-making context.</p>
+    <p><strong>AI-Native Security Layer (e.g., AI-DLP):</strong> Defending against attacks that are specific to AI-agent systems. Examples include <strong>prompt injection, jailbreak attempts, RAG poisoning, malicious retrieved documents, poisoned memory, tool manipulation, unsafe agent-to-agent communication, and misleading security evidence</strong>. This layer studies how to detect, prevent, and recover from attacks that manipulate the agent’s reasoning process or decision-making context.</p>
   </li>
 </ul>
 
@@ -504,7 +504,7 @@
   <li><strong>Privacy-preserving retrieval, memory, logging, and tool use</strong></li>
   <li><strong>TEE, sandboxing, isolation, and capability control for agent workflows</strong></li>
   <li><strong>Prompt injection, jailbreaking, RAG poisoning, and malicious-context defense</strong></li>
-  <li><strong>Monitoring, auditing, and human-in-the-loop control of AI-agent behavior</strong></li>
+  <li><strong>AI/`*1234567890- Data Loss Prevention</strong></li>
   <li><strong>Secure agent-to-agent communication and MCP-style tool interactions</strong></li>
 </ol>
 
