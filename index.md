@@ -56,10 +56,10 @@ function closeNotice() {
 Hi! Welcome to Secure and Private Intelligence Computing Systems (SPICS) Lab. 
 Our research focuses on :
 
-<li><strong>[July. 2026]</strong style="color:#e74d3c"> Privacy-Preserving AI Systems </li>
-<li><strong>[July. 2026]</strong style="color:#e74d3c"> Secure AI Agent Harness/Guardrail (e.g., AI-DLP) </li>
-<li><strong>[July. 2026]</strong style="color:#e74d3c"> Next-Generation Cryptography HW/SW </li>
-<li><strong>[July. 2026]</strong style="color:#e74d3c"> AI for Security </li>
+<li><strong style="color:#e74d3c"> Privacy-Preserving AI Systems </li>
+<li><strong style="color:#e74d3c"> Secure AI Agent Harness/Guardrail (e.g., AI-DLP) </li>
+<li><strong style="color:#e74d3c"> Next-Generation Cryptography HW/SW </li>
+<li><strong style="color:#e74d3c"> AI for Security </li>
 
 In particular, we study how to protect sensitive data, securely control AI-agent workflows, and defend AI-driven systems against emerging threats such as prompt injection, RAG poisoning, and unsafe tool use.
 
