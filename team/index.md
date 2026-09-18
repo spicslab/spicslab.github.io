@@ -44,9 +44,11 @@ nav:
 
 {% capture content %}
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+{% include figure.html image="images/companies/datarmor.png" width="200px" %}
+{% include figure.html image="images/companies/privyworks.jpg" width="200px" %}
+{% include figure.html image="images/companies/tenessee.png" width="200px" %}
+{% include figure.html image="images/companies/snu.png" width="200px" %}
+{% include figure.html image="images/companies/mit.png" width="200px" %}
 
 {% endcapture %}
 
