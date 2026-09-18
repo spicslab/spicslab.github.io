@@ -73,11 +73,11 @@ We look forward to meeting you.
 {% include section.html %}
 
 ## Highlight News
-<li><strong>[July. 2026]</strong> Prof Nam gave a talk at ETRI (한국전자통신연구원 수도권연구센터).</li>
-<li><strong>[July. 2026]</strong> Prof Nam joins the Program Committee of DATE 2027.</li>
-<li><strong>[July. 2026]</strong> Prof Nam gave a talk at OSIA Workshop.</li>
-<li><strong>[July. 2026]</strong> Prof Nam gave a talk at KIISC WDSC Workshop.</li>
-<li><strong>[July. 2026]</strong> Prof Nam joins the Program Committee of Usenix Security 2027.</li>
+<li><strong>[Sep. 2026]</strong> Prof Nam gave a talk at ETRI (한국전자통신연구원 수도권연구센터).</li>
+<li><strong>[Sep. 2026]</strong> Prof Nam joins the Program Committee of DATE 2027.</li>
+<li><strong>[Aug. 2026]</strong> Prof Nam gave a talk at OSIA Workshop.</li>
+<li><strong>[Aug. 2026]</strong> Prof Nam gave a talk at KIISC WDSC Workshop.</li>
+<li><strong>[Aug. 2026]</strong> Prof Nam joins the Program Committee of Usenix Security 2027.</li>
 <details>
   <summary>Show More</summary>
 <li><strong>[Jun. 2026]</strong> Prof Nam joins the Program Committee of ASIACCS 2027.</li>
