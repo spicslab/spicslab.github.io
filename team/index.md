@@ -41,7 +41,7 @@ nav:
 
 {% include section.html %}
 
-### Collaborating/ed with (ing/past)
+### Working/ed with (ing/past)
 
 
 {% include section.html background="images/background.jpg" dark=true %}
