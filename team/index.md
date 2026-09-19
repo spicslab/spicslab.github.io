@@ -50,13 +50,13 @@ nav:
 
 {% capture content %}
 
-{% include figure.html image="images/companies/centralesupelec.png" width="50px" %}
-{% include figure.html image="images/companies/tenessee.png" width="50px" %}
-{% include figure.html image="images/companies/privyworks.jpg" width="50px" %}
-{% include figure.html image="images/companies/datarmor.png" width="50px" %}
-{% include figure.html image="images/companies/snu.png" width="50px" %}
-{% include figure.html image="images/companies/mit.png" width="50px" %}
-{% include figure.html image="images/companies/yale.png" width="50px" %}
+{% include figure.html image="images/companies/centralesupelec.png" width="80px" %}
+{% include figure.html image="images/companies/tenessee.png" width="80px" %}
+{% include figure.html image="images/companies/privyworks.jpg" width="80px" %}
+{% include figure.html image="images/companies/datarmor.png" width="80px" %}
+{% include figure.html image="images/companies/snu.png" width="80px" %}
+{% include figure.html image="images/companies/mit.png" width="80px" %}
+{% include figure.html image="images/companies/yale.png" width="80px" %}
 
 
 {% endcapture %}
