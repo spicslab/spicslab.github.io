@@ -41,20 +41,24 @@ nav:
 
 {% include section.html %}
 
-### Working/ed with (ing/past)
+### Working/ed with (excluded major groups)
 
-
+<!--
 {% include section.html background="images/background.jpg" dark=true %}
+-->
 
 
 {% capture content %}
 
-{% include figure.html image="images/companies/datarmor.png" width="100px" %}
-{% include figure.html image="images/companies/privyworks.jpg" width="100px" %}
-{% include figure.html image="images/companies/tenessee.png" width="100px" %}
-{% include figure.html image="images/companies/snu.png" width="100px" %}
-{% include figure.html image="images/companies/mit.png" width="100px" %}
+{% include figure.html image="images/companies/centralesupelec.png" width="50px" %}
+{% include figure.html image="images/companies/tenessee.png" width="50px" %}
+{% include figure.html image="images/companies/privyworks.jpg" width="50px" %}
+{% include figure.html image="images/companies/datarmor.png" width="50px" %}
+{% include figure.html image="images/companies/snu.png" width="50px" %}
+{% include figure.html image="images/companies/mit.png" width="50px" %}
+{% include figure.html image="images/companies/yale.png" width="50px" %}
+
 
 {% endcapture %}
 
-{% include grid.html style="square" cols="5" content=content %}
+{% include grid.html style="square" cols="7" content=content %}
