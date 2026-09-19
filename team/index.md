@@ -38,9 +38,14 @@ nav:
 
 {% include list.html data="members" component="portrait" filter="role == 'intern'" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
 
 {% include section.html %}
+
+### Collaborating/ed with (ing/past)
+
+
+{% include section.html background="images/background.jpg" dark=true %}
+
 
 {% capture content %}
 
