@@ -1,3 +1,3 @@
-<div class="grid" data-style="{{ include.style }}">
+<div class="grid" data-style="{{ include.style }}" style="--cols: {{ include.cols | default: 3 }}">
   {{ include.content | markdownify }}
 </div>
