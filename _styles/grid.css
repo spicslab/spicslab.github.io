@@ -1,6 +1,7 @@
 .grid {
   display: grid;
-  --repeat: 3;
+  --cols: 3;
+  --repeat: var(--cols);
   grid-template-columns: repeat(var(--repeat), 1fr);
   justify-content: center;
   align-items: flex-start;
@@ -17,12 +18,12 @@
 
 @media (max-width: 750px) {
   .grid {
-    --repeat: 2;
+    --repeat: min(2, var(--cols));
   }
 }
 @media (max-width: 500px) {
   .grid {
-    --repeat: 1;
+    --repeat: min(1, var(--cols));
   }
 }
 .grid[data-style=square] {
