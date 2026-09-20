@@ -56,8 +56,9 @@ nav:
 {% include figure.html image="images/companies/snu.png" width="80px" %}
 {% include figure.html image="images/companies/mit.png" width="80px" %}
 {% include figure.html image="images/companies/yale.png" width="80px" %}
+{% include figure.html image="images/companies/unist.png" width="80px" %}
 
 
 {% endcapture %}
 
-{% include grid.html style="square" cols="7" content=content %}
+{% include grid.html style="square" cols="8" content=content %}
