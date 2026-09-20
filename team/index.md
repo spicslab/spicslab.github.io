@@ -41,12 +41,11 @@ nav:
 
 {% include section.html %}
 
-### Working/ed with (excluded major groups)
-
 <!--
 {% include section.html background="images/background.jpg" dark=true %}
 -->
 
+### Working/ed with diverse collaborators research-wise
 
 {% capture content %}
 
