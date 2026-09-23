@@ -4,12 +4,14 @@
 # Welcome to SPICS Lab
 
 <div id="site-notice" class="notice">
-  <button class="notice-close" onclick="closeNotice()">×</button>
-  <strong style="color:#7245BA">2 Announcements</strong><br>
-  <strong style="color:#e74d3c">1. Open positions for corporate internship</strong> on Cloud-based AI system Security(8월-12월 예상, 개발 경험 풍부 우대, 문의는 PI 메일로)
-  ----------------------------------------------------------
-  2. Our lab is part of a Joint Task Force (w. several university and company research labs) that works on the realization of end-to-end Secure AI as a service. There are two main tracks, <strong style="color:#7245BA">AI Safety</strong> and <strong style="color:#1941D4">PETs for data privacy</strong>. If interested, same with other research fields -- read the contact page, and send the PI an email.
-  
+  <button class="notice-close" onclick="closeNotice()">&times;</button>
+  <strong style="color:#7245BA">Notice</strong>
+  <ol class="notice-list" start="0">
+    <li>연구실 인턴/석사/박사 지원자는 아래 공지 및 <a href="https://spicslab.github.io/contact/">contact 페이지</a> 참고</li>
+    <li><strong style="color:#e74d3c">기업 인턴십 모집</strong> &mdash; 멀티 에이전트 시스템 보안 (하네스 보안) (9월-12월)</li>
+    <li><strong style="color:#e74d3c">연구소 인턴십 모집</strong> &mdash; FHE 가속기 (기간 미정, 장기 인턴십 가능)</li>
+    <li>Our lab is part of a Joint Task Force (w. several university and company research labs) that works on the realization of end-to-end Secure AI as a service. There are two main tracks, <strong style="color:#7245BA">AI-DLP</strong> and <strong style="color:#1941D4">Secure Harness</strong>. If interested, same with other research fields -- read the contact page, and send the PI an email.</li>
+  </ol>
 </div>
 
 <style>
@@ -32,6 +34,20 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   padding: 20px 16px 16px 16px;
   text-align: left;
+}
+
+.notice-list {
+  margin: 10px 0 0 0;
+  padding-left: 1.6em;
+}
+
+.notice-list li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.notice-list li:last-child {
+  margin-bottom: 0;
 }
 
 .notice-close {
