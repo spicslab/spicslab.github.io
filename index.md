@@ -27,12 +27,13 @@
 
 .notice {
   position: relative;
-  width: min(560px, 90vw);
+  width: 100%;
+  max-width: min(1000px, 95vw);
   background: white;
   border: 1px solid #ccc;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  padding: 20px 16px 16px 16px;
+  padding: 20px 24px 20px 24px;
   text-align: left;
 }
 
