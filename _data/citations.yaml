@@ -193,11 +193,13 @@
   orcid: 0000-0002-4621-2434
   plugin: sources.py
   file: sources.yaml
-- title: On-device AI를 위한 프라이버시 보호 기술 활용 동향 (Privacy Protection Technology
-    Trends for On-device AI)
+- title: "On-device AI\uB97C \uC704\uD55C \uD504\uB77C\uC774\uBC84\uC2DC \uBCF4\uD638\
+    \ \uAE30\uC220 \uD65C\uC6A9 \uB3D9\uD5A5 (Privacy Protection Technology Trends\
+    \ for On-device AI)"
   authors:
-  - '**남기빈 (Kevin Nam)**'
-  publisher: 정보과학회지 (Communications of KIISE), Vol. 44, No. 6, pp. 44-50
+  - "**\uB0A8\uAE30\uBE48 (Kevin Nam)**"
+  publisher: "\uC815\uBCF4\uACFC\uD559\uD68C\uC9C0 (Communications of KIISE), Vol.\
+    \ 44, No. 6, pp. 44-50"
   category: domestic
   date: '2026-06-01'
   link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12882095
