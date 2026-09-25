@@ -1,0 +1,170 @@
+details.pub-section {
+  margin: 40px 0 20px 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: none;
+  overflow: visible;
+}
+
+.pub-section > summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 5px 0;
+  border-bottom: solid 1px var(--light-gray);
+  background: none;
+  line-height: var(--compact);
+  cursor: pointer;
+  user-select: none;
+}
+
+.pub-section > summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub-section > summary::before {
+  margin: 0;
+  color: var(--primary);
+  font-size: 1.2rem;
+  transition: transform var(--transition);
+}
+
+.pub-section > summary:hover,
+.pub-section[open] > summary {
+  background: none;
+}
+
+.pub-section > summary:hover .pub-heading {
+  color: var(--primary);
+}
+
+.pub-heading {
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition: color var(--transition);
+}
+
+.pub-count {
+  color: var(--gray);
+  font-family: var(--heading);
+  font-size: 1rem;
+}
+
+.pub-count:empty {
+  display: none;
+}
+
+.pub-body {
+  padding-top: 10px;
+}
+
+.pub-items > [hidden] {
+  display: none !important;
+}
+
+.pager {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px 20px;
+  margin: 10px 0 20px 0;
+  font-family: var(--heading);
+}
+
+.pager:empty,
+.pager[hidden] {
+  display: none;
+}
+
+.pager-size,
+.pager-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.pager-label {
+  margin-right: 5px;
+  color: var(--gray);
+}
+
+.pager-info {
+  color: var(--gray);
+  font-style: italic;
+}
+
+.pager-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  border: solid 1px var(--light-gray);
+  border-radius: var(--rounded);
+  background: var(--background);
+  color: var(--text);
+  font: inherit;
+  font-weight: var(--semi-bold);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.pager-button:hover:not(:disabled) {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.pager-button[aria-current=page],
+.pager-button[aria-pressed=true] {
+  border-color: var(--primary);
+  background: var(--primary);
+  color: var(--background);
+}
+
+.pager-button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.pager-ellipsis {
+  padding: 0 5px;
+  color: var(--gray);
+}
+
+.citation-compact-list {
+  margin: 0;
+  padding-left: 25px;
+  text-align: left;
+}
+
+.citation-compact {
+  margin: 10px 0;
+  padding-left: 5px;
+  text-align: left;
+  line-height: var(--compact);
+}
+
+.citation-compact-title {
+  font-weight: var(--semi-bold);
+}
+
+.citation-compact-authors,
+.citation-compact-venue {
+  display: block;
+}
+
+.citation-compact-venue {
+  color: var(--gray);
+}
+
+.citation-compact-venue .citation-publisher {
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=publications.css.map */
