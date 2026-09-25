@@ -1,3 +1,8 @@
+# Each entry needs a `category`, which decides which list it shows up in on
+# the publications page:
+#   international-conference  -> "International Conferences" (rich style, with image)
+#   international-journal     -> "International Journals"    (rich style, with image)
+#   domestic                  -> "Domestic"                  (compact bullet list)
 
 #- id: doi:10.1371/journal.pcbi.1007128
   #type: paper
@@ -28,6 +33,7 @@
     - Hyungon Moon<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
   publisher: USENIX Security Symposium 2025 <strong>(Usenix Security`25)</strong>  <em style="color:#0000FF">KIISE S, BK21 IF 3</em>
+  category: international-conference
   date: 2025-08-01
   image: images/papers/lohen.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
@@ -43,6 +49,7 @@
     - Seungjin Ha
     - Yunheung Paek<span>&#8224;</span>
   publisher: USENIX Security Symposium 2025 <strong>(Usenix Security`25)</strong>  <em style="color:#0000FF">KIISE S, BK21 IF 3</em>
+  category: international-conference
   date: 2025-08-01
   image: images/papers/slothe.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-slothe
@@ -60,6 +67,7 @@
     - Lucas Oros
     - Yunheung Paek<span>&#8224;</span>
   publisher: The 32nd IEEE International Conference on High Performance Computing, Data, and Analytics 2025 <strong>(HiPC`25)</strong> <em style="color:#0000FF">BK21 IF 1</em>
+  category: international-conference
   date: 2025-12-01
   image: images/papers/hipc.png
   #link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-slothe
@@ -76,6 +84,7 @@
     - Hyungon Moon<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
   publisher: The 31st ACM International Conference on Architectural Support for Programming Languages and Operating Systems 2026 <strong>(ASPLOS`26)</strong>  <em style="color:#0000FF">KIISE S, BK21 IF 4</em>
+  category: international-conference
   date: 2026-03-22
   image: images/papers/hepic.png
   link: https://doi.org/hbsghf
@@ -91,6 +100,7 @@
     - Hyunyoung Oh<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
   publisher: The 30th ACM International Conference on Architectural Support for Programming Languages and Operating Systems 2025 <strong>(ASPLOS`25)</strong>  <em style="color:#0000FF">KIISE S, BK21 IF 4</em>
+  category: international-conference
   date: 2025-04-01
   image: images/papers/theim.png
   link: https://dl.acm.org/doi/10.1145/3676641.3716246
@@ -108,6 +118,7 @@
     - Hyunyoung Oh<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
   publisher: The International Conference on Computational Science and Its Applications, 2023
+  category: international-conference
   date: 2023-04-01
   image: images/papers/ntru.png
   link: https://scholarworks.bwise.kr/gachon/bitstream/2020.sw.gachon/92307/1/_ICCSA2023__NTRU.pdf
@@ -123,6 +134,7 @@
     - Hyungon Moon<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
   publisher: IEEE/ACM International Conference on Computer-Aided Design <strong>(ICCAD`22)</strong>  <em style="color:#0000FF">KIISE A, BK21 IF 3</em>
+  category: international-conference
   date: 2022-10-01
   image: images/papers/xhec.png
   link: doi.org/10.1145/3508352.3549413
@@ -145,6 +157,7 @@
     - Hyunyoung Oh<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
   publisher: IEEE Access
+  category: international-journal
   date: 2024-10-01
   image: images/papers/falcon.png
   link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10496572
@@ -161,6 +174,7 @@
     - Yeongpil Cho<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
   publisher: IEEE Access
+  category: international-journal
   date: 2021-10-01
   image: images/papers/meetgo.png
   link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9388667
@@ -177,8 +191,30 @@
   - "**Kevin Nam<span>&#8224;</span>**"
   - Yunheung Paek<span>&#8224;</span>
   publisher: IEEE Access
+  category: international-journal
   date: '2026-01-01'
   link: https://doi.org/hb8m6m
   orcid: 0000-0002-4621-2434
   plugin: orcid.py
   file: orcid.yaml
+
+# Domestic papers show up as a compact bullet list (title, authors, venue).
+# No image is needed.
+- title: "On-device AI를 위한 프라이버시 보호 기술 활용 동향 (Privacy Protection Technology Trends for On-device AI)"
+  authors:
+    - "**남기빈 (Kevin Nam)**"
+  publisher: 정보과학회지 (Communications of KIISE), Vol. 44, No. 6, pp. 44-50
+  category: domestic
+  date: 2026-06-01
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12882095
+
+# Copy this template for more domestic papers and remove the leading "# ":
+#
+# - title: "Paper title"
+#   authors:
+#     - "**Kevin Nam**"
+#     - Coauthor Name
+#   publisher: Korea Information Science Society Conference (KCC 2025)
+#   category: domestic
+#   date: 2025-06-01
+#   link: https://example.org/paper

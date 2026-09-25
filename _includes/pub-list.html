@@ -1,0 +1,59 @@
+{% comment %}
+  foldable, paged publication list.
+
+  params:
+    title      heading text, e.g. "International Conferences"
+    id         url anchor for the section (defaults to slugified title)
+    data       data file to list, e.g. "citations"
+    filter     ruby expression to select entries, e.g. "category == 'domestic'"
+    component  "citation" (rich, with image) or "citation-compact" (bullet list)
+    style      passed to the component, e.g. "rich"
+    size       default items per page (5, 10, or 20)
+
+  paging and folding behavior is in _scripts/paginate.js,
+  styles are in _styles/publications.scss.
+{% endcomment %}
+
+{% assign id = include.id | default: include.title | slugify %}
+{% assign size = include.size | default: "5" %}
+
+<div class="pub-section-wrapper">
+<details
+  class="pub-section"
+  id="{{ id }}"
+  data-paginate
+  data-page-size="{{ size }}"
+>
+  <summary class="pub-summary">
+    <h2 class="pub-heading">{{ include.title }}</h2>
+    <span class="pub-count" aria-live="polite"></span>
+  </summary>
+
+  <div class="pub-body">
+    <div class="pager pager-top"></div>
+
+    {% if include.component == "citation-compact" %}
+      <ul class="pub-items citation-compact-list">
+        {%
+          include list.html
+          data=include.data
+          component=include.component
+          filter=include.filter
+        %}
+      </ul>
+    {% else %}
+      <div class="pub-items">
+        {%
+          include list.html
+          data=include.data
+          component=include.component
+          style=include.style
+          filter=include.filter
+        %}
+      </div>
+    {% endif %}
+
+    <div class="pager pager-bottom"></div>
+  </div>
+</details>
+</div>

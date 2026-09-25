@@ -12,6 +12,7 @@
   - Yunheung Paek<span>&#8224;</span>
   publisher: USENIX Security Symposium 2025 <strong>(Usenix Security`25)</strong>  <em
     style="color:#0000FF">KIISE S, BK21 IF 3</em>
+  category: international-conference
   date: '2025-08-01'
   image: images/papers/lohen.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-lohen
@@ -29,6 +30,7 @@
   - Yunheung Paek<span>&#8224;</span>
   publisher: USENIX Security Symposium 2025 <strong>(Usenix Security`25)</strong>  <em
     style="color:#0000FF">KIISE S, BK21 IF 3</em>
+  category: international-conference
   date: '2025-08-01'
   image: images/papers/slothe.png
   link: https://www.usenix.org/conference/usenixsecurity25/presentation/nam-slothe
@@ -48,6 +50,7 @@
   publisher: The 32nd IEEE International Conference on High Performance Computing,
     Data, and Analytics 2025 <strong>(HiPC`25)</strong> <em style="color:#0000FF">BK21
     IF 1</em>
+  category: international-conference
   date: '2025-12-01'
   image: images/papers/hipc.png
   tags:
@@ -68,6 +71,7 @@
     S, BK21 IF 4</em>
   date: '2026-03-22'
   link: https://doi.org/hbsghf
+  category: international-conference
   image: images/papers/hepic.png
   tags:
   - Privacy Enhancing Techniques
@@ -86,6 +90,7 @@
     S, BK21 IF 4</em>
   date: '2025-04-01'
   link: https://dl.acm.org/doi/10.1145/3676641.3716246
+  category: international-conference
   image: images/papers/theim.png
   tags:
   - Hardware Accelerator
@@ -105,6 +110,7 @@
     2023
   date: '2023-04-01'
   link: https://scholarworks.bwise.kr/gachon/bitstream/2020.sw.gachon/92307/1/_ICCSA2023__NTRU.pdf
+  category: international-conference
   image: images/papers/ntru.png
   tags:
   - Hardware Accelerator
@@ -122,6 +128,7 @@
     style="color:#0000FF">KIISE A, BK21 IF 3</em>
   date: '2022-10-01'
   link: doi.org/10.1145/3508352.3549413
+  category: international-conference
   image: images/papers/xhec.png
   tags:
   - Hardware Acceleration
@@ -145,6 +152,7 @@
   publisher: IEEE Access
   date: '2024-10-01'
   link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10496572
+  category: international-journal
   image: images/papers/falcon.png
   tags:
   - hardware security
@@ -162,6 +170,7 @@
   publisher: IEEE Access
   date: '2021-10-01'
   link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9388667
+  category: international-journal
   image: images/papers/meetgo.png
   tags:
   - hardware security
@@ -180,6 +189,17 @@
   publisher: IEEE Access
   date: '2026-01-01'
   link: https://doi.org/hb8m6m
+  category: international-journal
   orcid: 0000-0002-4621-2434
+  plugin: sources.py
+  file: sources.yaml
+- title: On-device AI를 위한 프라이버시 보호 기술 활용 동향 (Privacy Protection Technology
+    Trends for On-device AI)
+  authors:
+  - '**남기빈 (Kevin Nam)**'
+  publisher: 정보과학회지 (Communications of KIISE), Vol. 44, No. 6, pp. 44-50
+  category: domestic
+  date: '2026-06-01'
+  link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12882095
   plugin: sources.py
   file: sources.yaml
