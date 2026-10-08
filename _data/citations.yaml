@@ -193,6 +193,24 @@
   orcid: 0000-0002-4621-2434
   plugin: sources.py
   file: sources.yaml
+- title: Design Space Exploration of Efficient FPGA-based Accelerators for Homomorphically
+    Encrypted CNN Inference
+  authors:
+  - Whoi Ree Ha
+  - Dongju Lee
+  - Yongseok Lee
+  - '**Kevin Nam**'
+  - Sunwoong Kim
+  - Yunheung Paek
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and
+    Systems <strong>(TCAD)</strong>
+  category: international-journal
+  date: '2026-10-01'
+  tags:
+  - Hardware Accelerator
+  - Privacy Preserving AI
+  plugin: sources.py
+  file: sources.yaml
 - title: "On-device AI\uB97C \uC704\uD55C \uD504\uB77C\uC774\uBC84\uC2DC \uBCF4\uD638\
     \ \uAE30\uC220 \uD65C\uC6A9 \uB3D9\uD5A5 (Privacy Protection Technology Trends\
     \ for On-device AI)"
