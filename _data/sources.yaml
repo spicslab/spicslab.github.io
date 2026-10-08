@@ -198,6 +198,23 @@
   plugin: orcid.py
   file: orcid.yaml
 
+# manually provide all citation details
+- title: "Design Space Exploration of Efficient FPGA-based Accelerators for Homomorphically Encrypted CNN Inference"
+  authors:
+    - Whoi Ree Ha
+    - Dongju Lee
+    - Yongseok Lee
+    - "**Kevin Nam**"
+    - Sunwoong Kim
+    - Yunheung Paek
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems <strong>(TCAD)</strong>
+  category: international-journal
+  date: 2026-10-01
+  #link:
+  tags:
+    - Hardware Accelerator
+    - Privacy Preserving AI
+
 # Domestic papers show up as a compact bullet list (title, authors, venue).
 # No image is needed.
 - title: "On-device AI를 위한 프라이버시 보호 기술 활용 동향 (Privacy Protection Technology Trends for On-device AI)"
