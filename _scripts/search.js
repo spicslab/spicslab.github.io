@@ -5,7 +5,7 @@
 */
 {
   // elements to filter
-  const elementSelector = ".card, .citation, .post-excerpt";
+  const elementSelector = ".card, .citation, .post-excerpt, .citation-compact";
   // search box element
   const searchBoxSelector = ".search-box";
   // results info box element
@@ -52,9 +52,10 @@
     const tagElements = [...element.querySelectorAll(".tag")];
 
     // check if text content exists in element
+    // (textContent, not innerText, so items inside folded sections still match)
     const hasText = (string) =>
       (
-        element.innerText +
+        element.textContent +
         getAttr(element, "tooltip") +
         getAttr(element, "search")
       )
@@ -168,6 +169,8 @@
     updateInfoBox(query, x, n);
     updateTags(query);
     highlightMatches(parts);
+    // let other scripts (e.g. paginate.js) react to the new results
+    window.dispatchEvent(new CustomEvent("searchrun", { detail: { query } }));
   };
 
   // update url based on query

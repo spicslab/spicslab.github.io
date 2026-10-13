@@ -18,12 +18,38 @@ You can also refer to google scholar etc.
 
 {% include section.html %}
 
-## International
-
 {% include search-box.html %}
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{%
+  include pub-list.html
+  title="International Conferences"
+  id="international-conferences"
+  data="citations"
+  filter="category == 'international-conference'"
+  component="citation"
+  style="rich"
+  size="5"
+%}
 
-## Domestic
+{%
+  include pub-list.html
+  title="International Journals"
+  id="international-journals"
+  data="citations"
+  filter="category == 'international-journal'"
+  component="citation"
+  style="rich"
+  size="5"
+%}
+
+{%
+  include pub-list.html
+  title="Domestic"
+  id="domestic"
+  data="citations"
+  filter="category == 'domestic'"
+  component="citation-compact"
+  size="10"
+%}

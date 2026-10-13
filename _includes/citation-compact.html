@@ -1,0 +1,47 @@
+{% comment %}
+  compact, text-only citation: one bullet with title, authors, and venue.
+  used for the domestic publication list. takes the same params as citation.html.
+{% endcomment %}
+
+{% if include.lookup %}
+  {% assign citation = site.data.citations
+    | where_exp: "citation",
+      "citation.id == include.lookup or citation.title contains include.lookup"
+    | first
+  %}
+{% else %}
+  {% assign citation = include %}
+{% endif %}
+
+<li class="citation-compact">
+  <a
+    {% if citation.link %}
+      href="{{ citation.link | relative_url | xml_escape }}"
+    {% endif %}
+    class="citation-compact-title"
+  >
+    {{ citation.title | default: "[no title info]" }}
+  </a>
+
+  <span class="citation-compact-authors">
+    {{
+      citation.authors
+      | join: ", "
+      | markdownify
+      | remove: "<p>" | remove: "</p>"
+      | default: "[no author info]"
+    }}
+  </span>
+
+  <span class="citation-compact-venue">
+    <span class="citation-publisher">
+      {{- citation.publisher | default: "[no publisher info]" -}}
+    </span>
+    {%- if citation.date -%}
+      &nbsp;·&nbsp;
+      <span class="citation-date">
+        {{- citation.date | date: "%b %Y" -}}
+      </span>
+    {%- endif -%}
+  </span>
+</li>
