@@ -7,4 +7,4 @@ affiliation: Kyung Hee University
 ---
 
 Participating Topic:
-- Privacy Enhancing Techniques
+- LLM Privacy
