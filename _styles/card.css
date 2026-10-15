@@ -47,4 +47,10 @@
   font-style: italic;
 }
 
+.card-image img[data-fit=contain] {
+  object-fit: contain;
+  padding: 20px;
+  background: #fdfbf7;
+}
+
 /*# sourceMappingURL=card.css.map */

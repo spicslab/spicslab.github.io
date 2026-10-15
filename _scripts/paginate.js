@@ -146,7 +146,7 @@
 
   // "showing x–y of n" text
   const infoText = (all, visible, start, end) => {
-    if (!all) return "No publications listed yet";
+    if (!all) return "Nothing listed yet";
     if (!visible) return "No matches";
     return `Showing ${start + 1}–${end} of ${visible}`;
   };

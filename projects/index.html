@@ -43,21 +43,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Links | SPICS Lab</title>
+<title>Resources | SPICS Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Links">
+<meta name="title" content="Resources">
 <meta name="description" content="Secure and Private Intelligence Computing Systems">
 
-<meta property="og:title" content="Links">
+<meta property="og:title" content="Resources">
 <meta property="og:site_title" content="SPICS Lab">
 <meta property="og:description" content="Secure and Private Intelligence Computing Systems">
 <meta property="og:url" content="http://spicslab.kr">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Links">
+<meta property="twitter:title" content="Resources">
 <meta property="twitter:description" content="Secure and Private Intelligence Computing Systems">
 <meta property="twitter:url" content="http://spicslab.kr">
 <meta property="twitter:card" content="summary_large_image">
@@ -73,9 +73,9 @@
     
       "@type": "WebSite",
     
-    "name": "Links",
+    "name": "Resources",
     "description": "Secure and Private Intelligence Computing Systems",
-    "headline": "Links",
+    "headline": "Resources",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -432,8 +432,8 @@
       
     
       
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Links
+        <a href="/projects/" data-tooltip="Open-source software, tools, and more">
+          Resources
         </a>
       
     
@@ -464,56 +464,286 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="projects">
-<i class="icon fa-solid fa-wrench"></i>Projects</h1>
+    <h1 id="resources">
+<i class="icon fa-solid fa-box-open"></i>Resources</h1>
 
-<p>TBA</p>
+<p>The code behind our research, released so others can run it, check it, and build on it.
+Here you’ll find our open-source software, research prototypes, and other resources from the lab.</p>
+  </section>
 
-<div class="tags">
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<div class="search-box">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
+</div>
+
+<div class="search-info"></div>
+
+<div class="pub-section-wrapper">
+<details class="pub-section" id="open-sourced" data-paginate="" data-page-size="5">
+  <summary class="pub-summary">
+    <h2 class="pub-heading">Open-Sourced</h2>
+    <span class="pub-count" aria-live="polite"></span>
+  </summary>
+
+  <div class="pub-body">
+    <div class="pager pager-top"></div>
+
     
-      <a href="/projects/?search=%22tag:%20publication%22" class="tag" data-tooltip='Show items with the tag "publication"'>
-        publication
+      <div class="pub-items">
+        
+
+
+
+
+
+  
+
+<!--
+  
+-->
+
+  
+    
+
+     
+<div class="card" data-style="">
+  <a href="https://github.com/spicslab-kr/tee-blockchain" aria-label="Attestamp" class="card-image">
+    <img src="/images/projects/attestamp.png" alt="Attestamp" loading="lazy" data-fit="contain" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://github.com/spicslab-kr/tee-blockchain" class="card-title">
+        Attestamp
+    </a>
+    
+
+    
+      <span class="card-subtitle">Trustworthy Remote Attestation for TEEs</span>
+    
+
+    
+      <p>
+        Remote attestation that makes the hash of the code running in a Trusted Execution Environment (TEE) trustworthy.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="spicslab-kr/tee-blockchain">
+    
+      <a href="/projects/?search=%22tag:%20tee%22" class="tag" data-tooltip='Show items with the tag "tee"'>
+        tee
       </a>
     
-      <a href="/projects/?search=%22tag:%20resource%22" class="tag" data-tooltip='Show items with the tag "resource"'>
-        resource
-      </a>
-    
-      <a href="/projects/?search=%22tag:%20website%22" class="tag" data-tooltip='Show items with the tag "website"'>
-        website
+      <a href="/projects/?search=%22tag:%20remote-attestation%22" class="tag" data-tooltip='Show items with the tag "remote-attestation"'>
+        remote-attestation
       </a>
     
   </div>
 
-<div class="search-info"></div>
-  </section>
+
+    
+  </div>
+</div>
 
   
+    
+
+     
+<div class="card" data-style="">
+  <a href="https://github.com/spicslab-kr/HephAgent" aria-label="HephAgent" class="card-image">
+    <img src="/images/projects/hephagent.png" alt="HephAgent" loading="lazy" data-fit="contain" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://github.com/spicslab-kr/HephAgent" class="card-title">
+        HephAgent
+    </a>
+    
+
+    
+      <span class="card-subtitle">Agentic AI for Software Development</span>
+    
+
+    
+      <p>
+        An agentic AI system for automated, efficient software development.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="spicslab-kr/HephAgent">
+    
+      <a href="/projects/?search=%22tag:%20ai-agents%22" class="tag" data-tooltip='Show items with the tag "ai-agents"'>
+        ai-agents
+      </a>
+    
+      <a href="/projects/?search=%22tag:%20software-development%22" class="tag" data-tooltip='Show items with the tag "software-development"'>
+        software-development
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
   
+    
+
+     
+<div class="card" data-style="">
+  <a href="https://github.com/SNUSOR-PECT/SLOTHE" aria-label="SLOTHE" class="card-image">
+    <img src="/images/papers/slothe.png" alt="SLOTHE" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://github.com/SNUSOR-PECT/SLOTHE" class="card-title">
+        SLOTHE
+    </a>
+    
+
+    
+      <span class="card-subtitle">An Automatic Approximation for Non-Arithmetic Functions over Encrypted Data</span>
+    
+
+    
+      <p>
+        SLOTHE is an automatic workflow in generating efficient approximations for non-arithmetic functions over encrypted data. It offers programmability, where users can set their own constraints in the maximum approximation error and performance thresholds.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="SNUSOR-PECT/SLOTHE">
+    
+      <a href="/projects/?search=%22tag:%20pets%22" class="tag" data-tooltip='Show items with the tag "pets"'>
+        pets
+      </a>
+    
+      <a href="/projects/?search=%22tag:%20compiler%22" class="tag" data-tooltip='Show items with the tag "compiler"'>
+        compiler
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
+  
+    
+
+     
+<div class="card" data-style="">
+  <a href="https://github.com/SNUSOR-PECT/LOHEN_Public" aria-label="LOHEN" class="card-image">
+    <img src="/images/papers/lohen.png" alt="LOHEN" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+
+  <div class="card-text">
+    
+      <a href="https://github.com/SNUSOR-PECT/LOHEN_Public" class="card-title">
+        LOHEN
+    </a>
+    
+
+    
+      <span class="card-subtitle">An Automatic Compiler that Optimizes the Performance and Accuracy of Neural Networks over FHE</span>
+    
+
+    
+      <p>
+        LOHEN offers a layer-wise optimization in generating FHE programs for neural networks. Taking a baseline FHE program as input, it analyzes the complicated cryptographic parameter options and suggests better options for performance and accuracy.
+
+      </p>
+    
+
+    
+      
+
+
+  <div class="tags" data-repo="SNUSOR-PECT/LOHEN_Public">
+    
+      <a href="/projects/?search=%22tag:%20pets%22" class="tag" data-tooltip='Show items with the tag "pets"'>
+        pets
+      </a>
+    
+      <a href="/projects/?search=%22tag:%20compiler%22" class="tag" data-tooltip='Show items with the tag "compiler"'>
+        compiler
+      </a>
+    
+  </div>
+
+
+    
+  </div>
+</div>
+
   
 
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
 
-<h2 id="open-sourced">Open-Sourced</h2>
-  </section>
+      </div>
+    
 
-  
-  
-  
+    <div class="pager pager-bottom"></div>
+  </div>
+</details>
+</div>
 
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
+<div class="pub-section-wrapper">
+<details class="pub-section" id="more" data-paginate="" data-page-size="10">
+  <summary class="pub-summary">
+    <h2 class="pub-heading">More</h2>
+    <span class="pub-count" aria-live="polite"></span>
+  </summary>
 
-<h2 id="more">More</h2>
+  <div class="pub-body">
+    <div class="pager pager-top"></div>
+
+    
+      <div class="pub-items">
+        
+
+
+
+
+
+
+      </div>
+    
+
+    <div class="pager pager-bottom"></div>
+  </div>
+</details>
+</div>
   </section>
 
 
