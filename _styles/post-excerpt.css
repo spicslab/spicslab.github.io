@@ -59,5 +59,17 @@
     height: 200px;
   }
 }
+.post-excerpt-image img[data-fit=contain] {
+  box-sizing: border-box;
+  padding: 15px;
+  object-fit: contain;
+  background: #fdfbf7;
+}
+
+.project-subtitle {
+  width: 100%;
+  margin-top: -10px !important;
+  font-style: italic;
+}
 
 /*# sourceMappingURL=post-excerpt.css.map */
