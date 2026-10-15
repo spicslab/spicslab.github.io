@@ -22,6 +22,7 @@ Here you'll find our open-source software, research prototypes, and other resour
   id="open-sourced"
   data="projects"
   filter="group == 'open-sourced'"
+  style="wide"
   component="card"
   size="5"
 %}
@@ -33,6 +34,6 @@ Here you'll find our open-source software, research prototypes, and other resour
   data="projects"
   filter="!group"
   component="card"
-  style="small"
+  style="wide"
   size="10"
 %}

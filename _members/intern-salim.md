@@ -1,10 +1,10 @@
 ---
-name: Jiwon Min
+name: Seoah Lim
 image: images/characters/apprentice_undergrad_intern.jpg
 role: intern
 description: Intern
-affiliation: Kyung Hee University
+affiliation: Ajou University
 ---
 
 Participating Topic:
-- LLM Privacy
+- Agentic Harness Security
