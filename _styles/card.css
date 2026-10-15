@@ -53,4 +53,14 @@
   background: #fdfbf7;
 }
 
+.card[data-style=wide] {
+  width: 440px;
+}
+
+.card[data-style=wide] .card-image {
+  display: block;
+  width: 50%;
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=card.css.map */
