@@ -1,0 +1,42 @@
+{% comment %}
+  project row in the style of post-excerpt.html (see projects/index.md).
+  set fit="contain" to show the whole image (e.g. a logo) instead of cropping.
+{% endcomment %}
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    {% assign url = include.link | relative_url | uri_escape %}
+
+    {% if include.image %}
+      <a
+        href="{{ url }}"
+        class="post-excerpt-image"
+        aria-label="{{ include.title | default: "project link" | regex_strip }}"
+      >
+        <img
+          src="{{ include.image | relative_url | uri_escape }}"
+          alt="{{ include.title | default: "project image" | regex_strip }}"
+          loading="lazy"
+          {% if include.fit %}
+            data-fit="{{ include.fit }}"
+          {% endif %}
+          {% include fallback.html %}
+        >
+      </a>
+    {% endif %}
+
+    <div class="post-excerpt-text">
+      <a href="{{ url }}">{{ include.title }}</a>
+
+      {% if include.subtitle %}
+        <span class="project-subtitle">{{ include.subtitle }}</span>
+      {% endif %}
+
+      {% if include.description %}
+        <p>
+          {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
+        </p>
+      {% endif %}
+    </div>
+  </div>
+</div>

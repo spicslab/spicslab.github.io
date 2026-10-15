@@ -50,21 +50,3 @@
   margin-top: -10px !important;
   font-style: italic;
 }
-
-// show whole image (e.g. logos) instead of cropping
-.card-image img[data-fit="contain"] {
-  object-fit: contain;
-  padding: 20px;
-  background: #fdfbf7;
-}
-
-// wider card with a smaller image (see projects/index.md)
-.card[data-style="wide"] {
-  width: 440px;
-}
-
-.card[data-style="wide"] .card-image {
-  display: block;
-  width: 50%;
-  margin-top: 20px;
-}

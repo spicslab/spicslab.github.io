@@ -4,7 +4,7 @@
   image: images/projects/attestamp.png
   fit: contain
   link: https://github.com/spicslab-kr/tee-blockchain
-  description: Remote attestation that makes the hash of the code running in a Trusted Execution Environment (TEE) trustworthy.
+  description: Attest your code in a Trusted Execution Environment (TEE) as trustworthy to 3rd parties.
 
 
 - title: HephAgent
