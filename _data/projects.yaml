@@ -1,20 +1,48 @@
+- title: Attestamp
+  subtitle: Trustworthy Remote Attestation for TEEs
+  group: open-sourced
+  image: images/projects/attestamp.png
+  fit: contain
+  link: https://github.com/spicslab-kr/tee-blockchain
+  description: Remote attestation that makes the hash of the code running in a Trusted Execution Environment (TEE) trustworthy.
+  repo: spicslab-kr/tee-blockchain
+  tags:
+    - TEE
+    - remote attestation
+
+
+- title: HephAgent
+  subtitle: Agentic AI for Software Development
+  group: open-sourced
+  image: images/projects/hephagent.png
+  fit: contain
+  link: https://github.com/spicslab-kr/HephAgent
+  description: An agentic AI system for automated, efficient software development.
+  repo: spicslab-kr/HephAgent
+  tags:
+    - AI agents
+    - software development
+
+
 - title: SLOTHE
   subtitle: An Automatic Approximation for Non-Arithmetic Functions over Encrypted Data
-  group: Open-Sourced
-  image: images/papers/SLOTHE.png
+  group: open-sourced
+  image: images/papers/slothe.png
   link: https://github.com/SNUSOR-PECT/SLOTHE
   description: SLOTHE is an automatic workflow in generating efficient approximations for non-arithmetic functions over encrypted data. It offers programmability, where users can set their own constraints in the maximum approximation error and performance thresholds.
-  repo: https://github.com/SNUSOR-PECT/SLOTHE
+  repo: SNUSOR-PECT/SLOTHE
   tags:
-    - PETs, compiler
+    - PETs
+    - compiler
 
 
 - title: LOHEN
   subtitle: An Automatic Compiler that Optimizes the Performance and Accuracy of Neural Networks over FHE
-  group: Open-Sourced
+  group: open-sourced
   image: images/papers/lohen.png
   link: https://github.com/SNUSOR-PECT/LOHEN_Public
-  description: LOHEN offers a layer-wise optimization in generating FHE progarms for neural networks. Taking a baseline FHE program as input, it analyzes the complicated cryptographic parameter options and suggests better options for performance and accuracy.
-  repo: https://github.com/SNUSOR-PECT/LOHEN_Public
+  description: LOHEN offers a layer-wise optimization in generating FHE programs for neural networks. Taking a baseline FHE program as input, it analyzes the complicated cryptographic parameter options and suggests better options for performance and accuracy.
+  repo: SNUSOR-PECT/LOHEN_Public
   tags:
-    - PETs, compiler
+    - PETs
+    - compiler

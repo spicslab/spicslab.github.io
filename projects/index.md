@@ -1,26 +1,38 @@
 ---
-title: Links
+title: Resources
 nav:
   order: 4
-  tooltip: Software, datasets, and more
+  tooltip: Open-source software, tools, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-box-open" %}Resources
 
-TBA
+The code behind our research, released so others can run it, check it, and build on it.
+Here you'll find our open-source software, research prototypes, and other resources from the lab.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include section.html %}
+
+{% include search-box.html %}
 
 {% include search-info.html %}
 
-{% include section.html %}
+{%
+  include pub-list.html
+  title="Open-Sourced"
+  id="open-sourced"
+  data="projects"
+  filter="group == 'open-sourced'"
+  component="card"
+  size="5"
+%}
 
-## Open-Sourced
-
-{% include list.html component="card" data="projects" filter="group == 'open-sourced'" %}
-
-{% include section.html %}
-
-## More
-
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+{%
+  include pub-list.html
+  title="More"
+  id="more"
+  data="projects"
+  filter="!group"
+  component="card"
+  style="small"
+  size="10"
+%}

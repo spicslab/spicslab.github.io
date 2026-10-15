@@ -50,3 +50,10 @@
   margin-top: -10px !important;
   font-style: italic;
 }
+
+// show whole image (e.g. logos) instead of cropping
+.card-image img[data-fit="contain"] {
+  object-fit: contain;
+  padding: 20px;
+  background: #fdfbf7;
+}
