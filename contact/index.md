@@ -13,7 +13,7 @@ nav:
 
 - **Unless you are already specifically qualified, a probation (internship) period is almost mandatory.** Therefore, I <strong style="color:#1AC91D">highly recommend you to get in contact</strong> with me <strong style="color:#CF1111">with substantial time left (at least a semester)</strong> before the application period.
 
-- **Undergraduate internship is also possible, but it involves significant time and effort.** It is not like a class, where you can just join and go. Of course you will not know everything at first, and I will help you build the expertise -- but you should show your potential. The probation period is not simply a time for you to come here and learn. It is the time to show how you approach a problem, how you follow through, and how much you can contribute to the lab. No one is expected to be perfect, but no one should come here as if it were free. What you show during this period decides whether you move on to the hands-on projects, which are usually followed by research manuscript submission (some confidential projects may not).
+- **About the undergraduate participation** It is not like a class, where you can just join and go. Of course you will not know everything at first, and I will help you build the expertise -- but you should show your potential, how you approach a problem, how you follow through. What you show during this period decides whether you move on to the hands-on projects, which are usually followed by research manuscript submission (some confidential projects may not).
 
 ## After Acknowledging the Above
 
