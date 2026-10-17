@@ -7,23 +7,27 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-**For those who are interested in the research of SPICSLab:** First, please read carefully about <a href="https://spicslab.github.io/research/"> the basis of our research topics</a>. The current on-going projects are highly related with them. With some probation period to gain a beginer level expertise, you may be able to participate in those hands-on projects, which are usually followed by research manuscript submission (some confidential projects may not).
+## Before Applying
 
-Accordingly, I **<strong style="color:#1AC91D">highly recommend you to get in contact</strong>** with me **<strong style="color:#CF1111">with substantial time left</strong>** before the application period for probation period (internship).
+- **Read carefully about <a href="https://spicslab.github.io/research/">the basis of our research topics</a>.** The current on-going projects are highly related with them.
 
-If interested and you have acknowledged the above, send me an email, including the following :
+- **Unless you are already specifically qualified, a probation (internship) period is almost mandatory.** Therefore, I <strong style="color:#1AC91D">highly recommend you to get in contact</strong> with me <strong style="color:#CF1111">with substantial time left (at least a semester)</strong> before the application period.
 
-1. ***Basic Information about yourself*** : Name, student number, and expected year of graduation (if you are applying as an intern), your previous job & position, and finally, **a full CV+Transcript with Rank**
-2. ***Which track you are applying for*** : Intern, MS course, Ph.D course, or MS/Ph.D. Combined course, or else (specific track).
-3. ***About your research background*** : tell us about your experience in programming, security research, or anything that may help us to understand you.
-4. ***Which Topic (at least related field) about Security and Privacy you are interested in*** : As will be discussed below, you do not necessarily need to be an 'expert' in a field to apply -- motivation matters more.
+- **Undergraduate internship is also possible, but it involves significant time and effort.** It is not like a class, where you can just join and go. Of course you will not know everything at first, and I will help you build the expertise -- but you should show your potential. The probation period is not simply a time for you to come here and learn. It is the time to show how you approach a problem, how you follow through, and how much you can contribute to the lab. No one is expected to be perfect, but no one should come here as if it were free. What you show during this period decides whether you move on to the hands-on projects, which are usually followed by research manuscript submission (some confidential projects may not).
 
----
+## After Acknowledging the Above
 
-I also would like to emphasize 4 things you **should** consider :
+Send me an email, including the following:
 
-1. ***You do not need to know everything beforehand*** : have some practice period with me, get to know several topics, then with some expertise, you can jump into the projects. The most important thing is motivation, attitude, and basic instincts in research. I will help you with the expertise.
+1. ***Basic information about yourself*** : name, student number, expected year of graduation (if you are applying as an intern), previous job & position (if any), and which track you are applying for (intern, MS, Ph.D., MS/Ph.D. combined, or else).
+2. ***A full CV + transcript with rank***
+3. ***Your research background that is (really) related to the lab*** : experience in programming, security research, or anything that may help us understand you.
+4. ***Which topic of security and privacy you hope to work on in the lab*** : the more specific, the better. As discussed below, you do not need to be an 'expert' in the field -- motivation matters more.
+5. ***If you are an international applicant*** : a research proposal, and a short video with your face included (e.g., PPT + Zoom recording) introducing yourself, your research background (publications, if any), your research plan, and your plans about your stay in Korea.
 
+## 4 Things You Should Consider
+
+1. ***You do not need to know everything beforehand -- but you do need to show something*** : During the probation period, get to know several topics with me and build up your expertise; that part I will help you with. What I cannot give you is motivation, attitude, and basic instincts in research. Those are yours to show. Prove that you have the potential, and the projects will follow.
 
 2. ***Being a good hands-on programmer is one thing -- being a good researcher is another***: You should identify what you truly want between the two. Finding a good research topic and writing papers is a highly different path with working on a programming project.
 
@@ -31,9 +35,9 @@ I also would like to emphasize 4 things you **should** consider :
 
 4. ***Applied Cryptography is not about Math, you don't need to like MATH -- but you should be good programmers***: This is a very common but wrong stereotype. Applied cryptography is different with crypto-theories. It's about using them to make applications secure and private. The cryptographic APIs are codes, just as other open-sourced libraries. I myself was awful at math, and yet, my representative papers in top-tier conferences are about the next-generation cryptography.
 
----
+## For Those Who Have Worries but Do Not Know What to Even Ask
 
-**For those who has worries but do not know what to even ask:** You may also want to talk about different topics -- what to do to get a good job, agonies about graduation, which field to dig in, etc. I know that it may be awkward to initiate the interaction, but please do contact me -- I don't bite, I will do as much as I can to help you out. After all, you only get to know stuff by asking and learning.
+This is mostly for undergraduate students, and honestly, it is the part I mean the most. You may want to talk about things that are not strictly research -- what to do to get a good job, agonies about graduation, which field to dig in, whether graduate school is even for you, etc. I know that it may be awkward to initiate the interaction, but please do contact me -- I don't bite, and I will do as much as I can to help you out. To set the expectation right, this is a casual conversation, not a tutoring session or a deep study together. But you only get to know stuff by asking, so ask.
 
 {%
   include button.html
