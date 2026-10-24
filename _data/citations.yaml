@@ -227,12 +227,12 @@
     (\uC5ED\uC218) \uC5F0\uC0B0\uC744 \uC704\uD55C \uD6A8\uACFC\uC801\uC778 \uADFC\
     \uC0AC\uC2DD \uC124\uACC4 \uBC29\uC2DD\uC5D0 \uB300\uD55C \uC5F0\uAD6C"
   authors:
-  - "**\uAE40\uC6B0\uD604 (Woohyun Kim)**"
+  - "**\uAE40\uC6B0\uD604**"
   - "\uBC15\uC900\uC11C"
-  - "**\uB0A8\uAE30\uBE48 (Kevin Nam)<span>&#8224;</span>**"
+  - "**\uB0A8\uAE30\uBE48<span>&#8224;</span>**"
   - "\uCD5C\uD604\uBBFC<span>&#8224;</span>"
   publisher: "\uD55C\uAD6D\uC815\uBCF4\uBCF4\uD638\uD559\uD68C \uB3D9\uACC4\uD559\uC220\
-    \uB300\uD68C <strong>(CISC-W 2026)</strong>"
+    \uB300\uD68C (CISC-W 2026)"
   category: domestic
   date: '2026-11-01'
   plugin: sources.py
