@@ -4,7 +4,7 @@
   image: images/projects/attestamp.png
   fit: contain
   link: https://github.com/spicslab-kr/tee-blockchain
-  description: Attest your code in a Trusted Execution Environment (TEE) as trustworthy to 3rd parties.
+  description: (AVAILABLE SOON) Attest your code in a Trusted Execution Environment (TEE) as trustworthy to 3rd parties.
 
 
 - title: HephAgent
