@@ -225,6 +225,17 @@
   date: 2026-06-01
   link: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12882095
 
+- title: "정확한 동형암호 기반 나눗셈(역수) 연산을 위한 효과적인 근사식 설계 방식에 대한 연구"
+  authors:
+    - "**김우현 (Woohyun Kim)**"
+    - 박준서
+    - "**남기빈 (Kevin Nam)<span>&#8224;</span>**"
+    - 최현민<span>&#8224;</span>
+  publisher: 한국정보보호학회 동계학술대회 <strong>(CISC-W 2026)</strong>
+  category: domestic
+  date: 2026-11-01
+  #link:
+
 # Copy this template for more domestic papers and remove the leading "# ":
 #
 # - title: "Paper title"
