@@ -58,6 +58,22 @@
   - Privacy Preserving AI
   plugin: sources.py
   file: sources.yaml
+- title: 'They Will See Johnny''s Message: A Measurement Study of Post-Quantum Cryptography
+    Across Email Delivery Paths'
+  authors:
+  - Jaehwan Park
+  - '**Sunghyun Park**'
+  - '**Kevin Nam**'
+  - Doowon Kim
+  publisher: arXiv preprint arXiv:2610.36145, 2026
+  category: international-conference
+  date: '2026-10-26'
+  image: images/papers/coming_soon.png
+  link: https://arxiv.org/abs/2610.36145
+  tags:
+  - Post-Quantum Cryptography
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1145/3779212.3790170
   title: 'HEPIC: Private Inference over Homomorphic Encryption with Client Intervention'
   authors:
