@@ -1,6 +1,6 @@
 ---
 name: Changmin Lee
-image: images/characters/apprentice_undergrad_intern.jpg
+image: images/people/cmlee.png
 role: intern
 description: Intern
 affiliation: Kyung Hee University
