@@ -1,6 +1,6 @@
 ---
 name: Woohyun Kim
-image: images/people/whkim.jpg
+image: images/characters/apprentice_undergrad_intern.jpg
 role: intern
 description: Intern
 affiliation: Kyung Hee University

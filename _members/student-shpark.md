@@ -1,6 +1,6 @@
 ---
 name: Sunghyun Park
-image: images/people/shpark.jpg
+image: images/characters/phd_student_researcher.jpg
 role: ms
 description: MS Student
 affiliation: Hongik University

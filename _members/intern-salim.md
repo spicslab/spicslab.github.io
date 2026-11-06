@@ -1,6 +1,6 @@
 ---
 name: Seoah Lim
-image: images/people/salim.png
+image: images/characters/apprentice_undergrad_intern.jpg
 role: intern
 description: Intern
 affiliation: Ajou University
