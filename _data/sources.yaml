@@ -171,7 +171,7 @@
     - Bogyeong Kang
     - Hyunyoung Oh<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
-  publisher: IEEE Access
+  publisher: IEEE Access <em>SCIE, Q2</em>
   category: international-journal
   date: 2024-10-01
   image: images/papers/falcon.png
@@ -188,7 +188,7 @@
     - Seongil Jeon
     - Yeongpil Cho<span>&#8224;</span>
     - Yunheung Paek<span>&#8224;</span>
-  publisher: IEEE Access
+  publisher: IEEE Access <em>SCIE, Q2</em>
   category: international-journal
   date: 2021-10-01
   image: images/papers/meetgo.png
@@ -205,7 +205,7 @@
   - Youyeon Joo
   - "**Kevin Nam<span>&#8224;</span>**"
   - Yunheung Paek<span>&#8224;</span>
-  publisher: IEEE Access
+  publisher: IEEE Access <em>SCIE, Q2</em>
   category: international-journal
   date: '2026-01-01'
   link: https://doi.org/hb8m6m
@@ -222,13 +222,30 @@
     - "**Kevin Nam**"
     - Sunwoong Kim
     - Yunheung Paek
-  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems <strong>(TCAD)</strong>
+  publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems <strong>(TCAD)</strong> <em>SCIE, Q2</em>
   category: international-journal
   date: 2026-10-01
   link: https://doi.org/10.1109/TCAD.2026.3744539
   tags:
     - Hardware Accelerator
     - Privacy Preserving AI
+
+# manually provide all citation details
+- title: "HORT: Fast and Secure TEE-Assisted Homomorphic Encryption in the Cloud (To Appear)"
+  authors:
+    - Yunseong Hwang<span>&#8225;</span>
+    - Heonhui Jung<span>&#8225;</span>
+    - Junseung You
+    - Jiwan Seo
+    - "**Kevin Nam<span>&#8224;</span>**"
+    - Yunheung Paek<span>&#8224;</span>
+  publisher: International Journal of Information Security <strong>(IJIS)</strong> <em style="color:#0000FF">SCIE, Q1</em>
+  category: international-journal
+  date: 2026-11-01
+  image: images/papers/coming_soon.png
+  tags:
+    - Trusted Execution Environment
+    - Privacy Enhancing Techniques
 
 # Domestic papers show up as a compact bullet list (title, authors, venue).
 # No image is needed.
