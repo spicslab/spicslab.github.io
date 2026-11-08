@@ -63,8 +63,8 @@
   authors:
   - Jaehwan Park
   - '**Sunghyun Park**'
-  - '**Kevin Nam**'
-  - Doowon Kim
+  - '**Kevin Nam<span>&#8224;</span>**'
+  - Doowon Kim<span>&#8224;</span>
   publisher: arXiv preprint arXiv:2610.36145, 2026
   category: international-conference
   date: '2026-10-26'
@@ -224,6 +224,7 @@
   date: '2026-10-01'
   link: https://doi.org/10.1109/TCAD.2026.3744539
   category: international-journal
+  image: images/papers/tcad.png
   tags:
   - Hardware Accelerator
   - Privacy Preserving AI
