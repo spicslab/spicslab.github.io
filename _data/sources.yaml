@@ -225,6 +225,7 @@
   publisher: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems <strong>(TCAD)</strong> <em>SCIE, Q2</em>
   category: international-journal
   date: 2026-10-01
+  image: images/papers/tcad.png
   link: https://doi.org/10.1109/TCAD.2026.3744539
   tags:
     - Hardware Accelerator
