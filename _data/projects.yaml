@@ -1,3 +1,12 @@
+- title: HORT
+  subtitle: Overcome HE overhead with TEE assistance
+  group: open-sourced
+  image: images/papers/coming_soon.png
+  fit: contain
+  link: https://github.com/spicslab-kr/HORT
+  description: (AVAILABLE SOON) Side-channel hardened TEE assistance to mitigate the heavy HE overheads
+
+
 - title: Attestamp
   subtitle: Trustworthy Remote Attestation for TEEs
   group: open-sourced
