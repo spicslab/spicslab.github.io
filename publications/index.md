@@ -46,6 +46,26 @@ You can also refer to google scholar etc.
 
 {%
   include pub-list.html
+  title="Patents"
+  id="patents"
+  data="citations"
+  filter="category == 'patent'"
+  component="citation-compact"
+  size="10"
+%}
+
+{%
+  include pub-list.html
+  title="Posters"
+  id="posters"
+  data="citations"
+  filter="category == 'poster'"
+  component="citation-compact"
+  size="10"
+%}
+
+{%
+  include pub-list.html
   title="Domestic"
   id="domestic"
   data="citations"

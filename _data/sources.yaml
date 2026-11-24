@@ -2,6 +2,8 @@
 # the publications page:
 #   international-conference  -> "International Conferences" (rich style, with image)
 #   international-journal     -> "International Journals"    (rich style, with image)
+#   patent                    -> "Patents"                   (compact bullet list)
+#   poster                    -> "Posters"                   (compact bullet list)
 #   domestic                  -> "Domestic"                  (compact bullet list)
 
 #- id: doi:10.1371/journal.pcbi.1007128
@@ -247,6 +249,98 @@
   tags:
     - Trusted Execution Environment
     - Privacy Enhancing Techniques
+
+# Patents show up as a compact bullet list (title, inventors, status).
+# No image is needed. Newest first.
+- title: "다종 동형암호 체계를 활용한 암호화 데이터 연산 방법 및 장치"
+  authors:
+    - 백윤흥
+    - "**남기빈 (Kevin Nam)**"
+    - 주유연
+  publisher: KR Patent No. 10-3037535, <strong>Registered (등록)</strong> (Applied Nov 2024, No. 10-2024-0153707)
+  category: patent
+  date: 2026-10-20
+
+- title: "다중 신뢰실행환경 기반 온디바이스 AI 상호 프라이버시 보호 추론 서비스 방법 및 시스템"
+  authors:
+    - 백윤흥
+    - "**남기빈 (Kevin Nam)**"
+    - 유준승
+  publisher: KR Patent No. 10-2026-0007142, Applied (출원)
+  category: patent
+  date: 2026-01-01
+
+- title: "인공 신경망을 위한 비산술 함수를 처리하는 방법 및 그 방법을 이용한 암호화 장치"
+  authors:
+    - 백윤흥
+    - 주유연
+    - "**남기빈 (Kevin Nam)**"
+  publisher: KR Patent No. 10-2025-0147837, Applied (출원)
+  category: patent
+  date: 2025-10-01
+
+- title: "METHOD FOR PROCESSING HOMOMORPHIC CIPHERTEXT AND ELECTRONIC APPARATUS"
+  authors:
+    - Yunheung Paek
+    - Heonhui Jung
+    - "**Kevin Nam**"
+    - Seungjin Ha
+    - Junbum Shin
+    - Inkwan Yu
+    - Sunchul Jung
+    - Jungjoo Seo
+  publisher: US Patent No. 19/052442, Applied
+  category: patent
+  date: 2025-02-01
+
+- title: "동형 암호문 처리 방법 및 전자 장치"
+  authors:
+    - 백윤흥
+    - 정헌희
+    - "**남기빈 (Kevin Nam)**"
+    - 하승진
+    - 신준범
+    - 유인관
+    - 정선철
+    - 서정주
+  publisher: KR Patent No. 10-2025-0008424, Applied (출원)
+  category: patent
+  date: 2025-01-01
+
+- title: "신뢰 기관을 이용한 동형암호 공통키 배포"
+  authors:
+    - 백윤흥
+    - 오현영
+    - "**남기빈 (Kevin Nam)**"
+    - 조영필
+  publisher: KR Patent No. 10-2021-0006281, Applied (출원)
+  category: patent
+  date: 2021-01-01
+
+# Poster presentations show up as a compact bullet list (title, authors, venue).
+# No image is needed. Newest first.
+- title: "Affinity-based Optimizations of Homomorphic Encryption Operations on Processing-in-DRAM"
+  authors:
+    - "**Kevin Nam**"
+    - Heonhui Jung
+    - Hyunyoung Oh<span>&#8224;</span>
+    - Yunheung Paek<span>&#8224;</span>
+  publisher: The 61st ACM/IEEE Design Automation Conference, Work-in-Progress Poster <strong>(DAC`24 WiP)</strong>
+  category: poster
+  date: 2024-06-01
+
+- title: "Implementing Efficient, Precise N-bit Operations of TFHE on Commodity CPU-FPGA"
+  authors:
+    - "**Kevin Nam**"
+    - Youyeon Joo
+    - Dongju Lee
+    - Seungjin Ha
+    - Hyunyoung Oh
+    - Hyungon Moon<span>&#8224;</span>
+    - Yunheung Paek<span>&#8224;</span>
+  publisher: The 59th ACM/IEEE Design Automation Conference, Work-in-Progress Poster <strong>(DAC`22 WiP)</strong>
+  category: poster
+  date: 2022-07-01
 
 # Domestic papers show up as a compact bullet list (title, authors, venue).
 # No image is needed.
