@@ -249,6 +249,113 @@
   - Privacy Enhancing Techniques
   plugin: sources.py
   file: sources.yaml
+- title: "\uB2E4\uC885 \uB3D9\uD615\uC554\uD638 \uCCB4\uACC4\uB97C \uD65C\uC6A9\uD55C\
+    \ \uC554\uD638\uD654 \uB370\uC774\uD130 \uC5F0\uC0B0 \uBC29\uBC95 \uBC0F \uC7A5\
+    \uCE58"
+  authors:
+  - "\uBC31\uC724\uD765"
+  - "**\uB0A8\uAE30\uBE48 (Kevin Nam)**"
+  - "\uC8FC\uC720\uC5F0"
+  publisher: "KR Patent No. 10-3037535, <strong>Registered (\uB4F1\uB85D)</strong>\
+    \ (Applied Nov 2024, No. 10-2024-0153707)"
+  category: patent
+  date: '2026-10-20'
+  plugin: sources.py
+  file: sources.yaml
+- title: "\uB2E4\uC911 \uC2E0\uB8B0\uC2E4\uD589\uD658\uACBD \uAE30\uBC18 \uC628\uB514\
+    \uBC14\uC774\uC2A4 AI \uC0C1\uD638 \uD504\uB77C\uC774\uBC84\uC2DC \uBCF4\uD638\
+    \ \uCD94\uB860 \uC11C\uBE44\uC2A4 \uBC29\uBC95 \uBC0F \uC2DC\uC2A4\uD15C"
+  authors:
+  - "\uBC31\uC724\uD765"
+  - "**\uB0A8\uAE30\uBE48 (Kevin Nam)**"
+  - "\uC720\uC900\uC2B9"
+  publisher: "KR Patent No. 10-2026-0007142, Applied (\uCD9C\uC6D0)"
+  category: patent
+  date: '2026-01-01'
+  plugin: sources.py
+  file: sources.yaml
+- title: "\uC778\uACF5 \uC2E0\uACBD\uB9DD\uC744 \uC704\uD55C \uBE44\uC0B0\uC220 \uD568\
+    \uC218\uB97C \uCC98\uB9AC\uD558\uB294 \uBC29\uBC95 \uBC0F \uADF8 \uBC29\uBC95\uC744\
+    \ \uC774\uC6A9\uD55C \uC554\uD638\uD654 \uC7A5\uCE58"
+  authors:
+  - "\uBC31\uC724\uD765"
+  - "\uC8FC\uC720\uC5F0"
+  - "**\uB0A8\uAE30\uBE48 (Kevin Nam)**"
+  publisher: "KR Patent No. 10-2025-0147837, Applied (\uCD9C\uC6D0)"
+  category: patent
+  date: '2025-10-01'
+  plugin: sources.py
+  file: sources.yaml
+- title: METHOD FOR PROCESSING HOMOMORPHIC CIPHERTEXT AND ELECTRONIC APPARATUS
+  authors:
+  - Yunheung Paek
+  - Heonhui Jung
+  - '**Kevin Nam**'
+  - Seungjin Ha
+  - Junbum Shin
+  - Inkwan Yu
+  - Sunchul Jung
+  - Jungjoo Seo
+  publisher: US Patent No. 19/052442, Applied
+  category: patent
+  date: '2025-02-01'
+  plugin: sources.py
+  file: sources.yaml
+- title: "\uB3D9\uD615 \uC554\uD638\uBB38 \uCC98\uB9AC \uBC29\uBC95 \uBC0F \uC804\uC790\
+    \ \uC7A5\uCE58"
+  authors:
+  - "\uBC31\uC724\uD765"
+  - "\uC815\uD5CC\uD76C"
+  - "**\uB0A8\uAE30\uBE48 (Kevin Nam)**"
+  - "\uD558\uC2B9\uC9C4"
+  - "\uC2E0\uC900\uBC94"
+  - "\uC720\uC778\uAD00"
+  - "\uC815\uC120\uCCA0"
+  - "\uC11C\uC815\uC8FC"
+  publisher: "KR Patent No. 10-2025-0008424, Applied (\uCD9C\uC6D0)"
+  category: patent
+  date: '2025-01-01'
+  plugin: sources.py
+  file: sources.yaml
+- title: "\uC2E0\uB8B0 \uAE30\uAD00\uC744 \uC774\uC6A9\uD55C \uB3D9\uD615\uC554\uD638\
+    \ \uACF5\uD1B5\uD0A4 \uBC30\uD3EC"
+  authors:
+  - "\uBC31\uC724\uD765"
+  - "\uC624\uD604\uC601"
+  - "**\uB0A8\uAE30\uBE48 (Kevin Nam)**"
+  - "\uC870\uC601\uD544"
+  publisher: "KR Patent No. 10-2021-0006281, Applied (\uCD9C\uC6D0)"
+  category: patent
+  date: '2021-01-01'
+  plugin: sources.py
+  file: sources.yaml
+- title: Affinity-based Optimizations of Homomorphic Encryption Operations on Processing-in-DRAM
+  authors:
+  - '**Kevin Nam**'
+  - Heonhui Jung
+  - Hyunyoung Oh<span>&#8224;</span>
+  - Yunheung Paek<span>&#8224;</span>
+  publisher: The 61st ACM/IEEE Design Automation Conference, Work-in-Progress Poster
+    <strong>(DAC`24 WiP)</strong>
+  category: poster
+  date: '2024-06-01'
+  plugin: sources.py
+  file: sources.yaml
+- title: Implementing Efficient, Precise N-bit Operations of TFHE on Commodity CPU-FPGA
+  authors:
+  - '**Kevin Nam**'
+  - Youyeon Joo
+  - Dongju Lee
+  - Seungjin Ha
+  - Hyunyoung Oh
+  - Hyungon Moon<span>&#8224;</span>
+  - Yunheung Paek<span>&#8224;</span>
+  publisher: The 59th ACM/IEEE Design Automation Conference, Work-in-Progress Poster
+    <strong>(DAC`22 WiP)</strong>
+  category: poster
+  date: '2022-07-01'
+  plugin: sources.py
+  file: sources.yaml
 - title: "On-device AI\uB97C \uC704\uD55C \uD504\uB77C\uC774\uBC84\uC2DC \uBCF4\uD638\
     \ \uAE30\uC220 \uD65C\uC6A9 \uB3D9\uD5A5 (Privacy Protection Technology Trends\
     \ for On-device AI)"
