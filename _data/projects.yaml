@@ -1,5 +1,5 @@
 - title: HORT
-  subtitle: Overcome HE overhead with TEE assistance
+  # subtitle: Overcome HE overhead with TEE assistance
   group: open-sourced
   image: images/papers/coming_soon.png
   fit: contain
@@ -8,7 +8,7 @@
 
 
 - title: Attestamp
-  subtitle: Trustworthy Remote Attestation for TEEs
+  # subtitle: Trustworthy Remote Attestation for TEEs
   group: open-sourced
   image: images/projects/attestamp.png
   fit: contain
@@ -17,9 +17,16 @@
 
 
 - title: HephAgent
-  subtitle: Agentic AI for Software Development
+  # subtitle: Agentic AI for Software Development
   group: open-sourced
   image: images/projects/hephagent.png
   fit: contain
   link: https://github.com/spicslab-kr/HephAgent
   description: An agentic AI system for automated, efficient software development.
+
+- title: KPQC-KCMVP Project
+  group: open-sourced
+  image: images/papers/coming_soon.png
+  fit: contain
+  link: https://github.com/spicslab-kr/kcmvp-kpqc
+  description: (Available soon) A cryptographic module based on AWS-LC (AWS-LC-FIPS-3.1.0) that targets KCMVP (the Korean Cryptographic Module Validation Program).
