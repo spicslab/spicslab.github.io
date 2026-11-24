@@ -104,13 +104,14 @@ We look forward to meeting you.
 {% include section.html %}
 
 ## Highlight News
+<li><strong>[Nov. 2026]</strong> HORT is accepted to Springer IJIS.</li>
 <li><strong>[Oct. 2026]</strong> We are visiting CISC 2026-W. Meet you there.</li>
 <li><strong>[Oct. 2026]</strong> Prof Nam gave a talk at a seminar at UNIST.</li>
 <li><strong>[Sep. 2026]</strong> Prof Nam gave a talk at ETRI (한국전자통신연구원 수도권연구센터).</li>
 <li><strong>[Sep. 2026]</strong> Prof Nam joins the Program Committee of DATE 2027.</li>
-<li><strong>[Aug. 2026]</strong> Prof Nam gave a talk at OSIA Workshop.</li>
 <details>
   <summary>Show More</summary>
+<li><strong>[Aug. 2026]</strong> Prof Nam gave a talk at OSIA Workshop.</li>
 <li><strong>[Aug. 2026]</strong> Prof Nam gave a talk at KIISC WDSC Workshop.</li>
 <li><strong>[Aug. 2026]</strong> Prof Nam joins the Program Committee of Usenix Security 2027.</li>
 <li><strong>[Jun. 2026]</strong> Prof Nam joins the Program Committee of ASIACCS 2027.</li>
